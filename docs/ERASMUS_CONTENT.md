@@ -19,6 +19,11 @@ PDF'deki 600 kelime Erasmus modunun başlangıç havuzudur. İleride eklenebilec
 kelimelerden hazırlanmalıdır. Normal moddaki kelimeler otomatik olarak Erasmus
 havuzuna katılmaz.
 
+Backend bu kelimeleri `erasmus_words` tablosuna aktarır. Kullanıcı tekrarları
+`erasmus_word_progress` tablosunda tutulur; normal modun `words` ve
+`user_word_progress` tablolarına dokunulmaz. Erasmus ders kataloğu ile
+kelime paketleri `/erasmus` altındaki ayrı uç noktalardan okunur.
+
 Kaynak dosyalar yerel makinededir ve depoya eklenmez. İçeriği yeniden üretmek
 için:
 

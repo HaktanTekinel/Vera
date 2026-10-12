@@ -18,6 +18,7 @@ from auth import DbSession, get_current_user_id, router as auth_router
 from dashboard import router as dashboard_router
 from database import engine
 from db_setup import initialize_database
+from erasmus import router as erasmus_router
 from quiz import router as quiz_router
 from reports import router as reports_router
 from users import router as users_router
@@ -79,6 +80,7 @@ app.include_router(reports_router, prefix="/reports", tags=["Reports"])
 app.include_router(dashboard_router, prefix="/dashboard", tags=["Dashboard"])
 app.include_router(wordle_router, prefix="/wordle", tags=["Wordle"])
 app.include_router(word_chain_router, prefix="/word-chain", tags=["Word Chain"])
+app.include_router(erasmus_router, prefix="/erasmus", tags=["Erasmus"])
 
 
 @app.get("/")

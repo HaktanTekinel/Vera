@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 import csv
+import json
 import shutil
 import sqlite3
 from datetime import datetime
@@ -16,6 +17,7 @@ from database import SessionLocal
 BASE_DIR = Path(__file__).resolve().parent
 ROOT_DIR = BASE_DIR.parent
 WORD_SEED_CSV = ROOT_DIR / "database" / "word_seed_final_samples.csv"
+ERASMUS_VOCABULARY_JSON = BASE_DIR / "data" / "erasmus_vocabulary.json"
 
 ID_TABLES = [
     "users",
@@ -30,6 +32,8 @@ ID_TABLES = [
     "wordle_games",
     "wordle_guesses",
     "word_chain_stories",
+    "erasmus_words",
+    "erasmus_word_progress",
 ]
 
 
@@ -305,10 +309,45 @@ def seed_words_from_csv() -> None:
         db.close()
 
 
+def seed_erasmus_words_from_json() -> None:
+    packages = json.loads(ERASMUS_VOCABULARY_JSON.read_text(encoding="utf-8"))
+    if len(packages) != 30 or any(len(package["words"]) != 20 for package in packages):
+        raise ValueError("Erasmus vocabulary must contain 30 packages of 20 words")
+
+    db = SessionLocal()
+    try:
+        existing = {
+            word.sequence: word for word in db.query(models.ErasmusWord).all()
+        }
+        sequence = 0
+        for package in packages:
+            for item in package["words"]:
+                sequence += 1
+                word = existing.get(sequence)
+                if word is None:
+                    word = models.ErasmusWord(sequence=sequence)
+                    db.add(word)
+                word.package_day = package["day"]
+                word.theme = package["theme"]
+                word.eng_word = item["word"]
+                word.tur_word = item["meaning_tr"]
+                word.part_of_speech = item["part_of_speech"]
+                word.exam_sections = item["exam_sections"]
+                word.usage = item["usage"]
+                word.source = "pdf"
+        db.commit()
+    except Exception:
+        db.rollback()
+        raise
+    finally:
+        db.close()
+
+
 def initialize_database(engine: Engine) -> None:
     reset_broken_sqlite_database_if_needed(engine)
     models.Base.metadata.create_all(bind=engine)
     seed_words_from_csv()
+    seed_erasmus_words_from_json()
 
     inspector = inspect(engine)
     table_names = set(inspector.get_table_names())

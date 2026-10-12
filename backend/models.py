@@ -19,6 +19,7 @@ from database import Base
 CASCADE_DELETE_ORPHAN = "all, delete-orphan"
 USER_ID_FK = "users.id"
 WORD_ID_FK = "words.id"
+ERASMUS_WORD_ID_FK = "erasmus_words.id"
 
 
 class User(Base):
@@ -156,6 +157,56 @@ class UserWordProgress(Base):
 
     user = relationship("User", back_populates="progress_items")
     word = relationship("Word", back_populates="progress_items")
+
+
+class ErasmusWord(Base):
+    __tablename__ = "erasmus_words"
+
+    id = Column(Integer, primary_key=True, index=True)
+    sequence = Column(Integer, unique=True, nullable=False)
+    package_day = Column(Integer, nullable=False, index=True)
+    theme = Column(String(100), nullable=False)
+    eng_word = Column(String(150), nullable=False)
+    tur_word = Column(String(255), nullable=False)
+    part_of_speech = Column(String(30), nullable=True)
+    exam_sections = Column(JSON, nullable=False)
+    usage = Column(String(255), nullable=True)
+    source = Column(String(30), default="pdf", nullable=False)
+
+    progress_items = relationship("ErasmusWordProgress", back_populates="word")
+
+
+class ErasmusWordProgress(Base):
+    __tablename__ = "erasmus_word_progress"
+    __table_args__ = (
+        UniqueConstraint("user_id", "word_id", name="uq_user_erasmus_word"),
+    )
+
+    id = Column(Integer, primary_key=True, index=True)
+    user_id = Column(
+        Integer,
+        ForeignKey(USER_ID_FK, ondelete="CASCADE"),
+        nullable=False,
+    )
+    word_id = Column(
+        Integer,
+        ForeignKey(ERASMUS_WORD_ID_FK, ondelete="CASCADE"),
+        nullable=False,
+    )
+    current_stage = Column(Integer, default=0, nullable=False)
+    introduced_at = Column(TIMESTAMP, nullable=False)
+    next_review_at = Column(TIMESTAMP, nullable=True)
+    is_learned = Column(Boolean, default=False, nullable=False)
+    last_answer_correct = Column(Boolean, nullable=True)
+    reset_count = Column(Integer, default=0, nullable=False)
+    updated_at = Column(
+        TIMESTAMP,
+        server_default=func.now(),
+        onupdate=func.now(),
+        nullable=False,
+    )
+
+    word = relationship("ErasmusWord", back_populates="progress_items")
 
 
 class QuizSession(Base):
