@@ -20,7 +20,7 @@ function Login() {
 
   const [loading, setLoading] = useState(false);
 
-  const redirectPath = location.state?.from || "/home";
+  const redirectPath = location.state?.from || "/choose";
 
   const handleChange = (event) => {
     const { name, value } = event.target;

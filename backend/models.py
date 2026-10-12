@@ -209,6 +209,38 @@ class ErasmusWordProgress(Base):
     word = relationship("ErasmusWord", back_populates="progress_items")
 
 
+class ErasmusPackageProgress(Base):
+    __tablename__ = "erasmus_package_progress"
+    __table_args__ = (UniqueConstraint("user_id", "package_day", name="uq_user_erasmus_package"),)
+
+    id = Column(Integer, primary_key=True)
+    user_id = Column(Integer, ForeignKey(USER_ID_FK, ondelete="CASCADE"), nullable=False)
+    package_day = Column(Integer, nullable=False)
+    completed_at = Column(TIMESTAMP, server_default=func.now(), nullable=False)
+    correct_count = Column(Integer, default=0, nullable=False)
+
+
+class ErasmusLessonProgress(Base):
+    __tablename__ = "erasmus_lesson_progress"
+    __table_args__ = (UniqueConstraint("user_id", "lesson_day", name="uq_user_erasmus_lesson"),)
+
+    id = Column(Integer, primary_key=True)
+    user_id = Column(Integer, ForeignKey(USER_ID_FK, ondelete="CASCADE"), nullable=False)
+    lesson_day = Column(Integer, nullable=False)
+    video_watched = Column(Boolean, default=False, nullable=False)
+    grammar_completed = Column(Boolean, default=False, nullable=False)
+    reading_completed = Column(Boolean, default=False, nullable=False)
+    grammar_correct = Column(Integer, nullable=True)
+    updated_at = Column(TIMESTAMP, server_default=func.now(), onupdate=func.now(), nullable=False)
+
+
+class ErasmusSettings(Base):
+    __tablename__ = "erasmus_settings"
+
+    user_id = Column(Integer, ForeignKey(USER_ID_FK, ondelete="CASCADE"), primary_key=True)
+    exam_date = Column(Date, nullable=True)
+
+
 class QuizSession(Base):
     __tablename__ = "quiz_sessions"
 

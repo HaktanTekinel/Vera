@@ -4,6 +4,16 @@ Kelime Hafızam, İngilizce kelime öğrenmeyi 6 tekrar prensibiyle destekleyen 
 
 Uygulamada kullanıcı kayıt/giriş işlemleri, kelime ekleme, günlük quiz, analiz raporu, Wordle bulmaca ve LLM destekli Word Chain modülü bulunur.
 
+Girişten sonra normal uygulama veya Erasmus çalışma planı seçilir. Erasmus bölümünde
+42 tarihli ders, uygulama içi video oynatıcı, video sonrası kısa notlar, açıklamalı
+grammar quizi ve reading bağlantıları vardır. PDF kaynaklı 600 kelime önce 30
+pakette; ayrı seçilmiş 240 kelime sonraki 12 pakette çalışılır. Erasmus kelimeleri
+normal kelime havuzundan bağımsız olarak altı kez tekrar edilir. Ortak A1–C1
+grammar kütüphanesi iki çalışma yolundan da açılabilir.
+
+İçerik kaynakları için [Erasmus içerik notları](docs/ERASMUS_CONTENT.md), Android
+projesi için [mobil geliştirme notları](docs/MOBILE.md) bölümüne bakın.
+
 ## Kullanılan Teknolojiler
 
 ### Backend

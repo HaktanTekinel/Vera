@@ -1,4 +1,4 @@
-import { NavLink, Outlet, useNavigate } from "react-router-dom";
+import { NavLink, Outlet, useLocation, useNavigate } from "react-router-dom";
 import { useMemo, useState } from "react";
 import { clearAuthData } from "../../services/apiClient";
 import "./AppLayout.css";
@@ -33,6 +33,9 @@ function getInitials(name) {
 }
 
 const NAV_ITEMS = [
+  { path: "/choose", label: "Çalışma Alanı", icon: "◈", keywords: ["seçim", "başlangıç", "mod"] },
+  { path: "/erasmus", label: "Erasmus Planı", icon: "🎓", keywords: ["erasmus", "ders", "video", "okuma"] },
+  { path: "/grammar", label: "Grammar", icon: "✍️", keywords: ["grammar", "dil bilgisi", "konu"] },
   { path: "/home", label: "Ana Sayfa", icon: "🏠", keywords: ["ana", "home", "panel"] },
   { path: "/words", label: "Kelimelerim", icon: "📚", keywords: ["kelime", "kelimeler", "liste", "words"] },
   { path: "/add-word", label: "Kelime Ekle", icon: "➕", keywords: ["ekle", "yeni", "word add"] },
@@ -45,10 +48,14 @@ const NAV_ITEMS = [
 
 function AppLayout() {
   const navigate = useNavigate();
+  const location = useLocation();
   const [sidebarOpen, setSidebarOpen] = useState(false);
   const [searchText, setSearchText] = useState("");
 
   const currentUser = getCurrentUser();
+  const visibleNavItems = ["/choose", "/erasmus", "/grammar"].includes(location.pathname)
+    ? NAV_ITEMS.slice(0, 3)
+    : NAV_ITEMS;
 
   const searchResults = useMemo(() => {
     const search = searchText.trim().toLocaleLowerCase("tr-TR");
@@ -129,7 +136,7 @@ function AppLayout() {
         </div>
 
         <nav className="sidebar-nav">
-          {NAV_ITEMS.map((item) => (
+          {visibleNavItems.map((item) => (
             <NavLink
               key={item.path}
               to={item.path}
@@ -160,7 +167,7 @@ function AppLayout() {
       <main className="main-area">
         <header className="topbar">
           <div>
-            <p className="topbar-small-text">Kelime öğrenme paneli</p>
+            <p className="topbar-small-text">İngilizce çalışma alanı</p>
             <h1>Merhaba, {currentUser} 👋</h1>
           </div>
 

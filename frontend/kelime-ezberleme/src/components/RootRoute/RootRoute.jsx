@@ -6,7 +6,7 @@ function RootRoute() {
   const token = getAuthToken();
 
   if (token) {
-    return <Navigate to="/home" replace />;
+    return <Navigate to="/choose" replace />;
   }
 
   return <Landing />;

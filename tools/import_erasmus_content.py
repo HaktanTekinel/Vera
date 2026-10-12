@@ -205,6 +205,13 @@ def main() -> None:
         raise SystemExit("Usage: python tools/import_erasmus_content.py GUIDE.docx VOCABULARY.pdf")
     guide, vocabulary = map(Path, sys.argv[1:])
     lessons = extract_lessons(guide)
+    existing_lessons_path = OUTPUT_DIR / "erasmus_lessons.json"
+    if existing_lessons_path.exists():
+        existing = json.loads(existing_lessons_path.read_text(encoding="utf-8"))
+        embeds = {item["video"]["url"]: item["video"].get("embed_url") for item in existing if item.get("video")}
+        for item in lessons:
+            if item.get("video") and embeds.get(item["video"]["url"]):
+                item["video"]["embed_url"] = embeds[item["video"]["url"]]
     packages = extract_vocabulary(vocabulary)
     OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
     (OUTPUT_DIR / "erasmus_lessons.json").write_text(

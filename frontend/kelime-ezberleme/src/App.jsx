@@ -1,4 +1,4 @@
-import { BrowserRouter, Navigate, Route, Routes } from "react-router-dom";
+import { BrowserRouter, HashRouter, Navigate, Route, Routes } from "react-router-dom";
 
 import Login from "./pages/Login/Login";
 import Register from "./pages/Register/Register";
@@ -18,10 +18,14 @@ import Settings from "./pages/Settings/Settings";
 import Reports from "./pages/Reports/Reports";
 import WordChain from "./pages/WordChain/WordChain";
 import Puzzle from "./pages/Puzzle/Puzzle";
+import StudyChoice from "./pages/StudyChoice/StudyChoice";
+import Erasmus from "./pages/Erasmus/Erasmus";
+import Grammar from "./pages/Grammar/Grammar";
 
 function App() {
+  const Router = window.Capacitor?.isNativePlatform?.() ? HashRouter : BrowserRouter;
   return (
-    <BrowserRouter>
+    <Router>
       <ScrollToTop />
 
       <Routes>
@@ -35,6 +39,9 @@ function App() {
 
         <Route element={<ProtectedRoute />}>
           <Route element={<AppLayout />}>
+            <Route path="/choose" element={<StudyChoice />} />
+            <Route path="/erasmus" element={<Erasmus />} />
+            <Route path="/grammar" element={<Grammar />} />
             <Route path="/home" element={<Home />} />
 
             <Route path="/words" element={<WordList />} />
@@ -58,7 +65,7 @@ function App() {
 
         <Route path="*" element={<Navigate to="/" replace />} />
       </Routes>
-    </BrowserRouter>
+    </Router>
   );
 }
 

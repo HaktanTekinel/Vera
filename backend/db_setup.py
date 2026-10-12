@@ -18,6 +18,7 @@ BASE_DIR = Path(__file__).resolve().parent
 ROOT_DIR = BASE_DIR.parent
 WORD_SEED_CSV = ROOT_DIR / "database" / "word_seed_final_samples.csv"
 ERASMUS_VOCABULARY_JSON = BASE_DIR / "data" / "erasmus_vocabulary.json"
+ERASMUS_EXTRA_VOCABULARY_JSON = BASE_DIR / "data" / "erasmus_extra_vocabulary.json"
 
 ID_TABLES = [
     "users",
@@ -34,6 +35,8 @@ ID_TABLES = [
     "word_chain_stories",
     "erasmus_words",
     "erasmus_word_progress",
+    "erasmus_package_progress",
+    "erasmus_lesson_progress",
 ]
 
 
@@ -310,9 +313,13 @@ def seed_words_from_csv() -> None:
 
 
 def seed_erasmus_words_from_json() -> None:
-    packages = json.loads(ERASMUS_VOCABULARY_JSON.read_text(encoding="utf-8"))
-    if len(packages) != 30 or any(len(package["words"]) != 20 for package in packages):
-        raise ValueError("Erasmus vocabulary must contain 30 packages of 20 words")
+    pdf_packages = json.loads(ERASMUS_VOCABULARY_JSON.read_text(encoding="utf-8"))
+    extra_packages = json.loads(ERASMUS_EXTRA_VOCABULARY_JSON.read_text(encoding="utf-8"))
+    packages = pdf_packages + extra_packages
+    if len(pdf_packages) != 30 or len(extra_packages) != 12 or any(len(package["words"]) != 20 for package in packages):
+        raise ValueError("Erasmus vocabulary must contain 30 PDF and 12 extra packages of 20 words")
+    if len({item["word"].casefold() for package in packages for item in package["words"]}) != 840:
+        raise ValueError("Erasmus vocabulary words must be unique")
 
     db = SessionLocal()
     try:
@@ -334,7 +341,7 @@ def seed_erasmus_words_from_json() -> None:
                 word.part_of_speech = item["part_of_speech"]
                 word.exam_sections = item["exam_sections"]
                 word.usage = item["usage"]
-                word.source = "pdf"
+                word.source = "pdf" if package["day"] <= 30 else "extra"
         db.commit()
     except Exception:
         db.rollback()

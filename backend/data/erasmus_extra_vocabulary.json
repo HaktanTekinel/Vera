@@ -1,0 +1,2474 @@
+[
+  {
+    "day": 31,
+    "theme": "Üniversite ve öğrenim",
+    "words": [
+      {
+        "word": "admission",
+        "meaning_tr": "kabul",
+        "part_of_speech": null,
+        "exam_sections": [
+          "V",
+          "R"
+        ],
+        "usage": null
+      },
+      {
+        "word": "enrolment",
+        "meaning_tr": "kayıt",
+        "part_of_speech": null,
+        "exam_sections": [
+          "V",
+          "R"
+        ],
+        "usage": null
+      },
+      {
+        "word": "seminar",
+        "meaning_tr": "seminer",
+        "part_of_speech": null,
+        "exam_sections": [
+          "V",
+          "R"
+        ],
+        "usage": null
+      },
+      {
+        "word": "curriculum",
+        "meaning_tr": "müfredat",
+        "part_of_speech": null,
+        "exam_sections": [
+          "V",
+          "R"
+        ],
+        "usage": null
+      },
+      {
+        "word": "postgraduate",
+        "meaning_tr": "lisansüstü öğrenci",
+        "part_of_speech": null,
+        "exam_sections": [
+          "V",
+          "R"
+        ],
+        "usage": null
+      },
+      {
+        "word": "placement",
+        "meaning_tr": "yerleştirme",
+        "part_of_speech": null,
+        "exam_sections": [
+          "V",
+          "R"
+        ],
+        "usage": null
+      },
+      {
+        "word": "qualification",
+        "meaning_tr": "yeterlilik",
+        "part_of_speech": null,
+        "exam_sections": [
+          "V",
+          "R"
+        ],
+        "usage": null
+      },
+      {
+        "word": "thesis",
+        "meaning_tr": "tez",
+        "part_of_speech": null,
+        "exam_sections": [
+          "V",
+          "R"
+        ],
+        "usage": null
+      },
+      {
+        "word": "module",
+        "meaning_tr": "ders birimi",
+        "part_of_speech": null,
+        "exam_sections": [
+          "V",
+          "R"
+        ],
+        "usage": null
+      },
+      {
+        "word": "workshop",
+        "meaning_tr": "atölye",
+        "part_of_speech": null,
+        "exam_sections": [
+          "V",
+          "R"
+        ],
+        "usage": null
+      },
+      {
+        "word": "assessment",
+        "meaning_tr": "değerlendirme",
+        "part_of_speech": null,
+        "exam_sections": [
+          "V",
+          "R"
+        ],
+        "usage": null
+      },
+      {
+        "word": "dissertation",
+        "meaning_tr": "akademik tez",
+        "part_of_speech": null,
+        "exam_sections": [
+          "V",
+          "R"
+        ],
+        "usage": null
+      },
+      {
+        "word": "registrar",
+        "meaning_tr": "öğrenci işleri görevlisi",
+        "part_of_speech": null,
+        "exam_sections": [
+          "V",
+          "R"
+        ],
+        "usage": null
+      },
+      {
+        "word": "diploma",
+        "meaning_tr": "diploma",
+        "part_of_speech": null,
+        "exam_sections": [
+          "V",
+          "R"
+        ],
+        "usage": null
+      },
+      {
+        "word": "prerequisite",
+        "meaning_tr": "ön koşul",
+        "part_of_speech": null,
+        "exam_sections": [
+          "V",
+          "R"
+        ],
+        "usage": null
+      },
+      {
+        "word": "tutorial",
+        "meaning_tr": "uygulama dersi",
+        "part_of_speech": null,
+        "exam_sections": [
+          "V",
+          "R"
+        ],
+        "usage": null
+      },
+      {
+        "word": "elective",
+        "meaning_tr": "seçmeli ders",
+        "part_of_speech": null,
+        "exam_sections": [
+          "V",
+          "R"
+        ],
+        "usage": null
+      },
+      {
+        "word": "matriculation",
+        "meaning_tr": "üniversiteye kayıt",
+        "part_of_speech": null,
+        "exam_sections": [
+          "V",
+          "R"
+        ],
+        "usage": null
+      },
+      {
+        "word": "dean",
+        "meaning_tr": "dekan",
+        "part_of_speech": null,
+        "exam_sections": [
+          "V",
+          "R"
+        ],
+        "usage": null
+      },
+      {
+        "word": "dormitory",
+        "meaning_tr": "yurt",
+        "part_of_speech": null,
+        "exam_sections": [
+          "V",
+          "R"
+        ],
+        "usage": null
+      }
+    ]
+  },
+  {
+    "day": 32,
+    "theme": "Araştırma ve kanıt",
+    "words": [
+      {
+        "word": "methodology",
+        "meaning_tr": "yöntem bilimi",
+        "part_of_speech": null,
+        "exam_sections": [
+          "V",
+          "R"
+        ],
+        "usage": null
+      },
+      {
+        "word": "correlation",
+        "meaning_tr": "korelasyon",
+        "part_of_speech": null,
+        "exam_sections": [
+          "V",
+          "R"
+        ],
+        "usage": null
+      },
+      {
+        "word": "interpretation",
+        "meaning_tr": "yorumlama",
+        "part_of_speech": null,
+        "exam_sections": [
+          "V",
+          "R"
+        ],
+        "usage": null
+      },
+      {
+        "word": "dataset",
+        "meaning_tr": "veri kümesi",
+        "part_of_speech": null,
+        "exam_sections": [
+          "V",
+          "R"
+        ],
+        "usage": null
+      },
+      {
+        "word": "validity",
+        "meaning_tr": "geçerlilik",
+        "part_of_speech": null,
+        "exam_sections": [
+          "V",
+          "R"
+        ],
+        "usage": null
+      },
+      {
+        "word": "reliability",
+        "meaning_tr": "güvenilirlik",
+        "part_of_speech": null,
+        "exam_sections": [
+          "V",
+          "R"
+        ],
+        "usage": null
+      },
+      {
+        "word": "observation",
+        "meaning_tr": "gözlem",
+        "part_of_speech": null,
+        "exam_sections": [
+          "V",
+          "R"
+        ],
+        "usage": null
+      },
+      {
+        "word": "citation",
+        "meaning_tr": "atıf",
+        "part_of_speech": null,
+        "exam_sections": [
+          "V",
+          "R"
+        ],
+        "usage": null
+      },
+      {
+        "word": "reference",
+        "meaning_tr": "kaynak",
+        "part_of_speech": null,
+        "exam_sections": [
+          "V",
+          "R"
+        ],
+        "usage": null
+      },
+      {
+        "word": "abstract",
+        "meaning_tr": "özet",
+        "part_of_speech": null,
+        "exam_sections": [
+          "V",
+          "R"
+        ],
+        "usage": null
+      },
+      {
+        "word": "peer",
+        "meaning_tr": "akran",
+        "part_of_speech": null,
+        "exam_sections": [
+          "V",
+          "R"
+        ],
+        "usage": null
+      },
+      {
+        "word": "replicate",
+        "meaning_tr": "tekrarlamak",
+        "part_of_speech": null,
+        "exam_sections": [
+          "V",
+          "R"
+        ],
+        "usage": null
+      },
+      {
+        "word": "inference",
+        "meaning_tr": "çıkarım",
+        "part_of_speech": null,
+        "exam_sections": [
+          "V",
+          "R"
+        ],
+        "usage": null
+      },
+      {
+        "word": "indicator",
+        "meaning_tr": "gösterge",
+        "part_of_speech": null,
+        "exam_sections": [
+          "V",
+          "R"
+        ],
+        "usage": null
+      },
+      {
+        "word": "measurement",
+        "meaning_tr": "ölçüm",
+        "part_of_speech": null,
+        "exam_sections": [
+          "V",
+          "R"
+        ],
+        "usage": null
+      },
+      {
+        "word": "criterion",
+        "meaning_tr": "ölçüt",
+        "part_of_speech": null,
+        "exam_sections": [
+          "V",
+          "R"
+        ],
+        "usage": null
+      },
+      {
+        "word": "respondent",
+        "meaning_tr": "anket katılımcısı",
+        "part_of_speech": null,
+        "exam_sections": [
+          "V",
+          "R"
+        ],
+        "usage": null
+      },
+      {
+        "word": "questionnaire",
+        "meaning_tr": "anket formu",
+        "part_of_speech": null,
+        "exam_sections": [
+          "V",
+          "R"
+        ],
+        "usage": null
+      },
+      {
+        "word": "bias",
+        "meaning_tr": "yanlılık",
+        "part_of_speech": null,
+        "exam_sections": [
+          "V",
+          "R"
+        ],
+        "usage": null
+      },
+      {
+        "word": "baseline",
+        "meaning_tr": "başlangıç düzeyi",
+        "part_of_speech": null,
+        "exam_sections": [
+          "V",
+          "R"
+        ],
+        "usage": null
+      }
+    ]
+  },
+  {
+    "day": 33,
+    "theme": "Çevre ve iklim",
+    "words": [
+      {
+        "word": "biodiversity",
+        "meaning_tr": "biyolojik çeşitlilik",
+        "part_of_speech": null,
+        "exam_sections": [
+          "V",
+          "R"
+        ],
+        "usage": null
+      },
+      {
+        "word": "emission",
+        "meaning_tr": "salım",
+        "part_of_speech": null,
+        "exam_sections": [
+          "V",
+          "R"
+        ],
+        "usage": null
+      },
+      {
+        "word": "fossil",
+        "meaning_tr": "fosil",
+        "part_of_speech": null,
+        "exam_sections": [
+          "V",
+          "R"
+        ],
+        "usage": null
+      },
+      {
+        "word": "recycling",
+        "meaning_tr": "geri dönüşüm",
+        "part_of_speech": null,
+        "exam_sections": [
+          "V",
+          "R"
+        ],
+        "usage": null
+      },
+      {
+        "word": "sustainable",
+        "meaning_tr": "sürdürülebilir",
+        "part_of_speech": null,
+        "exam_sections": [
+          "V",
+          "R"
+        ],
+        "usage": null
+      },
+      {
+        "word": "conservation",
+        "meaning_tr": "koruma",
+        "part_of_speech": null,
+        "exam_sections": [
+          "V",
+          "R"
+        ],
+        "usage": null
+      },
+      {
+        "word": "carbon",
+        "meaning_tr": "karbon",
+        "part_of_speech": null,
+        "exam_sections": [
+          "V",
+          "R"
+        ],
+        "usage": null
+      },
+      {
+        "word": "erosion",
+        "meaning_tr": "erozyon",
+        "part_of_speech": null,
+        "exam_sections": [
+          "V",
+          "R"
+        ],
+        "usage": null
+      },
+      {
+        "word": "ecosystem",
+        "meaning_tr": "ekosistem",
+        "part_of_speech": null,
+        "exam_sections": [
+          "V",
+          "R"
+        ],
+        "usage": null
+      },
+      {
+        "word": "deforestation",
+        "meaning_tr": "ormansızlaşma",
+        "part_of_speech": null,
+        "exam_sections": [
+          "V",
+          "R"
+        ],
+        "usage": null
+      },
+      {
+        "word": "landfill",
+        "meaning_tr": "çöp depolama alanı",
+        "part_of_speech": null,
+        "exam_sections": [
+          "V",
+          "R"
+        ],
+        "usage": null
+      },
+      {
+        "word": "greenhouse",
+        "meaning_tr": "sera",
+        "part_of_speech": null,
+        "exam_sections": [
+          "V",
+          "R"
+        ],
+        "usage": null
+      },
+      {
+        "word": "agriculture",
+        "meaning_tr": "tarım",
+        "part_of_speech": null,
+        "exam_sections": [
+          "V",
+          "R"
+        ],
+        "usage": null
+      },
+      {
+        "word": "scarcity",
+        "meaning_tr": "kıtlık",
+        "part_of_speech": null,
+        "exam_sections": [
+          "V",
+          "R"
+        ],
+        "usage": null
+      },
+      {
+        "word": "contamination",
+        "meaning_tr": "kirlenme",
+        "part_of_speech": null,
+        "exam_sections": [
+          "V",
+          "R"
+        ],
+        "usage": null
+      },
+      {
+        "word": "extinction",
+        "meaning_tr": "neslin tükenmesi",
+        "part_of_speech": null,
+        "exam_sections": [
+          "V",
+          "R"
+        ],
+        "usage": null
+      },
+      {
+        "word": "consumption",
+        "meaning_tr": "tüketim",
+        "part_of_speech": null,
+        "exam_sections": [
+          "V",
+          "R"
+        ],
+        "usage": null
+      },
+      {
+        "word": "compost",
+        "meaning_tr": "organik gübre",
+        "part_of_speech": null,
+        "exam_sections": [
+          "V",
+          "R"
+        ],
+        "usage": null
+      },
+      {
+        "word": "biodegradable",
+        "meaning_tr": "biyolojik olarak çözünebilen",
+        "part_of_speech": null,
+        "exam_sections": [
+          "V",
+          "R"
+        ],
+        "usage": null
+      },
+      {
+        "word": "reforestation",
+        "meaning_tr": "yeniden ağaçlandırma",
+        "part_of_speech": null,
+        "exam_sections": [
+          "V",
+          "R"
+        ],
+        "usage": null
+      }
+    ]
+  },
+  {
+    "day": 34,
+    "theme": "Sağlık ve yaşam",
+    "words": [
+      {
+        "word": "allergy",
+        "meaning_tr": "alerji",
+        "part_of_speech": null,
+        "exam_sections": [
+          "V",
+          "R"
+        ],
+        "usage": null
+      },
+      {
+        "word": "anxiety",
+        "meaning_tr": "kaygı",
+        "part_of_speech": null,
+        "exam_sections": [
+          "V",
+          "R"
+        ],
+        "usage": null
+      },
+      {
+        "word": "appetite",
+        "meaning_tr": "iştah",
+        "part_of_speech": null,
+        "exam_sections": [
+          "V",
+          "R"
+        ],
+        "usage": null
+      },
+      {
+        "word": "bacteria",
+        "meaning_tr": "bakteri",
+        "part_of_speech": null,
+        "exam_sections": [
+          "V",
+          "R"
+        ],
+        "usage": null
+      },
+      {
+        "word": "diagnosis",
+        "meaning_tr": "tanı",
+        "part_of_speech": null,
+        "exam_sections": [
+          "V",
+          "R"
+        ],
+        "usage": null
+      },
+      {
+        "word": "disability",
+        "meaning_tr": "engellilik",
+        "part_of_speech": null,
+        "exam_sections": [
+          "V",
+          "R"
+        ],
+        "usage": null
+      },
+      {
+        "word": "fatigue",
+        "meaning_tr": "yorgunluk",
+        "part_of_speech": null,
+        "exam_sections": [
+          "V",
+          "R"
+        ],
+        "usage": null
+      },
+      {
+        "word": "fever",
+        "meaning_tr": "ateş",
+        "part_of_speech": null,
+        "exam_sections": [
+          "V",
+          "R"
+        ],
+        "usage": null
+      },
+      {
+        "word": "infection",
+        "meaning_tr": "enfeksiyon",
+        "part_of_speech": null,
+        "exam_sections": [
+          "V",
+          "R"
+        ],
+        "usage": null
+      },
+      {
+        "word": "prevention",
+        "meaning_tr": "önleme",
+        "part_of_speech": null,
+        "exam_sections": [
+          "V",
+          "R"
+        ],
+        "usage": null
+      },
+      {
+        "word": "recovery",
+        "meaning_tr": "iyileşme",
+        "part_of_speech": null,
+        "exam_sections": [
+          "V",
+          "R"
+        ],
+        "usage": null
+      },
+      {
+        "word": "therapy",
+        "meaning_tr": "terapi",
+        "part_of_speech": null,
+        "exam_sections": [
+          "V",
+          "R"
+        ],
+        "usage": null
+      },
+      {
+        "word": "vaccine",
+        "meaning_tr": "aşı",
+        "part_of_speech": null,
+        "exam_sections": [
+          "V",
+          "R"
+        ],
+        "usage": null
+      },
+      {
+        "word": "wellbeing",
+        "meaning_tr": "esenlik",
+        "part_of_speech": null,
+        "exam_sections": [
+          "V",
+          "R"
+        ],
+        "usage": null
+      },
+      {
+        "word": "immune",
+        "meaning_tr": "bağışıklıkla ilgili",
+        "part_of_speech": null,
+        "exam_sections": [
+          "V",
+          "R"
+        ],
+        "usage": null
+      },
+      {
+        "word": "chronic",
+        "meaning_tr": "kronik",
+        "part_of_speech": null,
+        "exam_sections": [
+          "V",
+          "R"
+        ],
+        "usage": null
+      },
+      {
+        "word": "physical",
+        "meaning_tr": "fiziksel",
+        "part_of_speech": null,
+        "exam_sections": [
+          "V",
+          "R"
+        ],
+        "usage": null
+      },
+      {
+        "word": "hygiene",
+        "meaning_tr": "hijyen",
+        "part_of_speech": null,
+        "exam_sections": [
+          "V",
+          "R"
+        ],
+        "usage": null
+      },
+      {
+        "word": "healthcare",
+        "meaning_tr": "sağlık hizmetleri",
+        "part_of_speech": null,
+        "exam_sections": [
+          "V",
+          "R"
+        ],
+        "usage": null
+      },
+      {
+        "word": "dizziness",
+        "meaning_tr": "baş dönmesi",
+        "part_of_speech": null,
+        "exam_sections": [
+          "V",
+          "R"
+        ],
+        "usage": null
+      }
+    ]
+  },
+  {
+    "day": 35,
+    "theme": "Toplum ve kültür",
+    "words": [
+      {
+        "word": "ethnic",
+        "meaning_tr": "etnik",
+        "part_of_speech": null,
+        "exam_sections": [
+          "V",
+          "R"
+        ],
+        "usage": null
+      },
+      {
+        "word": "immigration",
+        "meaning_tr": "göç",
+        "part_of_speech": null,
+        "exam_sections": [
+          "V",
+          "R"
+        ],
+        "usage": null
+      },
+      {
+        "word": "inequality",
+        "meaning_tr": "eşitsizlik",
+        "part_of_speech": null,
+        "exam_sections": [
+          "V",
+          "R"
+        ],
+        "usage": null
+      },
+      {
+        "word": "minority",
+        "meaning_tr": "azınlık",
+        "part_of_speech": null,
+        "exam_sections": [
+          "V",
+          "R"
+        ],
+        "usage": null
+      },
+      {
+        "word": "heritage",
+        "meaning_tr": "miras",
+        "part_of_speech": null,
+        "exam_sections": [
+          "V",
+          "R"
+        ],
+        "usage": null
+      },
+      {
+        "word": "inclusion",
+        "meaning_tr": "kapsayıcılık",
+        "part_of_speech": null,
+        "exam_sections": [
+          "V",
+          "R"
+        ],
+        "usage": null
+      },
+      {
+        "word": "discrimination",
+        "meaning_tr": "ayrımcılık",
+        "part_of_speech": null,
+        "exam_sections": [
+          "V",
+          "R"
+        ],
+        "usage": null
+      },
+      {
+        "word": "integration",
+        "meaning_tr": "uyum",
+        "part_of_speech": null,
+        "exam_sections": [
+          "V",
+          "R"
+        ],
+        "usage": null
+      },
+      {
+        "word": "society",
+        "meaning_tr": "toplum",
+        "part_of_speech": null,
+        "exam_sections": [
+          "V",
+          "R"
+        ],
+        "usage": null
+      },
+      {
+        "word": "belief",
+        "meaning_tr": "inanç",
+        "part_of_speech": null,
+        "exam_sections": [
+          "V",
+          "R"
+        ],
+        "usage": null
+      },
+      {
+        "word": "solidarity",
+        "meaning_tr": "dayanışma",
+        "part_of_speech": null,
+        "exam_sections": [
+          "V",
+          "R"
+        ],
+        "usage": null
+      },
+      {
+        "word": "multicultural",
+        "meaning_tr": "çok kültürlü",
+        "part_of_speech": null,
+        "exam_sections": [
+          "V",
+          "R"
+        ],
+        "usage": null
+      },
+      {
+        "word": "citizenship",
+        "meaning_tr": "vatandaşlık",
+        "part_of_speech": null,
+        "exam_sections": [
+          "V",
+          "R"
+        ],
+        "usage": null
+      },
+      {
+        "word": "belonging",
+        "meaning_tr": "aidiyet",
+        "part_of_speech": null,
+        "exam_sections": [
+          "V",
+          "R"
+        ],
+        "usage": null
+      },
+      {
+        "word": "tolerance",
+        "meaning_tr": "hoşgörü",
+        "part_of_speech": null,
+        "exam_sections": [
+          "V",
+          "R"
+        ],
+        "usage": null
+      },
+      {
+        "word": "prejudice",
+        "meaning_tr": "önyargı",
+        "part_of_speech": null,
+        "exam_sections": [
+          "V",
+          "R"
+        ],
+        "usage": null
+      },
+      {
+        "word": "stereotype",
+        "meaning_tr": "kalıp yargı",
+        "part_of_speech": null,
+        "exam_sections": [
+          "V",
+          "R"
+        ],
+        "usage": null
+      },
+      {
+        "word": "accessibility",
+        "meaning_tr": "erişilebilirlik",
+        "part_of_speech": null,
+        "exam_sections": [
+          "V",
+          "R"
+        ],
+        "usage": null
+      },
+      {
+        "word": "disparity",
+        "meaning_tr": "eşitsizlik",
+        "part_of_speech": null,
+        "exam_sections": [
+          "V",
+          "R"
+        ],
+        "usage": null
+      },
+      {
+        "word": "resettlement",
+        "meaning_tr": "yeniden yerleşim",
+        "part_of_speech": null,
+        "exam_sections": [
+          "V",
+          "R"
+        ],
+        "usage": null
+      }
+    ]
+  },
+  {
+    "day": 36,
+    "theme": "Ekonomi ve finans",
+    "words": [
+      {
+        "word": "capital",
+        "meaning_tr": "sermaye",
+        "part_of_speech": null,
+        "exam_sections": [
+          "V",
+          "R"
+        ],
+        "usage": null
+      },
+      {
+        "word": "currency",
+        "meaning_tr": "para birimi",
+        "part_of_speech": null,
+        "exam_sections": [
+          "V",
+          "R"
+        ],
+        "usage": null
+      },
+      {
+        "word": "inflation",
+        "meaning_tr": "enflasyon",
+        "part_of_speech": null,
+        "exam_sections": [
+          "V",
+          "R"
+        ],
+        "usage": null
+      },
+      {
+        "word": "investment",
+        "meaning_tr": "yatırım",
+        "part_of_speech": null,
+        "exam_sections": [
+          "V",
+          "R"
+        ],
+        "usage": null
+      },
+      {
+        "word": "labour",
+        "meaning_tr": "emek",
+        "part_of_speech": null,
+        "exam_sections": [
+          "V",
+          "R"
+        ],
+        "usage": null
+      },
+      {
+        "word": "revenue",
+        "meaning_tr": "gelir",
+        "part_of_speech": null,
+        "exam_sections": [
+          "V",
+          "R"
+        ],
+        "usage": null
+      },
+      {
+        "word": "tax",
+        "meaning_tr": "vergi",
+        "part_of_speech": null,
+        "exam_sections": [
+          "V",
+          "R"
+        ],
+        "usage": null
+      },
+      {
+        "word": "unemployment",
+        "meaning_tr": "işsizlik",
+        "part_of_speech": null,
+        "exam_sections": [
+          "V",
+          "R"
+        ],
+        "usage": null
+      },
+      {
+        "word": "wage",
+        "meaning_tr": "ücret",
+        "part_of_speech": null,
+        "exam_sections": [
+          "V",
+          "R"
+        ],
+        "usage": null
+      },
+      {
+        "word": "asset",
+        "meaning_tr": "varlık",
+        "part_of_speech": null,
+        "exam_sections": [
+          "V",
+          "R"
+        ],
+        "usage": null
+      },
+      {
+        "word": "debt",
+        "meaning_tr": "borç",
+        "part_of_speech": null,
+        "exam_sections": [
+          "V",
+          "R"
+        ],
+        "usage": null
+      },
+      {
+        "word": "loan",
+        "meaning_tr": "kredi",
+        "part_of_speech": null,
+        "exam_sections": [
+          "V",
+          "R"
+        ],
+        "usage": null
+      },
+      {
+        "word": "savings",
+        "meaning_tr": "birikim",
+        "part_of_speech": null,
+        "exam_sections": [
+          "V",
+          "R"
+        ],
+        "usage": null
+      },
+      {
+        "word": "productivity",
+        "meaning_tr": "verimlilik",
+        "part_of_speech": null,
+        "exam_sections": [
+          "V",
+          "R"
+        ],
+        "usage": null
+      },
+      {
+        "word": "entrepreneur",
+        "meaning_tr": "girişimci",
+        "part_of_speech": null,
+        "exam_sections": [
+          "V",
+          "R"
+        ],
+        "usage": null
+      },
+      {
+        "word": "enterprise",
+        "meaning_tr": "girişim",
+        "part_of_speech": null,
+        "exam_sections": [
+          "V",
+          "R"
+        ],
+        "usage": null
+      },
+      {
+        "word": "subsidy",
+        "meaning_tr": "sübvansiyon",
+        "part_of_speech": null,
+        "exam_sections": [
+          "V",
+          "R"
+        ],
+        "usage": null
+      },
+      {
+        "word": "deficit",
+        "meaning_tr": "açık",
+        "part_of_speech": null,
+        "exam_sections": [
+          "V",
+          "R"
+        ],
+        "usage": null
+      },
+      {
+        "word": "surplus",
+        "meaning_tr": "fazla",
+        "part_of_speech": null,
+        "exam_sections": [
+          "V",
+          "R"
+        ],
+        "usage": null
+      },
+      {
+        "word": "bankruptcy",
+        "meaning_tr": "iflas",
+        "part_of_speech": null,
+        "exam_sections": [
+          "V",
+          "R"
+        ],
+        "usage": null
+      }
+    ]
+  },
+  {
+    "day": 37,
+    "theme": "Teknoloji ve iletişim",
+    "words": [
+      {
+        "word": "algorithm",
+        "meaning_tr": "algoritma",
+        "part_of_speech": null,
+        "exam_sections": [
+          "V",
+          "R"
+        ],
+        "usage": null
+      },
+      {
+        "word": "artificial",
+        "meaning_tr": "yapay",
+        "part_of_speech": null,
+        "exam_sections": [
+          "V",
+          "R"
+        ],
+        "usage": null
+      },
+      {
+        "word": "automation",
+        "meaning_tr": "otomasyon",
+        "part_of_speech": null,
+        "exam_sections": [
+          "V",
+          "R"
+        ],
+        "usage": null
+      },
+      {
+        "word": "bandwidth",
+        "meaning_tr": "bant genişliği",
+        "part_of_speech": null,
+        "exam_sections": [
+          "V",
+          "R"
+        ],
+        "usage": null
+      },
+      {
+        "word": "cyber",
+        "meaning_tr": "siber",
+        "part_of_speech": null,
+        "exam_sections": [
+          "V",
+          "R"
+        ],
+        "usage": null
+      },
+      {
+        "word": "encryption",
+        "meaning_tr": "şifreleme",
+        "part_of_speech": null,
+        "exam_sections": [
+          "V",
+          "R"
+        ],
+        "usage": null
+      },
+      {
+        "word": "hardware",
+        "meaning_tr": "donanım",
+        "part_of_speech": null,
+        "exam_sections": [
+          "V",
+          "R"
+        ],
+        "usage": null
+      },
+      {
+        "word": "innovation",
+        "meaning_tr": "yenilik",
+        "part_of_speech": null,
+        "exam_sections": [
+          "V",
+          "R"
+        ],
+        "usage": null
+      },
+      {
+        "word": "interface",
+        "meaning_tr": "arayüz",
+        "part_of_speech": null,
+        "exam_sections": [
+          "V",
+          "R"
+        ],
+        "usage": null
+      },
+      {
+        "word": "platform",
+        "meaning_tr": "platform",
+        "part_of_speech": null,
+        "exam_sections": [
+          "V",
+          "R"
+        ],
+        "usage": null
+      },
+      {
+        "word": "transmit",
+        "meaning_tr": "iletmek",
+        "part_of_speech": null,
+        "exam_sections": [
+          "V",
+          "R"
+        ],
+        "usage": null
+      },
+      {
+        "word": "virtual",
+        "meaning_tr": "sanal",
+        "part_of_speech": null,
+        "exam_sections": [
+          "V",
+          "R"
+        ],
+        "usage": null
+      },
+      {
+        "word": "wireless",
+        "meaning_tr": "kablosuz",
+        "part_of_speech": null,
+        "exam_sections": [
+          "V",
+          "R"
+        ],
+        "usage": null
+      },
+      {
+        "word": "storage",
+        "meaning_tr": "depolama",
+        "part_of_speech": null,
+        "exam_sections": [
+          "V",
+          "R"
+        ],
+        "usage": null
+      },
+      {
+        "word": "signal",
+        "meaning_tr": "sinyal",
+        "part_of_speech": null,
+        "exam_sections": [
+          "V",
+          "R"
+        ],
+        "usage": null
+      },
+      {
+        "word": "screen",
+        "meaning_tr": "ekran",
+        "part_of_speech": null,
+        "exam_sections": [
+          "V",
+          "R"
+        ],
+        "usage": null
+      },
+      {
+        "word": "cybersecurity",
+        "meaning_tr": "siber güvenlik",
+        "part_of_speech": null,
+        "exam_sections": [
+          "V",
+          "R"
+        ],
+        "usage": null
+      },
+      {
+        "word": "cloud",
+        "meaning_tr": "bulut bilişim",
+        "part_of_speech": null,
+        "exam_sections": [
+          "V",
+          "R"
+        ],
+        "usage": null
+      },
+      {
+        "word": "processor",
+        "meaning_tr": "işlemci",
+        "part_of_speech": null,
+        "exam_sections": [
+          "V",
+          "R"
+        ],
+        "usage": null
+      },
+      {
+        "word": "browser",
+        "meaning_tr": "tarayıcı",
+        "part_of_speech": null,
+        "exam_sections": [
+          "V",
+          "R"
+        ],
+        "usage": null
+      }
+    ]
+  },
+  {
+    "day": 38,
+    "theme": "Seyahat ve hareketlilik",
+    "words": [
+      {
+        "word": "airline",
+        "meaning_tr": "hava yolu",
+        "part_of_speech": null,
+        "exam_sections": [
+          "V",
+          "R"
+        ],
+        "usage": null
+      },
+      {
+        "word": "baggage",
+        "meaning_tr": "bagaj",
+        "part_of_speech": null,
+        "exam_sections": [
+          "V",
+          "R"
+        ],
+        "usage": null
+      },
+      {
+        "word": "border",
+        "meaning_tr": "sınır",
+        "part_of_speech": null,
+        "exam_sections": [
+          "V",
+          "R"
+        ],
+        "usage": null
+      },
+      {
+        "word": "booking",
+        "meaning_tr": "rezervasyon",
+        "part_of_speech": null,
+        "exam_sections": [
+          "V",
+          "R"
+        ],
+        "usage": null
+      },
+      {
+        "word": "embassy",
+        "meaning_tr": "büyükelçilik",
+        "part_of_speech": null,
+        "exam_sections": [
+          "V",
+          "R"
+        ],
+        "usage": null
+      },
+      {
+        "word": "fare",
+        "meaning_tr": "ulaşım ücreti",
+        "part_of_speech": null,
+        "exam_sections": [
+          "V",
+          "R"
+        ],
+        "usage": null
+      },
+      {
+        "word": "itinerary",
+        "meaning_tr": "seyahat planı",
+        "part_of_speech": null,
+        "exam_sections": [
+          "V",
+          "R"
+        ],
+        "usage": null
+      },
+      {
+        "word": "tourism",
+        "meaning_tr": "turizm",
+        "part_of_speech": null,
+        "exam_sections": [
+          "V",
+          "R"
+        ],
+        "usage": null
+      },
+      {
+        "word": "transport",
+        "meaning_tr": "ulaşım",
+        "part_of_speech": null,
+        "exam_sections": [
+          "V",
+          "R"
+        ],
+        "usage": null
+      },
+      {
+        "word": "commute",
+        "meaning_tr": "işe gidip gelmek",
+        "part_of_speech": null,
+        "exam_sections": [
+          "V",
+          "R"
+        ],
+        "usage": null
+      },
+      {
+        "word": "terminal",
+        "meaning_tr": "terminal",
+        "part_of_speech": null,
+        "exam_sections": [
+          "V",
+          "R"
+        ],
+        "usage": null
+      },
+      {
+        "word": "customs",
+        "meaning_tr": "gümrük",
+        "part_of_speech": null,
+        "exam_sections": [
+          "V",
+          "R"
+        ],
+        "usage": null
+      },
+      {
+        "word": "delay",
+        "meaning_tr": "gecikme",
+        "part_of_speech": null,
+        "exam_sections": [
+          "V",
+          "R"
+        ],
+        "usage": null
+      },
+      {
+        "word": "check-in",
+        "meaning_tr": "giriş işlemi",
+        "part_of_speech": null,
+        "exam_sections": [
+          "V",
+          "R"
+        ],
+        "usage": null
+      },
+      {
+        "word": "boarding",
+        "meaning_tr": "biniş",
+        "part_of_speech": null,
+        "exam_sections": [
+          "V",
+          "R"
+        ],
+        "usage": null
+      },
+      {
+        "word": "gate",
+        "meaning_tr": "kapı",
+        "part_of_speech": null,
+        "exam_sections": [
+          "V",
+          "R"
+        ],
+        "usage": null
+      },
+      {
+        "word": "layover",
+        "meaning_tr": "aktarma beklemesi",
+        "part_of_speech": null,
+        "exam_sections": [
+          "V",
+          "R"
+        ],
+        "usage": null
+      },
+      {
+        "word": "stopover",
+        "meaning_tr": "ara durak",
+        "part_of_speech": null,
+        "exam_sections": [
+          "V",
+          "R"
+        ],
+        "usage": null
+      },
+      {
+        "word": "carriage",
+        "meaning_tr": "vagon",
+        "part_of_speech": null,
+        "exam_sections": [
+          "V",
+          "R"
+        ],
+        "usage": null
+      },
+      {
+        "word": "railway",
+        "meaning_tr": "demir yolu",
+        "part_of_speech": null,
+        "exam_sections": [
+          "V",
+          "R"
+        ],
+        "usage": null
+      }
+    ]
+  },
+  {
+    "day": 39,
+    "theme": "İş ve kariyer",
+    "words": [
+      {
+        "word": "leadership",
+        "meaning_tr": "liderlik",
+        "part_of_speech": null,
+        "exam_sections": [
+          "V",
+          "R"
+        ],
+        "usage": null
+      },
+      {
+        "word": "manager",
+        "meaning_tr": "yönetici",
+        "part_of_speech": null,
+        "exam_sections": [
+          "V",
+          "R"
+        ],
+        "usage": null
+      },
+      {
+        "word": "organization",
+        "meaning_tr": "kuruluş",
+        "part_of_speech": null,
+        "exam_sections": [
+          "V",
+          "R"
+        ],
+        "usage": null
+      },
+      {
+        "word": "recruit",
+        "meaning_tr": "işe almak",
+        "part_of_speech": null,
+        "exam_sections": [
+          "V",
+          "R"
+        ],
+        "usage": null
+      },
+      {
+        "word": "responsibility",
+        "meaning_tr": "sorumluluk",
+        "part_of_speech": null,
+        "exam_sections": [
+          "V",
+          "R"
+        ],
+        "usage": null
+      },
+      {
+        "word": "training",
+        "meaning_tr": "eğitim",
+        "part_of_speech": null,
+        "exam_sections": [
+          "V",
+          "R"
+        ],
+        "usage": null
+      },
+      {
+        "word": "internship",
+        "meaning_tr": "staj",
+        "part_of_speech": null,
+        "exam_sections": [
+          "V",
+          "R"
+        ],
+        "usage": null
+      },
+      {
+        "word": "promotion",
+        "meaning_tr": "terfi",
+        "part_of_speech": null,
+        "exam_sections": [
+          "V",
+          "R"
+        ],
+        "usage": null
+      },
+      {
+        "word": "resignation",
+        "meaning_tr": "istifa",
+        "part_of_speech": null,
+        "exam_sections": [
+          "V",
+          "R"
+        ],
+        "usage": null
+      },
+      {
+        "word": "vacancy",
+        "meaning_tr": "açık pozisyon",
+        "part_of_speech": null,
+        "exam_sections": [
+          "V",
+          "R"
+        ],
+        "usage": null
+      },
+      {
+        "word": "supervisor",
+        "meaning_tr": "amir",
+        "part_of_speech": null,
+        "exam_sections": [
+          "V",
+          "R"
+        ],
+        "usage": null
+      },
+      {
+        "word": "teamwork",
+        "meaning_tr": "ekip çalışması",
+        "part_of_speech": null,
+        "exam_sections": [
+          "V",
+          "R"
+        ],
+        "usage": null
+      },
+      {
+        "word": "candidate",
+        "meaning_tr": "aday",
+        "part_of_speech": null,
+        "exam_sections": [
+          "V",
+          "R"
+        ],
+        "usage": null
+      },
+      {
+        "word": "payroll",
+        "meaning_tr": "bordro",
+        "part_of_speech": null,
+        "exam_sections": [
+          "V",
+          "R"
+        ],
+        "usage": null
+      },
+      {
+        "word": "probation",
+        "meaning_tr": "deneme süresi",
+        "part_of_speech": null,
+        "exam_sections": [
+          "V",
+          "R"
+        ],
+        "usage": null
+      },
+      {
+        "word": "retirement",
+        "meaning_tr": "emeklilik",
+        "part_of_speech": null,
+        "exam_sections": [
+          "V",
+          "R"
+        ],
+        "usage": null
+      },
+      {
+        "word": "resumé",
+        "meaning_tr": "özgeçmiş",
+        "part_of_speech": null,
+        "exam_sections": [
+          "V",
+          "R"
+        ],
+        "usage": null
+      },
+      {
+        "word": "portfolio",
+        "meaning_tr": "portföy",
+        "part_of_speech": null,
+        "exam_sections": [
+          "V",
+          "R"
+        ],
+        "usage": null
+      },
+      {
+        "word": "appraisal",
+        "meaning_tr": "performans değerlendirmesi",
+        "part_of_speech": null,
+        "exam_sections": [
+          "V",
+          "R"
+        ],
+        "usage": null
+      },
+      {
+        "word": "bonus",
+        "meaning_tr": "ikramiye",
+        "part_of_speech": null,
+        "exam_sections": [
+          "V",
+          "R"
+        ],
+        "usage": null
+      }
+    ]
+  },
+  {
+    "day": 40,
+    "theme": "Akademik eylemler",
+    "words": [
+      {
+        "word": "adjust",
+        "meaning_tr": "ayarlamak",
+        "part_of_speech": null,
+        "exam_sections": [
+          "V",
+          "R"
+        ],
+        "usage": null
+      },
+      {
+        "word": "analyze",
+        "meaning_tr": "analiz etmek",
+        "part_of_speech": null,
+        "exam_sections": [
+          "V",
+          "R"
+        ],
+        "usage": null
+      },
+      {
+        "word": "compile",
+        "meaning_tr": "derlemek",
+        "part_of_speech": null,
+        "exam_sections": [
+          "V",
+          "R"
+        ],
+        "usage": null
+      },
+      {
+        "word": "distinguish",
+        "meaning_tr": "ayırt etmek",
+        "part_of_speech": null,
+        "exam_sections": [
+          "V",
+          "R"
+        ],
+        "usage": null
+      },
+      {
+        "word": "organize",
+        "meaning_tr": "düzenlemek",
+        "part_of_speech": null,
+        "exam_sections": [
+          "V",
+          "R"
+        ],
+        "usage": null
+      },
+      {
+        "word": "revise",
+        "meaning_tr": "gözden geçirmek",
+        "part_of_speech": null,
+        "exam_sections": [
+          "V",
+          "R"
+        ],
+        "usage": null
+      },
+      {
+        "word": "summarize",
+        "meaning_tr": "özetlemek",
+        "part_of_speech": null,
+        "exam_sections": [
+          "V",
+          "R"
+        ],
+        "usage": null
+      },
+      {
+        "word": "verify",
+        "meaning_tr": "doğrulamak",
+        "part_of_speech": null,
+        "exam_sections": [
+          "V",
+          "R"
+        ],
+        "usage": null
+      },
+      {
+        "word": "formulate",
+        "meaning_tr": "formüle etmek",
+        "part_of_speech": null,
+        "exam_sections": [
+          "V",
+          "R"
+        ],
+        "usage": null
+      },
+      {
+        "word": "synthesize",
+        "meaning_tr": "sentezlemek",
+        "part_of_speech": null,
+        "exam_sections": [
+          "V",
+          "R"
+        ],
+        "usage": null
+      },
+      {
+        "word": "paraphrase",
+        "meaning_tr": "farklı sözlerle anlatmak",
+        "part_of_speech": null,
+        "exam_sections": [
+          "V",
+          "R"
+        ],
+        "usage": null
+      },
+      {
+        "word": "outline",
+        "meaning_tr": "ana hatlarını belirlemek",
+        "part_of_speech": null,
+        "exam_sections": [
+          "V",
+          "R"
+        ],
+        "usage": null
+      },
+      {
+        "word": "draft",
+        "meaning_tr": "taslak hazırlamak",
+        "part_of_speech": null,
+        "exam_sections": [
+          "V",
+          "R"
+        ],
+        "usage": null
+      },
+      {
+        "word": "proofread",
+        "meaning_tr": "son okuma yapmak",
+        "part_of_speech": null,
+        "exam_sections": [
+          "V",
+          "R"
+        ],
+        "usage": null
+      },
+      {
+        "word": "cite",
+        "meaning_tr": "atıfta bulunmak",
+        "part_of_speech": null,
+        "exam_sections": [
+          "V",
+          "R"
+        ],
+        "usage": null
+      },
+      {
+        "word": "attribute",
+        "meaning_tr": "kaynak göstermek",
+        "part_of_speech": null,
+        "exam_sections": [
+          "V",
+          "R"
+        ],
+        "usage": null
+      },
+      {
+        "word": "quantify",
+        "meaning_tr": "nicel olarak ölçmek",
+        "part_of_speech": null,
+        "exam_sections": [
+          "V",
+          "R"
+        ],
+        "usage": null
+      },
+      {
+        "word": "contextualize",
+        "meaning_tr": "bağlama oturtmak",
+        "part_of_speech": null,
+        "exam_sections": [
+          "V",
+          "R"
+        ],
+        "usage": null
+      },
+      {
+        "word": "elaborate",
+        "meaning_tr": "ayrıntılandırmak",
+        "part_of_speech": null,
+        "exam_sections": [
+          "V",
+          "R"
+        ],
+        "usage": null
+      },
+      {
+        "word": "differentiate",
+        "meaning_tr": "farklılaştırmak",
+        "part_of_speech": null,
+        "exam_sections": [
+          "V",
+          "R"
+        ],
+        "usage": null
+      }
+    ]
+  },
+  {
+    "day": 41,
+    "theme": "Bağlaçlar ve çıkarım",
+    "words": [
+      {
+        "word": "accordingly",
+        "meaning_tr": "buna göre",
+        "part_of_speech": null,
+        "exam_sections": [
+          "V",
+          "R"
+        ],
+        "usage": null
+      },
+      {
+        "word": "additionally",
+        "meaning_tr": "ayrıca",
+        "part_of_speech": null,
+        "exam_sections": [
+          "V",
+          "R"
+        ],
+        "usage": null
+      },
+      {
+        "word": "consequently",
+        "meaning_tr": "sonuç olarak",
+        "part_of_speech": null,
+        "exam_sections": [
+          "V",
+          "R"
+        ],
+        "usage": null
+      },
+      {
+        "word": "hence",
+        "meaning_tr": "bu nedenle",
+        "part_of_speech": null,
+        "exam_sections": [
+          "V",
+          "R"
+        ],
+        "usage": null
+      },
+      {
+        "word": "likewise",
+        "meaning_tr": "benzer şekilde",
+        "part_of_speech": null,
+        "exam_sections": [
+          "V",
+          "R"
+        ],
+        "usage": null
+      },
+      {
+        "word": "otherwise",
+        "meaning_tr": "aksi takdirde",
+        "part_of_speech": null,
+        "exam_sections": [
+          "V",
+          "R"
+        ],
+        "usage": null
+      },
+      {
+        "word": "ultimately",
+        "meaning_tr": "sonuçta",
+        "part_of_speech": null,
+        "exam_sections": [
+          "V",
+          "R"
+        ],
+        "usage": null
+      },
+      {
+        "word": "nonetheless",
+        "meaning_tr": "yine de",
+        "part_of_speech": null,
+        "exam_sections": [
+          "V",
+          "R"
+        ],
+        "usage": null
+      },
+      {
+        "word": "subsequently",
+        "meaning_tr": "sonrasında",
+        "part_of_speech": null,
+        "exam_sections": [
+          "V",
+          "R"
+        ],
+        "usage": null
+      },
+      {
+        "word": "conversely",
+        "meaning_tr": "tersine",
+        "part_of_speech": null,
+        "exam_sections": [
+          "V",
+          "R"
+        ],
+        "usage": null
+      },
+      {
+        "word": "regardless",
+        "meaning_tr": "ne olursa olsun",
+        "part_of_speech": null,
+        "exam_sections": [
+          "V",
+          "R"
+        ],
+        "usage": null
+      },
+      {
+        "word": "indeed",
+        "meaning_tr": "gerçekten",
+        "part_of_speech": null,
+        "exam_sections": [
+          "V",
+          "R"
+        ],
+        "usage": null
+      },
+      {
+        "word": "albeit",
+        "meaning_tr": "gerçi",
+        "part_of_speech": null,
+        "exam_sections": [
+          "V",
+          "R"
+        ],
+        "usage": null
+      },
+      {
+        "word": "inasmuch",
+        "meaning_tr": "ölçüsünde",
+        "part_of_speech": null,
+        "exam_sections": [
+          "V",
+          "R"
+        ],
+        "usage": null
+      },
+      {
+        "word": "inasmuch-as",
+        "meaning_tr": "olduğu için",
+        "part_of_speech": null,
+        "exam_sections": [
+          "V",
+          "R"
+        ],
+        "usage": null
+      },
+      {
+        "word": "notwithstanding",
+        "meaning_tr": "buna rağmen",
+        "part_of_speech": null,
+        "exam_sections": [
+          "V",
+          "R"
+        ],
+        "usage": null
+      },
+      {
+        "word": "thereby",
+        "meaning_tr": "böylece",
+        "part_of_speech": null,
+        "exam_sections": [
+          "V",
+          "R"
+        ],
+        "usage": null
+      },
+      {
+        "word": "thereafter",
+        "meaning_tr": "ondan sonra",
+        "part_of_speech": null,
+        "exam_sections": [
+          "V",
+          "R"
+        ],
+        "usage": null
+      },
+      {
+        "word": "hitherto",
+        "meaning_tr": "şimdiye dek",
+        "part_of_speech": null,
+        "exam_sections": [
+          "V",
+          "R"
+        ],
+        "usage": null
+      },
+      {
+        "word": "simultaneously",
+        "meaning_tr": "eşzamanlı",
+        "part_of_speech": null,
+        "exam_sections": [
+          "V",
+          "R"
+        ],
+        "usage": null
+      }
+    ]
+  },
+  {
+    "day": 42,
+    "theme": "Akademik sıfatlar",
+    "words": [
+      {
+        "word": "adequate",
+        "meaning_tr": "yeterli",
+        "part_of_speech": null,
+        "exam_sections": [
+          "V",
+          "R"
+        ],
+        "usage": null
+      },
+      {
+        "word": "apparent",
+        "meaning_tr": "görünür",
+        "part_of_speech": null,
+        "exam_sections": [
+          "V",
+          "R"
+        ],
+        "usage": null
+      },
+      {
+        "word": "beneficial",
+        "meaning_tr": "yararlı",
+        "part_of_speech": null,
+        "exam_sections": [
+          "V",
+          "R"
+        ],
+        "usage": null
+      },
+      {
+        "word": "capable",
+        "meaning_tr": "yetenekli",
+        "part_of_speech": null,
+        "exam_sections": [
+          "V",
+          "R"
+        ],
+        "usage": null
+      },
+      {
+        "word": "considerable",
+        "meaning_tr": "önemli ölçüde",
+        "part_of_speech": null,
+        "exam_sections": [
+          "V",
+          "R"
+        ],
+        "usage": null
+      },
+      {
+        "word": "crucial",
+        "meaning_tr": "çok önemli",
+        "part_of_speech": null,
+        "exam_sections": [
+          "V",
+          "R"
+        ],
+        "usage": null
+      },
+      {
+        "word": "evident",
+        "meaning_tr": "açık",
+        "part_of_speech": null,
+        "exam_sections": [
+          "V",
+          "R"
+        ],
+        "usage": null
+      },
+      {
+        "word": "feasible",
+        "meaning_tr": "uygulanabilir",
+        "part_of_speech": null,
+        "exam_sections": [
+          "V",
+          "R"
+        ],
+        "usage": null
+      },
+      {
+        "word": "frequent",
+        "meaning_tr": "sık",
+        "part_of_speech": null,
+        "exam_sections": [
+          "V",
+          "R"
+        ],
+        "usage": null
+      },
+      {
+        "word": "fundamental",
+        "meaning_tr": "temel",
+        "part_of_speech": null,
+        "exam_sections": [
+          "V",
+          "R"
+        ],
+        "usage": null
+      },
+      {
+        "word": "specific",
+        "meaning_tr": "belirli",
+        "part_of_speech": null,
+        "exam_sections": [
+          "V",
+          "R"
+        ],
+        "usage": null
+      },
+      {
+        "word": "sufficient",
+        "meaning_tr": "yeterli",
+        "part_of_speech": null,
+        "exam_sections": [
+          "V",
+          "R"
+        ],
+        "usage": null
+      },
+      {
+        "word": "valid",
+        "meaning_tr": "geçerli",
+        "part_of_speech": null,
+        "exam_sections": [
+          "V",
+          "R"
+        ],
+        "usage": null
+      },
+      {
+        "word": "relevant",
+        "meaning_tr": "ilgili",
+        "part_of_speech": null,
+        "exam_sections": [
+          "V",
+          "R"
+        ],
+        "usage": null
+      },
+      {
+        "word": "substantial",
+        "meaning_tr": "kayda değer",
+        "part_of_speech": null,
+        "exam_sections": [
+          "V",
+          "R"
+        ],
+        "usage": null
+      },
+      {
+        "word": "potential",
+        "meaning_tr": "olası",
+        "part_of_speech": null,
+        "exam_sections": [
+          "V",
+          "R"
+        ],
+        "usage": null
+      },
+      {
+        "word": "consistent",
+        "meaning_tr": "tutarlı",
+        "part_of_speech": null,
+        "exam_sections": [
+          "V",
+          "R"
+        ],
+        "usage": null
+      },
+      {
+        "word": "plausible",
+        "meaning_tr": "makul",
+        "part_of_speech": null,
+        "exam_sections": [
+          "V",
+          "R"
+        ],
+        "usage": null
+      },
+      {
+        "word": "ambiguous",
+        "meaning_tr": "belirsiz",
+        "part_of_speech": null,
+        "exam_sections": [
+          "V",
+          "R"
+        ],
+        "usage": null
+      },
+      {
+        "word": "coherent",
+        "meaning_tr": "tutarlı",
+        "part_of_speech": null,
+        "exam_sections": [
+          "V",
+          "R"
+        ],
+        "usage": null
+      }
+    ]
+  }
+]
