@@ -1,0 +1,6606 @@
+[
+  {
+    "day": 1,
+    "theme": "Temel Fiiller I",
+    "words": [
+      {
+        "word": "achieve",
+        "meaning_tr": "başarmak / elde etmek",
+        "part_of_speech": "v",
+        "exam_sections": [
+          "V",
+          "C",
+          "R"
+        ],
+        "usage": "achieve a goal/result"
+      },
+      {
+        "word": "afford",
+        "meaning_tr": "maddi olarak karşılayabilmek",
+        "part_of_speech": "v",
+        "exam_sections": [
+          "V",
+          "C",
+          "S"
+        ],
+        "usage": "can/cannot afford to do"
+      },
+      {
+        "word": "allow",
+        "meaning_tr": "izin vermek / olanak sağlamak",
+        "part_of_speech": "v",
+        "exam_sections": [
+          "V",
+          "C",
+          "R"
+        ],
+        "usage": "allow someone to do"
+      },
+      {
+        "word": "avoid",
+        "meaning_tr": "kaçınmak",
+        "part_of_speech": "v",
+        "exam_sections": [
+          "V",
+          "C",
+          "R"
+        ],
+        "usage": "avoid doing something"
+      },
+      {
+        "word": "belong",
+        "meaning_tr": "ait olmak",
+        "part_of_speech": "v",
+        "exam_sections": [
+          "V",
+          "C",
+          "R"
+        ],
+        "usage": "belong to"
+      },
+      {
+        "word": "borrow",
+        "meaning_tr": "ödünç almak",
+        "part_of_speech": "v",
+        "exam_sections": [
+          "V",
+          "C"
+        ],
+        "usage": "borrow something from someone"
+      },
+      {
+        "word": "cause",
+        "meaning_tr": "sebep olmak",
+        "part_of_speech": "v",
+        "exam_sections": [
+          "V",
+          "C",
+          "R"
+        ],
+        "usage": "cause a problem/change"
+      },
+      {
+        "word": "compare",
+        "meaning_tr": "karşılaştırmak",
+        "part_of_speech": "v",
+        "exam_sections": [
+          "V",
+          "C",
+          "R"
+        ],
+        "usage": "compare A with/to B"
+      },
+      {
+        "word": "consider",
+        "meaning_tr": "düşünmek / değerlendirmek",
+        "part_of_speech": "v",
+        "exam_sections": [
+          "V",
+          "C",
+          "R"
+        ],
+        "usage": "consider doing / consider something"
+      },
+      {
+        "word": "continue",
+        "meaning_tr": "devam etmek",
+        "part_of_speech": "v",
+        "exam_sections": [
+          "V",
+          "C",
+          "R"
+        ],
+        "usage": "continue doing/to do"
+      },
+      {
+        "word": "decide",
+        "meaning_tr": "karar vermek",
+        "part_of_speech": "v",
+        "exam_sections": [
+          "V",
+          "C",
+          "S"
+        ],
+        "usage": "decide to do"
+      },
+      {
+        "word": "depend",
+        "meaning_tr": "bağlı olmak",
+        "part_of_speech": "v",
+        "exam_sections": [
+          "V",
+          "C",
+          "R"
+        ],
+        "usage": "depend on"
+      },
+      {
+        "word": "develop",
+        "meaning_tr": "geliştirmek / gelişmek",
+        "part_of_speech": "v",
+        "exam_sections": [
+          "V",
+          "C",
+          "R"
+        ],
+        "usage": "develop a skill/system"
+      },
+      {
+        "word": "expect",
+        "meaning_tr": "beklemek / ummak",
+        "part_of_speech": "v",
+        "exam_sections": [
+          "V",
+          "C",
+          "R"
+        ],
+        "usage": "expect someone to do"
+      },
+      {
+        "word": "improve",
+        "meaning_tr": "geliştirmek / iyileşmek",
+        "part_of_speech": "v",
+        "exam_sections": [
+          "V",
+          "C",
+          "R"
+        ],
+        "usage": "improve skills/conditions"
+      },
+      {
+        "word": "include",
+        "meaning_tr": "içermek / dahil etmek",
+        "part_of_speech": "v",
+        "exam_sections": [
+          "V",
+          "C",
+          "R"
+        ],
+        "usage": "include examples/details"
+      },
+      {
+        "word": "increase",
+        "meaning_tr": "artmak / artırmak",
+        "part_of_speech": "v",
+        "exam_sections": [
+          "V",
+          "C",
+          "R"
+        ],
+        "usage": "increase by/to"
+      },
+      {
+        "word": "lend",
+        "meaning_tr": "ödünç vermek",
+        "part_of_speech": "v",
+        "exam_sections": [
+          "V",
+          "C"
+        ],
+        "usage": "lend something to someone"
+      },
+      {
+        "word": "manage",
+        "meaning_tr": "başarmak / yönetmek",
+        "part_of_speech": "v",
+        "exam_sections": [
+          "V",
+          "C",
+          "R"
+        ],
+        "usage": "manage to do"
+      },
+      {
+        "word": "provide",
+        "meaning_tr": "sağlamak",
+        "part_of_speech": "v",
+        "exam_sections": [
+          "V",
+          "C",
+          "R"
+        ],
+        "usage": "provide someone with something"
+      }
+    ]
+  },
+  {
+    "day": 2,
+    "theme": "Temel Fiiller II",
+    "words": [
+      {
+        "word": "accept",
+        "meaning_tr": "kabul etmek",
+        "part_of_speech": "v",
+        "exam_sections": [
+          "V",
+          "C",
+          "R"
+        ],
+        "usage": "accept an offer/result"
+      },
+      {
+        "word": "apply",
+        "meaning_tr": "başvurmak / uygulamak",
+        "part_of_speech": "v",
+        "exam_sections": [
+          "V",
+          "C",
+          "R"
+        ],
+        "usage": "apply for a job; apply a method"
+      },
+      {
+        "word": "attend",
+        "meaning_tr": "katılmak",
+        "part_of_speech": "v",
+        "exam_sections": [
+          "V",
+          "C",
+          "R"
+        ],
+        "usage": "attend a class/meeting"
+      },
+      {
+        "word": "cancel",
+        "meaning_tr": "iptal etmek",
+        "part_of_speech": "v",
+        "exam_sections": [
+          "V",
+          "C",
+          "S"
+        ],
+        "usage": "cancel a flight/class"
+      },
+      {
+        "word": "choose",
+        "meaning_tr": "seçmek",
+        "part_of_speech": "v",
+        "exam_sections": [
+          "V",
+          "C",
+          "R"
+        ],
+        "usage": "choose to do / choose between"
+      },
+      {
+        "word": "claim",
+        "meaning_tr": "iddia etmek / talep etmek",
+        "part_of_speech": "v",
+        "exam_sections": [
+          "V",
+          "C",
+          "R"
+        ],
+        "usage": "claim that..."
+      },
+      {
+        "word": "complete",
+        "meaning_tr": "tamamlamak",
+        "part_of_speech": "v",
+        "exam_sections": [
+          "V",
+          "C",
+          "R"
+        ],
+        "usage": "complete a task/form"
+      },
+      {
+        "word": "contain",
+        "meaning_tr": "içermek",
+        "part_of_speech": "v",
+        "exam_sections": [
+          "V",
+          "C",
+          "R"
+        ],
+        "usage": "contain information/material"
+      },
+      {
+        "word": "deal",
+        "meaning_tr": "ilgilenmek / başa çıkmak",
+        "part_of_speech": "v",
+        "exam_sections": [
+          "V",
+          "C",
+          "R"
+        ],
+        "usage": "deal with"
+      },
+      {
+        "word": "describe",
+        "meaning_tr": "tanımlamak / betimlemek",
+        "part_of_speech": "v",
+        "exam_sections": [
+          "V",
+          "C",
+          "R"
+        ],
+        "usage": "describe a process/person"
+      },
+      {
+        "word": "discover",
+        "meaning_tr": "keşfetmek / öğrenmek",
+        "part_of_speech": "v",
+        "exam_sections": [
+          "V",
+          "C",
+          "R"
+        ],
+        "usage": "discover that..."
+      },
+      {
+        "word": "encourage",
+        "meaning_tr": "teşvik etmek",
+        "part_of_speech": "v",
+        "exam_sections": [
+          "V",
+          "C",
+          "R"
+        ],
+        "usage": "encourage someone to do"
+      },
+      {
+        "word": "explain",
+        "meaning_tr": "açıklamak",
+        "part_of_speech": "v",
+        "exam_sections": [
+          "V",
+          "C",
+          "R"
+        ],
+        "usage": "explain something to someone"
+      },
+      {
+        "word": "fail",
+        "meaning_tr": "başarısız olmak",
+        "part_of_speech": "v",
+        "exam_sections": [
+          "V",
+          "C",
+          "R"
+        ],
+        "usage": "fail to do / fail an exam"
+      },
+      {
+        "word": "follow",
+        "meaning_tr": "takip etmek",
+        "part_of_speech": "v",
+        "exam_sections": [
+          "V",
+          "C",
+          "R"
+        ],
+        "usage": "follow instructions/a trend"
+      },
+      {
+        "word": "involve",
+        "meaning_tr": "içermek / dahil etmek",
+        "part_of_speech": "v",
+        "exam_sections": [
+          "V",
+          "C",
+          "R"
+        ],
+        "usage": "involve doing"
+      },
+      {
+        "word": "offer",
+        "meaning_tr": "teklif etmek / sunmak",
+        "part_of_speech": "v",
+        "exam_sections": [
+          "V",
+          "C",
+          "R"
+        ],
+        "usage": "offer to do / offer a service"
+      },
+      {
+        "word": "prevent",
+        "meaning_tr": "engellemek",
+        "part_of_speech": "v",
+        "exam_sections": [
+          "V",
+          "C",
+          "R"
+        ],
+        "usage": "prevent someone from doing"
+      },
+      {
+        "word": "require",
+        "meaning_tr": "gerektirmek",
+        "part_of_speech": "v",
+        "exam_sections": [
+          "V",
+          "C",
+          "R"
+        ],
+        "usage": "require someone to do"
+      },
+      {
+        "word": "remain",
+        "meaning_tr": "kalmak / sürmek",
+        "part_of_speech": "v",
+        "exam_sections": [
+          "V",
+          "C",
+          "R"
+        ],
+        "usage": "remain unchanged/unknown"
+      }
+    ]
+  },
+  {
+    "day": 3,
+    "theme": "Temel Fiiller III",
+    "words": [
+      {
+        "word": "appear",
+        "meaning_tr": "görünmek / ortaya çıkmak",
+        "part_of_speech": "v",
+        "exam_sections": [
+          "V",
+          "C",
+          "R"
+        ],
+        "usage": "appear to be"
+      },
+      {
+        "word": "arrange",
+        "meaning_tr": "düzenlemek / ayarlamak",
+        "part_of_speech": "v",
+        "exam_sections": [
+          "V",
+          "C",
+          "R"
+        ],
+        "usage": "arrange a meeting; arrange to do"
+      },
+      {
+        "word": "adapt",
+        "meaning_tr": "uyum sağlamak / uyarlamak",
+        "part_of_speech": "v",
+        "exam_sections": [
+          "V",
+          "C",
+          "R"
+        ],
+        "usage": "adapt to a new situation"
+      },
+      {
+        "word": "behave",
+        "meaning_tr": "davranmak",
+        "part_of_speech": "v",
+        "exam_sections": [
+          "V",
+          "C",
+          "R"
+        ],
+        "usage": "behave well/badly"
+      },
+      {
+        "word": "benefit",
+        "meaning_tr": "yararlanmak / fayda sağlamak",
+        "part_of_speech": "v",
+        "exam_sections": [
+          "V",
+          "C",
+          "R"
+        ],
+        "usage": "benefit from"
+      },
+      {
+        "word": "complain",
+        "meaning_tr": "şikayet etmek",
+        "part_of_speech": "v",
+        "exam_sections": [
+          "V",
+          "C",
+          "R"
+        ],
+        "usage": "complain about"
+      },
+      {
+        "word": "contribute",
+        "meaning_tr": "katkıda bulunmak",
+        "part_of_speech": "v",
+        "exam_sections": [
+          "V",
+          "C",
+          "R"
+        ],
+        "usage": "contribute to"
+      },
+      {
+        "word": "damage",
+        "meaning_tr": "zarar vermek",
+        "part_of_speech": "v",
+        "exam_sections": [
+          "V",
+          "C",
+          "R"
+        ],
+        "usage": "damage the environment"
+      },
+      {
+        "word": "deserve",
+        "meaning_tr": "hak etmek",
+        "part_of_speech": "v",
+        "exam_sections": [
+          "V",
+          "C",
+          "R"
+        ],
+        "usage": "deserve a chance/reward"
+      },
+      {
+        "word": "enable",
+        "meaning_tr": "olanak sağlamak",
+        "part_of_speech": "v",
+        "exam_sections": [
+          "V",
+          "C",
+          "R"
+        ],
+        "usage": "enable someone to do"
+      },
+      {
+        "word": "establish",
+        "meaning_tr": "kurmak / belirlemek",
+        "part_of_speech": "v",
+        "exam_sections": [
+          "V",
+          "C",
+          "R"
+        ],
+        "usage": "establish a company/fact"
+      },
+      {
+        "word": "exist",
+        "meaning_tr": "var olmak",
+        "part_of_speech": "v",
+        "exam_sections": [
+          "V",
+          "C",
+          "R"
+        ],
+        "usage": "exist in nature"
+      },
+      {
+        "word": "force",
+        "meaning_tr": "zorlamak",
+        "part_of_speech": "v",
+        "exam_sections": [
+          "V",
+          "C",
+          "R"
+        ],
+        "usage": "force someone to do"
+      },
+      {
+        "word": "identify",
+        "meaning_tr": "belirlemek / tanımlamak",
+        "part_of_speech": "v",
+        "exam_sections": [
+          "V",
+          "C",
+          "R"
+        ],
+        "usage": "identify a problem"
+      },
+      {
+        "word": "maintain",
+        "meaning_tr": "sürdürmek / korumak",
+        "part_of_speech": "v",
+        "exam_sections": [
+          "V",
+          "C",
+          "R"
+        ],
+        "usage": "maintain a system/level"
+      },
+      {
+        "word": "occur",
+        "meaning_tr": "meydana gelmek",
+        "part_of_speech": "v",
+        "exam_sections": [
+          "V",
+          "C",
+          "R"
+        ],
+        "usage": "occur frequently"
+      },
+      {
+        "word": "reduce",
+        "meaning_tr": "azaltmak",
+        "part_of_speech": "v",
+        "exam_sections": [
+          "V",
+          "C",
+          "R"
+        ],
+        "usage": "reduce costs/risk"
+      },
+      {
+        "word": "replace",
+        "meaning_tr": "yerine koymak / değiştirmek",
+        "part_of_speech": "v",
+        "exam_sections": [
+          "V",
+          "C",
+          "R"
+        ],
+        "usage": "replace A with B"
+      },
+      {
+        "word": "suggest",
+        "meaning_tr": "önermek / işaret etmek",
+        "part_of_speech": "v",
+        "exam_sections": [
+          "V",
+          "C",
+          "R"
+        ],
+        "usage": "suggest doing; evidence suggests"
+      },
+      {
+        "word": "support",
+        "meaning_tr": "desteklemek",
+        "part_of_speech": "v",
+        "exam_sections": [
+          "V",
+          "C",
+          "R"
+        ],
+        "usage": "support an idea/person"
+      }
+    ]
+  },
+  {
+    "day": 4,
+    "theme": "Sıfatlar I",
+    "words": [
+      {
+        "word": "available",
+        "meaning_tr": "mevcut / erişilebilir",
+        "part_of_speech": "adj",
+        "exam_sections": [
+          "V",
+          "C",
+          "R"
+        ],
+        "usage": "available online / available to"
+      },
+      {
+        "word": "aware",
+        "meaning_tr": "farkında",
+        "part_of_speech": "adj",
+        "exam_sections": [
+          "V",
+          "C",
+          "R"
+        ],
+        "usage": "be aware of"
+      },
+      {
+        "word": "common",
+        "meaning_tr": "yaygın / ortak",
+        "part_of_speech": "adj",
+        "exam_sections": [
+          "V",
+          "C",
+          "R"
+        ],
+        "usage": "a common problem"
+      },
+      {
+        "word": "cruel",
+        "meaning_tr": "acımasız",
+        "part_of_speech": "adj",
+        "exam_sections": [
+          "V",
+          "R"
+        ],
+        "usage": "cruel to animals/people"
+      },
+      {
+        "word": "effective",
+        "meaning_tr": "etkili",
+        "part_of_speech": "adj",
+        "exam_sections": [
+          "V",
+          "C",
+          "R"
+        ],
+        "usage": "an effective method"
+      },
+      {
+        "word": "essential",
+        "meaning_tr": "zorunlu / çok önemli",
+        "part_of_speech": "adj",
+        "exam_sections": [
+          "V",
+          "C",
+          "R"
+        ],
+        "usage": "essential for/to"
+      },
+      {
+        "word": "familiar",
+        "meaning_tr": "tanıdık / aşina",
+        "part_of_speech": "adj",
+        "exam_sections": [
+          "V",
+          "C",
+          "R"
+        ],
+        "usage": "familiar with"
+      },
+      {
+        "word": "harmful",
+        "meaning_tr": "zararlı",
+        "part_of_speech": "adj",
+        "exam_sections": [
+          "V",
+          "C",
+          "R"
+        ],
+        "usage": "harmful to health"
+      },
+      {
+        "word": "likely",
+        "meaning_tr": "muhtemel",
+        "part_of_speech": "adj",
+        "exam_sections": [
+          "V",
+          "C",
+          "R"
+        ],
+        "usage": "be likely to do"
+      },
+      {
+        "word": "ordinary",
+        "meaning_tr": "sıradan",
+        "part_of_speech": "adj",
+        "exam_sections": [
+          "V",
+          "R"
+        ],
+        "usage": "ordinary people/life"
+      },
+      {
+        "word": "possible",
+        "meaning_tr": "mümkün",
+        "part_of_speech": "adj",
+        "exam_sections": [
+          "V",
+          "C",
+          "R"
+        ],
+        "usage": "it is possible to..."
+      },
+      {
+        "word": "practical",
+        "meaning_tr": "pratik / uygulanabilir",
+        "part_of_speech": "adj",
+        "exam_sections": [
+          "V",
+          "C",
+          "R"
+        ],
+        "usage": "practical solution"
+      },
+      {
+        "word": "reliable",
+        "meaning_tr": "güvenilir",
+        "part_of_speech": "adj",
+        "exam_sections": [
+          "V",
+          "C",
+          "R"
+        ],
+        "usage": "reliable source/data"
+      },
+      {
+        "word": "modest",
+        "meaning_tr": "mütevazı / ölçülü",
+        "part_of_speech": "adj",
+        "exam_sections": [
+          "V",
+          "R"
+        ],
+        "usage": "modest person/amount"
+      },
+      {
+        "word": "secure",
+        "meaning_tr": "güvenli / sağlam",
+        "part_of_speech": "adj",
+        "exam_sections": [
+          "V",
+          "C",
+          "R"
+        ],
+        "usage": "secure job/system"
+      },
+      {
+        "word": "significant",
+        "meaning_tr": "önemli / kayda değer",
+        "part_of_speech": "adj",
+        "exam_sections": [
+          "V",
+          "C",
+          "R"
+        ],
+        "usage": "significant difference"
+      },
+      {
+        "word": "similar",
+        "meaning_tr": "benzer",
+        "part_of_speech": "adj",
+        "exam_sections": [
+          "V",
+          "C",
+          "R"
+        ],
+        "usage": "similar to"
+      },
+      {
+        "word": "suitable",
+        "meaning_tr": "uygun",
+        "part_of_speech": "adj",
+        "exam_sections": [
+          "V",
+          "C",
+          "R"
+        ],
+        "usage": "suitable for"
+      },
+      {
+        "word": "unusual",
+        "meaning_tr": "alışılmadık",
+        "part_of_speech": "adj",
+        "exam_sections": [
+          "V",
+          "R"
+        ],
+        "usage": "unusual behaviour"
+      },
+      {
+        "word": "wise",
+        "meaning_tr": "bilge / akıllıca davranan",
+        "part_of_speech": "adj",
+        "exam_sections": [
+          "V",
+          "R"
+        ],
+        "usage": "a wise decision/person"
+      }
+    ]
+  },
+  {
+    "day": 5,
+    "theme": "Sıfatlar II",
+    "words": [
+      {
+        "word": "accurate",
+        "meaning_tr": "doğru / hassas",
+        "part_of_speech": "adj",
+        "exam_sections": [
+          "V",
+          "C",
+          "R"
+        ],
+        "usage": "accurate information"
+      },
+      {
+        "word": "appropriate",
+        "meaning_tr": "uygun",
+        "part_of_speech": "adj",
+        "exam_sections": [
+          "V",
+          "C",
+          "R"
+        ],
+        "usage": "appropriate for"
+      },
+      {
+        "word": "certain",
+        "meaning_tr": "kesin / belirli",
+        "part_of_speech": "adj",
+        "exam_sections": [
+          "V",
+          "C",
+          "R"
+        ],
+        "usage": "be certain that; a certain amount"
+      },
+      {
+        "word": "complex",
+        "meaning_tr": "karmaşık",
+        "part_of_speech": "adj",
+        "exam_sections": [
+          "V",
+          "C",
+          "R"
+        ],
+        "usage": "complex problem/system"
+      },
+      {
+        "word": "convenient",
+        "meaning_tr": "uygun / elverişli",
+        "part_of_speech": "adj",
+        "exam_sections": [
+          "V",
+          "C",
+          "R"
+        ],
+        "usage": "convenient time/place"
+      },
+      {
+        "word": "efficient",
+        "meaning_tr": "verimli",
+        "part_of_speech": "adj",
+        "exam_sections": [
+          "V",
+          "C",
+          "R"
+        ],
+        "usage": "efficient system"
+      },
+      {
+        "word": "enormous",
+        "meaning_tr": "çok büyük",
+        "part_of_speech": "adj",
+        "exam_sections": [
+          "V",
+          "R"
+        ],
+        "usage": "an enormous amount/house"
+      },
+      {
+        "word": "entire",
+        "meaning_tr": "tüm / bütün",
+        "part_of_speech": "adj",
+        "exam_sections": [
+          "V",
+          "C",
+          "R"
+        ],
+        "usage": "the entire process"
+      },
+      {
+        "word": "general",
+        "meaning_tr": "genel",
+        "part_of_speech": "adj",
+        "exam_sections": [
+          "V",
+          "C",
+          "R"
+        ],
+        "usage": "general information"
+      },
+      {
+        "word": "independent",
+        "meaning_tr": "bağımsız",
+        "part_of_speech": "adj",
+        "exam_sections": [
+          "V",
+          "C",
+          "R"
+        ],
+        "usage": "independent of"
+      },
+      {
+        "word": "major",
+        "meaning_tr": "büyük / başlıca",
+        "part_of_speech": "adj",
+        "exam_sections": [
+          "V",
+          "C",
+          "R"
+        ],
+        "usage": "major problem/change"
+      },
+      {
+        "word": "minor",
+        "meaning_tr": "küçük / ikincil",
+        "part_of_speech": "adj",
+        "exam_sections": [
+          "V",
+          "C",
+          "R"
+        ],
+        "usage": "minor issue"
+      },
+      {
+        "word": "necessary",
+        "meaning_tr": "gerekli",
+        "part_of_speech": "adj",
+        "exam_sections": [
+          "V",
+          "C",
+          "R"
+        ],
+        "usage": "necessary to/for"
+      },
+      {
+        "word": "particular",
+        "meaning_tr": "belirli / özel",
+        "part_of_speech": "adj",
+        "exam_sections": [
+          "V",
+          "C",
+          "R"
+        ],
+        "usage": "a particular reason"
+      },
+      {
+        "word": "previous",
+        "meaning_tr": "önceki",
+        "part_of_speech": "adj",
+        "exam_sections": [
+          "V",
+          "C",
+          "R"
+        ],
+        "usage": "previous experience"
+      },
+      {
+        "word": "recent",
+        "meaning_tr": "yakın zamandaki",
+        "part_of_speech": "adj",
+        "exam_sections": [
+          "V",
+          "C",
+          "R"
+        ],
+        "usage": "recent research"
+      },
+      {
+        "word": "separate",
+        "meaning_tr": "ayrı",
+        "part_of_speech": "adj",
+        "exam_sections": [
+          "V",
+          "C",
+          "R"
+        ],
+        "usage": "separate from"
+      },
+      {
+        "word": "serious",
+        "meaning_tr": "ciddi",
+        "part_of_speech": "adj",
+        "exam_sections": [
+          "V",
+          "C",
+          "R"
+        ],
+        "usage": "serious problem"
+      },
+      {
+        "word": "successful",
+        "meaning_tr": "başarılı",
+        "part_of_speech": "adj",
+        "exam_sections": [
+          "V",
+          "C",
+          "R"
+        ],
+        "usage": "successful in/at"
+      },
+      {
+        "word": "various",
+        "meaning_tr": "çeşitli",
+        "part_of_speech": "adj",
+        "exam_sections": [
+          "V",
+          "C",
+          "R"
+        ],
+        "usage": "various reasons"
+      }
+    ]
+  },
+  {
+    "day": 6,
+    "theme": "Zarflar ve Sıklık İfadeleri",
+    "words": [
+      {
+        "word": "actually",
+        "meaning_tr": "aslında / gerçekte",
+        "part_of_speech": "adv",
+        "exam_sections": [
+          "V",
+          "C",
+          "R"
+        ],
+        "usage": "actually means..."
+      },
+      {
+        "word": "approximately",
+        "meaning_tr": "yaklaşık olarak",
+        "part_of_speech": "adv",
+        "exam_sections": [
+          "V",
+          "C",
+          "R"
+        ],
+        "usage": "approximately 50%"
+      },
+      {
+        "word": "currently",
+        "meaning_tr": "şu anda",
+        "part_of_speech": "adv",
+        "exam_sections": [
+          "V",
+          "C",
+          "R"
+        ],
+        "usage": "currently available"
+      },
+      {
+        "word": "especially",
+        "meaning_tr": "özellikle",
+        "part_of_speech": "adv",
+        "exam_sections": [
+          "V",
+          "C",
+          "R"
+        ],
+        "usage": "especially important"
+      },
+      {
+        "word": "eventually",
+        "meaning_tr": "sonunda / eninde sonunda",
+        "part_of_speech": "adv",
+        "exam_sections": [
+          "V",
+          "C",
+          "R"
+        ],
+        "usage": "eventually become"
+      },
+      {
+        "word": "frequently",
+        "meaning_tr": "sık sık",
+        "part_of_speech": "adv",
+        "exam_sections": [
+          "V",
+          "C",
+          "R"
+        ],
+        "usage": "occur frequently"
+      },
+      {
+        "word": "generally",
+        "meaning_tr": "genellikle",
+        "part_of_speech": "adv",
+        "exam_sections": [
+          "V",
+          "C",
+          "R"
+        ],
+        "usage": "generally accepted"
+      },
+      {
+        "word": "gradually",
+        "meaning_tr": "yavaş yavaş",
+        "part_of_speech": "adv",
+        "exam_sections": [
+          "V",
+          "C",
+          "R"
+        ],
+        "usage": "gradually increase"
+      },
+      {
+        "word": "hardly",
+        "meaning_tr": "neredeyse hiç",
+        "part_of_speech": "adv",
+        "exam_sections": [
+          "G",
+          "C",
+          "S"
+        ],
+        "usage": "hardly ever"
+      },
+      {
+        "word": "immediately",
+        "meaning_tr": "hemen",
+        "part_of_speech": "adv",
+        "exam_sections": [
+          "V",
+          "C",
+          "R"
+        ],
+        "usage": "immediately after"
+      },
+      {
+        "word": "mainly",
+        "meaning_tr": "çoğunlukla / esas olarak",
+        "part_of_speech": "adv",
+        "exam_sections": [
+          "V",
+          "C",
+          "R"
+        ],
+        "usage": "mainly because"
+      },
+      {
+        "word": "nearly",
+        "meaning_tr": "neredeyse",
+        "part_of_speech": "adv",
+        "exam_sections": [
+          "V",
+          "C",
+          "R"
+        ],
+        "usage": "nearly all"
+      },
+      {
+        "word": "normally",
+        "meaning_tr": "normalde",
+        "part_of_speech": "adv",
+        "exam_sections": [
+          "V",
+          "C",
+          "R"
+        ],
+        "usage": "normally happens"
+      },
+      {
+        "word": "particularly",
+        "meaning_tr": "özellikle",
+        "part_of_speech": "adv",
+        "exam_sections": [
+          "V",
+          "C",
+          "R"
+        ],
+        "usage": "particularly useful"
+      },
+      {
+        "word": "probably",
+        "meaning_tr": "muhtemelen",
+        "part_of_speech": "adv",
+        "exam_sections": [
+          "V",
+          "C",
+          "R"
+        ],
+        "usage": "will probably"
+      },
+      {
+        "word": "rarely",
+        "meaning_tr": "nadiren",
+        "part_of_speech": "adv",
+        "exam_sections": [
+          "G",
+          "C",
+          "R"
+        ],
+        "usage": "rarely happens"
+      },
+      {
+        "word": "recently",
+        "meaning_tr": "yakın zamanda",
+        "part_of_speech": "adv",
+        "exam_sections": [
+          "G",
+          "C",
+          "R"
+        ],
+        "usage": "has recently changed"
+      },
+      {
+        "word": "slightly",
+        "meaning_tr": "hafifçe / biraz",
+        "part_of_speech": "adv",
+        "exam_sections": [
+          "V",
+          "C",
+          "R"
+        ],
+        "usage": "slightly higher"
+      },
+      {
+        "word": "suddenly",
+        "meaning_tr": "aniden",
+        "part_of_speech": "adv",
+        "exam_sections": [
+          "V",
+          "C",
+          "R"
+        ],
+        "usage": "suddenly stopped"
+      },
+      {
+        "word": "usually",
+        "meaning_tr": "genellikle",
+        "part_of_speech": "adv",
+        "exam_sections": [
+          "G",
+          "C",
+          "R"
+        ],
+        "usage": "usually occurs"
+      }
+    ]
+  },
+  {
+    "day": 7,
+    "theme": "Bağlaçlar - Karşıtlık ve Ek Bilgi",
+    "words": [
+      {
+        "word": "although",
+        "meaning_tr": "-e rağmen / her ne kadar",
+        "part_of_speech": "conj",
+        "exam_sections": [
+          "G",
+          "C",
+          "S",
+          "R"
+        ],
+        "usage": "although + clause"
+      },
+      {
+        "word": "though",
+        "meaning_tr": "-e rağmen / gerçi",
+        "part_of_speech": "conj",
+        "exam_sections": [
+          "G",
+          "C",
+          "S",
+          "R"
+        ],
+        "usage": "though + clause"
+      },
+      {
+        "word": "even though",
+        "meaning_tr": "-mesine rağmen",
+        "part_of_speech": "conj",
+        "exam_sections": [
+          "G",
+          "C",
+          "S",
+          "R"
+        ],
+        "usage": "even though + clause"
+      },
+      {
+        "word": "despite",
+        "meaning_tr": "-e rağmen",
+        "part_of_speech": "prep",
+        "exam_sections": [
+          "G",
+          "C",
+          "S",
+          "R"
+        ],
+        "usage": "despite + noun/V-ing"
+      },
+      {
+        "word": "in spite of",
+        "meaning_tr": "-e rağmen",
+        "part_of_speech": "prep",
+        "exam_sections": [
+          "G",
+          "C",
+          "S",
+          "R"
+        ],
+        "usage": "in spite of + noun/V-ing"
+      },
+      {
+        "word": "however",
+        "meaning_tr": "ancak / bununla birlikte",
+        "part_of_speech": "adv",
+        "exam_sections": [
+          "C",
+          "S",
+          "R"
+        ],
+        "usage": "sentence connector"
+      },
+      {
+        "word": "whereas",
+        "meaning_tr": "oysa / iken",
+        "part_of_speech": "conj",
+        "exam_sections": [
+          "G",
+          "C",
+          "S",
+          "R"
+        ],
+        "usage": "contrast two clauses"
+      },
+      {
+        "word": "while",
+        "meaning_tr": "-iken / oysa",
+        "part_of_speech": "conj",
+        "exam_sections": [
+          "G",
+          "C",
+          "S",
+          "R"
+        ],
+        "usage": "time or contrast"
+      },
+      {
+        "word": "nevertheless",
+        "meaning_tr": "yine de",
+        "part_of_speech": "adv",
+        "exam_sections": [
+          "C",
+          "S",
+          "R"
+        ],
+        "usage": "formal contrast"
+      },
+      {
+        "word": "on the other hand",
+        "meaning_tr": "öte yandan",
+        "part_of_speech": "phrase",
+        "exam_sections": [
+          "C",
+          "S",
+          "R"
+        ],
+        "usage": "contrast"
+      },
+      {
+        "word": "moreover",
+        "meaning_tr": "üstelik / ayrıca",
+        "part_of_speech": "adv",
+        "exam_sections": [
+          "C",
+          "S",
+          "R"
+        ],
+        "usage": "formal addition"
+      },
+      {
+        "word": "furthermore",
+        "meaning_tr": "ayrıca",
+        "part_of_speech": "adv",
+        "exam_sections": [
+          "C",
+          "S",
+          "R"
+        ],
+        "usage": "formal addition"
+      },
+      {
+        "word": "besides",
+        "meaning_tr": "ayrıca / bunun yanında",
+        "part_of_speech": "adv",
+        "exam_sections": [
+          "C",
+          "S",
+          "R"
+        ],
+        "usage": "addition"
+      },
+      {
+        "word": "also",
+        "meaning_tr": "ayrıca",
+        "part_of_speech": "adv",
+        "exam_sections": [
+          "C",
+          "S",
+          "R"
+        ],
+        "usage": "addition"
+      },
+      {
+        "word": "in addition",
+        "meaning_tr": "ek olarak",
+        "part_of_speech": "phrase",
+        "exam_sections": [
+          "C",
+          "S",
+          "R"
+        ],
+        "usage": "addition"
+      },
+      {
+        "word": "as well as",
+        "meaning_tr": "yanı sıra",
+        "part_of_speech": "conj",
+        "exam_sections": [
+          "G",
+          "C",
+          "S",
+          "R"
+        ],
+        "usage": "A as well as B"
+      },
+      {
+        "word": "both",
+        "meaning_tr": "her ikisi de",
+        "part_of_speech": "det",
+        "exam_sections": [
+          "G",
+          "C",
+          "S"
+        ],
+        "usage": "both A and B"
+      },
+      {
+        "word": "either",
+        "meaning_tr": "ikisinden biri",
+        "part_of_speech": "det",
+        "exam_sections": [
+          "G",
+          "C",
+          "S"
+        ],
+        "usage": "either A or B"
+      },
+      {
+        "word": "neither",
+        "meaning_tr": "ikisinden hiçbiri",
+        "part_of_speech": "det",
+        "exam_sections": [
+          "G",
+          "C",
+          "S"
+        ],
+        "usage": "neither A nor B"
+      },
+      {
+        "word": "instead",
+        "meaning_tr": "yerine / onun yerine",
+        "part_of_speech": "adv",
+        "exam_sections": [
+          "C",
+          "S",
+          "R"
+        ],
+        "usage": "instead of + noun/V-ing"
+      }
+    ]
+  },
+  {
+    "day": 8,
+    "theme": "Neden-Sonuç, Koşul ve Zaman Bağları",
+    "words": [
+      {
+        "word": "because",
+        "meaning_tr": "çünkü",
+        "part_of_speech": "conj",
+        "exam_sections": [
+          "G",
+          "C",
+          "S",
+          "R"
+        ],
+        "usage": "because + clause"
+      },
+      {
+        "word": "because of",
+        "meaning_tr": "-den dolayı",
+        "part_of_speech": "prep",
+        "exam_sections": [
+          "G",
+          "C",
+          "S",
+          "R"
+        ],
+        "usage": "because of + noun"
+      },
+      {
+        "word": "due to",
+        "meaning_tr": "nedeniyle",
+        "part_of_speech": "prep",
+        "exam_sections": [
+          "C",
+          "S",
+          "R"
+        ],
+        "usage": "due to + noun"
+      },
+      {
+        "word": "therefore",
+        "meaning_tr": "bu nedenle",
+        "part_of_speech": "adv",
+        "exam_sections": [
+          "C",
+          "S",
+          "R"
+        ],
+        "usage": "result connector"
+      },
+      {
+        "word": "thus",
+        "meaning_tr": "böylece / dolayısıyla",
+        "part_of_speech": "adv",
+        "exam_sections": [
+          "C",
+          "S",
+          "R"
+        ],
+        "usage": "formal result"
+      },
+      {
+        "word": "as a result",
+        "meaning_tr": "sonuç olarak",
+        "part_of_speech": "phrase",
+        "exam_sections": [
+          "C",
+          "S",
+          "R"
+        ],
+        "usage": "result connector"
+      },
+      {
+        "word": "so",
+        "meaning_tr": "bu yüzden / böylece",
+        "part_of_speech": "conj",
+        "exam_sections": [
+          "G",
+          "C",
+          "S"
+        ],
+        "usage": "cause-result"
+      },
+      {
+        "word": "so that",
+        "meaning_tr": "-sın diye / böylece",
+        "part_of_speech": "conj",
+        "exam_sections": [
+          "G",
+          "C",
+          "S"
+        ],
+        "usage": "purpose/result"
+      },
+      {
+        "word": "in order to",
+        "meaning_tr": "-mek için",
+        "part_of_speech": "phrase",
+        "exam_sections": [
+          "G",
+          "C",
+          "S"
+        ],
+        "usage": "purpose + V1"
+      },
+      {
+        "word": "unless",
+        "meaning_tr": "-medikçe / -mezse",
+        "part_of_speech": "conj",
+        "exam_sections": [
+          "G",
+          "C",
+          "S",
+          "R"
+        ],
+        "usage": "unless = if not"
+      },
+      {
+        "word": "provided that",
+        "meaning_tr": "şartıyla",
+        "part_of_speech": "conj",
+        "exam_sections": [
+          "G",
+          "C",
+          "S",
+          "R"
+        ],
+        "usage": "condition"
+      },
+      {
+        "word": "as long as",
+        "meaning_tr": "-dığı sürece",
+        "part_of_speech": "conj",
+        "exam_sections": [
+          "G",
+          "C",
+          "S",
+          "R"
+        ],
+        "usage": "condition/time"
+      },
+      {
+        "word": "in case",
+        "meaning_tr": "ihtimaline karşı",
+        "part_of_speech": "conj",
+        "exam_sections": [
+          "G",
+          "C",
+          "S"
+        ],
+        "usage": "in case + clause"
+      },
+      {
+        "word": "when",
+        "meaning_tr": "-dığında",
+        "part_of_speech": "conj",
+        "exam_sections": [
+          "G",
+          "C",
+          "S",
+          "R"
+        ],
+        "usage": "time clause"
+      },
+      {
+        "word": "whenever",
+        "meaning_tr": "her ne zaman",
+        "part_of_speech": "conj",
+        "exam_sections": [
+          "G",
+          "C",
+          "S",
+          "R"
+        ],
+        "usage": "repeated time"
+      },
+      {
+        "word": "until",
+        "meaning_tr": "-e kadar",
+        "part_of_speech": "conj/prep",
+        "exam_sections": [
+          "G",
+          "C",
+          "S",
+          "R"
+        ],
+        "usage": "until + time/clause"
+      },
+      {
+        "word": "by the time",
+        "meaning_tr": "-e kadar / olduğunda",
+        "part_of_speech": "conj",
+        "exam_sections": [
+          "G",
+          "C",
+          "S"
+        ],
+        "usage": "often past perfect/future perfect"
+      },
+      {
+        "word": "as soon as",
+        "meaning_tr": "-er ermez",
+        "part_of_speech": "conj",
+        "exam_sections": [
+          "G",
+          "C",
+          "S"
+        ],
+        "usage": "time clause"
+      },
+      {
+        "word": "before",
+        "meaning_tr": "önce",
+        "part_of_speech": "conj/prep",
+        "exam_sections": [
+          "G",
+          "C",
+          "S",
+          "R"
+        ],
+        "usage": "before + noun/clause"
+      },
+      {
+        "word": "after",
+        "meaning_tr": "sonra",
+        "part_of_speech": "conj/prep",
+        "exam_sections": [
+          "G",
+          "C",
+          "S",
+          "R"
+        ],
+        "usage": "after + noun/clause"
+      }
+    ]
+  },
+  {
+    "day": 9,
+    "theme": "Üniversite ve Eğitim",
+    "words": [
+      {
+        "word": "assignment",
+        "meaning_tr": "ödev",
+        "part_of_speech": "n",
+        "exam_sections": [
+          "V",
+          "C",
+          "R"
+        ],
+        "usage": "submit an assignment"
+      },
+      {
+        "word": "attendance",
+        "meaning_tr": "devam / katılım",
+        "part_of_speech": "n",
+        "exam_sections": [
+          "V",
+          "C",
+          "R"
+        ],
+        "usage": "attendance requirement"
+      },
+      {
+        "word": "campus",
+        "meaning_tr": "kampüs",
+        "part_of_speech": "n",
+        "exam_sections": [
+          "V",
+          "R"
+        ],
+        "usage": "on campus"
+      },
+      {
+        "word": "course",
+        "meaning_tr": "ders / kurs",
+        "part_of_speech": "n",
+        "exam_sections": [
+          "V",
+          "C",
+          "R"
+        ],
+        "usage": "take a course"
+      },
+      {
+        "word": "credit",
+        "meaning_tr": "kredi / AKTS karşılığı",
+        "part_of_speech": "n",
+        "exam_sections": [
+          "V",
+          "R"
+        ],
+        "usage": "earn credits"
+      },
+      {
+        "word": "deadline",
+        "meaning_tr": "son teslim tarihi",
+        "part_of_speech": "n",
+        "exam_sections": [
+          "V",
+          "C",
+          "R"
+        ],
+        "usage": "meet/miss a deadline"
+      },
+      {
+        "word": "degree",
+        "meaning_tr": "derece / diploma düzeyi",
+        "part_of_speech": "n",
+        "exam_sections": [
+          "V",
+          "R"
+        ],
+        "usage": "bachelor’s degree"
+      },
+      {
+        "word": "department",
+        "meaning_tr": "bölüm",
+        "part_of_speech": "n",
+        "exam_sections": [
+          "V",
+          "R"
+        ],
+        "usage": "academic department"
+      },
+      {
+        "word": "enrol",
+        "meaning_tr": "kaydolmak",
+        "part_of_speech": "v",
+        "exam_sections": [
+          "V",
+          "C",
+          "R"
+        ],
+        "usage": "enrol in a course"
+      },
+      {
+        "word": "exam",
+        "meaning_tr": "sınav",
+        "part_of_speech": "n",
+        "exam_sections": [
+          "V",
+          "R"
+        ],
+        "usage": "take/pass/fail an exam"
+      },
+      {
+        "word": "faculty",
+        "meaning_tr": "fakülte / akademik kadro",
+        "part_of_speech": "n",
+        "exam_sections": [
+          "V",
+          "R"
+        ],
+        "usage": "faculty of engineering"
+      },
+      {
+        "word": "grade",
+        "meaning_tr": "not / derece",
+        "part_of_speech": "n",
+        "exam_sections": [
+          "V",
+          "R"
+        ],
+        "usage": "get a grade"
+      },
+      {
+        "word": "lecture",
+        "meaning_tr": "ders / konferans",
+        "part_of_speech": "n",
+        "exam_sections": [
+          "V",
+          "C",
+          "R"
+        ],
+        "usage": "attend a lecture"
+      },
+      {
+        "word": "syllabus",
+        "meaning_tr": "ders izlencesi / müfredat özeti",
+        "part_of_speech": "n",
+        "exam_sections": [
+          "V",
+          "R"
+        ],
+        "usage": "course syllabus"
+      },
+      {
+        "word": "semester",
+        "meaning_tr": "dönem",
+        "part_of_speech": "n",
+        "exam_sections": [
+          "V",
+          "R"
+        ],
+        "usage": "fall semester"
+      },
+      {
+        "word": "scholarship",
+        "meaning_tr": "burs",
+        "part_of_speech": "n",
+        "exam_sections": [
+          "V",
+          "C",
+          "R"
+        ],
+        "usage": "receive a scholarship"
+      },
+      {
+        "word": "submit",
+        "meaning_tr": "teslim etmek",
+        "part_of_speech": "v",
+        "exam_sections": [
+          "V",
+          "C",
+          "R"
+        ],
+        "usage": "submit a form/assignment"
+      },
+      {
+        "word": "transcript",
+        "meaning_tr": "not dökümü",
+        "part_of_speech": "n",
+        "exam_sections": [
+          "V",
+          "R"
+        ],
+        "usage": "official transcript"
+      },
+      {
+        "word": "tuition",
+        "meaning_tr": "öğrenim ücreti",
+        "part_of_speech": "n",
+        "exam_sections": [
+          "V",
+          "R"
+        ],
+        "usage": "tuition fees"
+      },
+      {
+        "word": "undergraduate",
+        "meaning_tr": "lisans öğrencisi / lisans düzeyi",
+        "part_of_speech": "n/adj",
+        "exam_sections": [
+          "V",
+          "R"
+        ],
+        "usage": "undergraduate student"
+      }
+    ]
+  },
+  {
+    "day": 10,
+    "theme": "Erasmus, Seyahat ve Hareketlilik",
+    "words": [
+      {
+        "word": "accommodation",
+        "meaning_tr": "konaklama",
+        "part_of_speech": "n",
+        "exam_sections": [
+          "V",
+          "C",
+          "R"
+        ],
+        "usage": "find accommodation"
+      },
+      {
+        "word": "arrival",
+        "meaning_tr": "varış",
+        "part_of_speech": "n",
+        "exam_sections": [
+          "V",
+          "R"
+        ],
+        "usage": "arrival date"
+      },
+      {
+        "word": "departure",
+        "meaning_tr": "ayrılış / kalkış",
+        "part_of_speech": "n",
+        "exam_sections": [
+          "V",
+          "R"
+        ],
+        "usage": "departure time"
+      },
+      {
+        "word": "destination",
+        "meaning_tr": "varış noktası",
+        "part_of_speech": "n",
+        "exam_sections": [
+          "V",
+          "R"
+        ],
+        "usage": "travel destination"
+      },
+      {
+        "word": "exchange",
+        "meaning_tr": "değişim",
+        "part_of_speech": "n",
+        "exam_sections": [
+          "V",
+          "R"
+        ],
+        "usage": "exchange student/programme"
+      },
+      {
+        "word": "grant",
+        "meaning_tr": "hibe",
+        "part_of_speech": "n",
+        "exam_sections": [
+          "V",
+          "R"
+        ],
+        "usage": "Erasmus grant"
+      },
+      {
+        "word": "host",
+        "meaning_tr": "ev sahibi / ağırlayan",
+        "part_of_speech": "n/adj",
+        "exam_sections": [
+          "V",
+          "R"
+        ],
+        "usage": "host university/country"
+      },
+      {
+        "word": "insurance",
+        "meaning_tr": "sigorta",
+        "part_of_speech": "n",
+        "exam_sections": [
+          "V",
+          "C",
+          "R"
+        ],
+        "usage": "travel/health insurance"
+      },
+      {
+        "word": "journey",
+        "meaning_tr": "yolculuk",
+        "part_of_speech": "n",
+        "exam_sections": [
+          "V",
+          "R"
+        ],
+        "usage": "long journey"
+      },
+      {
+        "word": "luggage",
+        "meaning_tr": "bagaj",
+        "part_of_speech": "n",
+        "exam_sections": [
+          "V",
+          "C",
+          "R"
+        ],
+        "usage": "uncountable: luggage"
+      },
+      {
+        "word": "mobility",
+        "meaning_tr": "hareketlilik",
+        "part_of_speech": "n",
+        "exam_sections": [
+          "V",
+          "R"
+        ],
+        "usage": "student mobility"
+      },
+      {
+        "word": "passport",
+        "meaning_tr": "pasaport",
+        "part_of_speech": "n",
+        "exam_sections": [
+          "V",
+          "R"
+        ],
+        "usage": "valid passport"
+      },
+      {
+        "word": "permit",
+        "meaning_tr": "izin / ruhsat",
+        "part_of_speech": "n",
+        "exam_sections": [
+          "V",
+          "R"
+        ],
+        "usage": "residence permit"
+      },
+      {
+        "word": "reservation",
+        "meaning_tr": "rezervasyon",
+        "part_of_speech": "n",
+        "exam_sections": [
+          "V",
+          "R"
+        ],
+        "usage": "make a reservation"
+      },
+      {
+        "word": "route",
+        "meaning_tr": "rota",
+        "part_of_speech": "n",
+        "exam_sections": [
+          "V",
+          "R"
+        ],
+        "usage": "bus/train route"
+      },
+      {
+        "word": "ticket",
+        "meaning_tr": "bilet",
+        "part_of_speech": "n",
+        "exam_sections": [
+          "V",
+          "R"
+        ],
+        "usage": "return ticket"
+      },
+      {
+        "word": "transfer",
+        "meaning_tr": "aktarma / transfer",
+        "part_of_speech": "n/v",
+        "exam_sections": [
+          "V",
+          "R"
+        ],
+        "usage": "airport transfer"
+      },
+      {
+        "word": "visa",
+        "meaning_tr": "vize",
+        "part_of_speech": "n",
+        "exam_sections": [
+          "V",
+          "R"
+        ],
+        "usage": "apply for a visa"
+      },
+      {
+        "word": "abroad",
+        "meaning_tr": "yurt dışında",
+        "part_of_speech": "adv",
+        "exam_sections": [
+          "V",
+          "C",
+          "R"
+        ],
+        "usage": "study/travel abroad"
+      },
+      {
+        "word": "foreign",
+        "meaning_tr": "yabancı",
+        "part_of_speech": "adj",
+        "exam_sections": [
+          "V",
+          "C",
+          "R"
+        ],
+        "usage": "foreign language/country"
+      }
+    ]
+  },
+  {
+    "day": 11,
+    "theme": "İş ve İstihdam",
+    "words": [
+      {
+        "word": "applicant",
+        "meaning_tr": "başvuran kişi / aday",
+        "part_of_speech": "n",
+        "exam_sections": [
+          "V",
+          "C",
+          "R"
+        ],
+        "usage": "job applicant"
+      },
+      {
+        "word": "career",
+        "meaning_tr": "kariyer",
+        "part_of_speech": "n",
+        "exam_sections": [
+          "V",
+          "R"
+        ],
+        "usage": "career opportunities"
+      },
+      {
+        "word": "colleague",
+        "meaning_tr": "iş arkadaşı",
+        "part_of_speech": "n",
+        "exam_sections": [
+          "V",
+          "R"
+        ],
+        "usage": "work with colleagues"
+      },
+      {
+        "word": "contract",
+        "meaning_tr": "sözleşme",
+        "part_of_speech": "n",
+        "exam_sections": [
+          "V",
+          "C",
+          "R"
+        ],
+        "usage": "sign a contract"
+      },
+      {
+        "word": "employee",
+        "meaning_tr": "çalışan",
+        "part_of_speech": "n",
+        "exam_sections": [
+          "V",
+          "C",
+          "R"
+        ],
+        "usage": "company employee"
+      },
+      {
+        "word": "employer",
+        "meaning_tr": "işveren",
+        "part_of_speech": "n",
+        "exam_sections": [
+          "V",
+          "C",
+          "R"
+        ],
+        "usage": "employer expectations"
+      },
+      {
+        "word": "employment",
+        "meaning_tr": "istihdam",
+        "part_of_speech": "n",
+        "exam_sections": [
+          "V",
+          "C",
+          "R"
+        ],
+        "usage": "employment rate"
+      },
+      {
+        "word": "experience",
+        "meaning_tr": "deneyim",
+        "part_of_speech": "n",
+        "exam_sections": [
+          "V",
+          "C",
+          "R"
+        ],
+        "usage": "work experience"
+      },
+      {
+        "word": "income",
+        "meaning_tr": "gelir",
+        "part_of_speech": "n",
+        "exam_sections": [
+          "V",
+          "C",
+          "R"
+        ],
+        "usage": "monthly income"
+      },
+      {
+        "word": "interview",
+        "meaning_tr": "mülakat / görüşme",
+        "part_of_speech": "n",
+        "exam_sections": [
+          "V",
+          "R"
+        ],
+        "usage": "job interview"
+      },
+      {
+        "word": "occupation",
+        "meaning_tr": "meslek",
+        "part_of_speech": "n",
+        "exam_sections": [
+          "V",
+          "R"
+        ],
+        "usage": "occupation/profession"
+      },
+      {
+        "word": "position",
+        "meaning_tr": "pozisyon / görev",
+        "part_of_speech": "n",
+        "exam_sections": [
+          "V",
+          "C",
+          "R"
+        ],
+        "usage": "apply for a position"
+      },
+      {
+        "word": "profession",
+        "meaning_tr": "meslek",
+        "part_of_speech": "n",
+        "exam_sections": [
+          "V",
+          "R"
+        ],
+        "usage": "medical profession"
+      },
+      {
+        "word": "promote",
+        "meaning_tr": "terfi ettirmek / tanıtmak",
+        "part_of_speech": "v",
+        "exam_sections": [
+          "V",
+          "C",
+          "R"
+        ],
+        "usage": "promote an employee/product"
+      },
+      {
+        "word": "redundant",
+        "meaning_tr": "işten çıkarılmış / gereksiz",
+        "part_of_speech": "adj",
+        "exam_sections": [
+          "V",
+          "C",
+          "R"
+        ],
+        "usage": "make employees redundant"
+      },
+      {
+        "word": "salary",
+        "meaning_tr": "maaş",
+        "part_of_speech": "n",
+        "exam_sections": [
+          "V",
+          "C",
+          "R"
+        ],
+        "usage": "annual salary"
+      },
+      {
+        "word": "skill",
+        "meaning_tr": "beceri",
+        "part_of_speech": "n",
+        "exam_sections": [
+          "V",
+          "C",
+          "R"
+        ],
+        "usage": "communication skills"
+      },
+      {
+        "word": "staff",
+        "meaning_tr": "personel",
+        "part_of_speech": "n",
+        "exam_sections": [
+          "V",
+          "C",
+          "R"
+        ],
+        "usage": "staff members"
+      },
+      {
+        "word": "task",
+        "meaning_tr": "görev",
+        "part_of_speech": "n",
+        "exam_sections": [
+          "V",
+          "C",
+          "R"
+        ],
+        "usage": "complete a task"
+      },
+      {
+        "word": "workplace",
+        "meaning_tr": "iş yeri",
+        "part_of_speech": "n",
+        "exam_sections": [
+          "V",
+          "R"
+        ],
+        "usage": "safe workplace"
+      }
+    ]
+  },
+  {
+    "day": 12,
+    "theme": "Günlük Hayat ve Hizmetler",
+    "words": [
+      {
+        "word": "appointment",
+        "meaning_tr": "randevu",
+        "part_of_speech": "n",
+        "exam_sections": [
+          "V",
+          "C",
+          "R"
+        ],
+        "usage": "make an appointment"
+      },
+      {
+        "word": "bill",
+        "meaning_tr": "fatura / hesap",
+        "part_of_speech": "n",
+        "exam_sections": [
+          "V",
+          "R"
+        ],
+        "usage": "pay a bill"
+      },
+      {
+        "word": "customer",
+        "meaning_tr": "müşteri",
+        "part_of_speech": "n",
+        "exam_sections": [
+          "V",
+          "R"
+        ],
+        "usage": "customer service"
+      },
+      {
+        "word": "delivery",
+        "meaning_tr": "teslimat",
+        "part_of_speech": "n",
+        "exam_sections": [
+          "V",
+          "R"
+        ],
+        "usage": "delivery service"
+      },
+      {
+        "word": "facility",
+        "meaning_tr": "tesis / olanak",
+        "part_of_speech": "n",
+        "exam_sections": [
+          "V",
+          "C",
+          "R"
+        ],
+        "usage": "sports facilities"
+      },
+      {
+        "word": "household",
+        "meaning_tr": "hane / evle ilgili",
+        "part_of_speech": "n/adj",
+        "exam_sections": [
+          "V",
+          "C",
+          "R"
+        ],
+        "usage": "household expenses"
+      },
+      {
+        "word": "neighbour",
+        "meaning_tr": "komşu",
+        "part_of_speech": "n",
+        "exam_sections": [
+          "V",
+          "R"
+        ],
+        "usage": "next-door neighbour"
+      },
+      {
+        "word": "purchase",
+        "meaning_tr": "satın alma / satın almak",
+        "part_of_speech": "n/v",
+        "exam_sections": [
+          "V",
+          "C",
+          "R"
+        ],
+        "usage": "make a purchase"
+      },
+      {
+        "word": "queue",
+        "meaning_tr": "sıra",
+        "part_of_speech": "n",
+        "exam_sections": [
+          "V",
+          "R"
+        ],
+        "usage": "wait in a queue"
+      },
+      {
+        "word": "receipt",
+        "meaning_tr": "fiş / makbuz",
+        "part_of_speech": "n",
+        "exam_sections": [
+          "V",
+          "R"
+        ],
+        "usage": "keep the receipt"
+      },
+      {
+        "word": "rent",
+        "meaning_tr": "kira / kiralamak",
+        "part_of_speech": "n/v",
+        "exam_sections": [
+          "V",
+          "R"
+        ],
+        "usage": "pay rent / rent a flat"
+      },
+      {
+        "word": "repair",
+        "meaning_tr": "onarım / onarmak",
+        "part_of_speech": "n/v",
+        "exam_sections": [
+          "V",
+          "R"
+        ],
+        "usage": "repair a device"
+      },
+      {
+        "word": "service",
+        "meaning_tr": "hizmet",
+        "part_of_speech": "n",
+        "exam_sections": [
+          "V",
+          "C",
+          "R"
+        ],
+        "usage": "public/customer service"
+      },
+      {
+        "word": "supply",
+        "meaning_tr": "tedarik / sağlamak",
+        "part_of_speech": "n/v",
+        "exam_sections": [
+          "V",
+          "C",
+          "R"
+        ],
+        "usage": "water supply"
+      },
+      {
+        "word": "waste",
+        "meaning_tr": "atık / israf etmek",
+        "part_of_speech": "n/v",
+        "exam_sections": [
+          "V",
+          "C",
+          "R"
+        ],
+        "usage": "reduce waste"
+      },
+      {
+        "word": "charge",
+        "meaning_tr": "ücret / ücret almak",
+        "part_of_speech": "n/v",
+        "exam_sections": [
+          "V",
+          "C",
+          "R"
+        ],
+        "usage": "extra charge"
+      },
+      {
+        "word": "complaint",
+        "meaning_tr": "şikayet",
+        "part_of_speech": "n",
+        "exam_sections": [
+          "V",
+          "C",
+          "R"
+        ],
+        "usage": "make a complaint"
+      },
+      {
+        "word": "discount",
+        "meaning_tr": "indirim",
+        "part_of_speech": "n",
+        "exam_sections": [
+          "V",
+          "R"
+        ],
+        "usage": "student discount"
+      },
+      {
+        "word": "neighbourhood",
+        "meaning_tr": "mahalle / çevre",
+        "part_of_speech": "n",
+        "exam_sections": [
+          "V",
+          "R"
+        ],
+        "usage": "safe neighbourhood"
+      },
+      {
+        "word": "refund",
+        "meaning_tr": "geri ödeme",
+        "part_of_speech": "n/v",
+        "exam_sections": [
+          "V",
+          "R"
+        ],
+        "usage": "ask for a refund"
+      }
+    ]
+  },
+  {
+    "day": 13,
+    "theme": "İnsanlar ve Kişilik",
+    "words": [
+      {
+        "word": "ambitious",
+        "meaning_tr": "hırslı",
+        "part_of_speech": "adj",
+        "exam_sections": [
+          "V",
+          "R"
+        ],
+        "usage": "ambitious student"
+      },
+      {
+        "word": "confident",
+        "meaning_tr": "özgüvenli / emin",
+        "part_of_speech": "adj",
+        "exam_sections": [
+          "V",
+          "C",
+          "R"
+        ],
+        "usage": "confident about/in"
+      },
+      {
+        "word": "curious",
+        "meaning_tr": "meraklı",
+        "part_of_speech": "adj",
+        "exam_sections": [
+          "V",
+          "R"
+        ],
+        "usage": "curious about"
+      },
+      {
+        "word": "generous",
+        "meaning_tr": "cömert",
+        "part_of_speech": "adj",
+        "exam_sections": [
+          "V",
+          "R"
+        ],
+        "usage": "generous person"
+      },
+      {
+        "word": "honest",
+        "meaning_tr": "dürüst",
+        "part_of_speech": "adj",
+        "exam_sections": [
+          "V",
+          "R"
+        ],
+        "usage": "honest answer"
+      },
+      {
+        "word": "outgoing",
+        "meaning_tr": "dışa dönük",
+        "part_of_speech": "adj",
+        "exam_sections": [
+          "V",
+          "R"
+        ],
+        "usage": "outgoing personality"
+      },
+      {
+        "word": "patient",
+        "meaning_tr": "sabırlı",
+        "part_of_speech": "adj",
+        "exam_sections": [
+          "V",
+          "R"
+        ],
+        "usage": "patient with"
+      },
+      {
+        "word": "polite",
+        "meaning_tr": "kibar",
+        "part_of_speech": "adj",
+        "exam_sections": [
+          "V",
+          "R"
+        ],
+        "usage": "polite to"
+      },
+      {
+        "word": "loyal",
+        "meaning_tr": "sadık",
+        "part_of_speech": "adj",
+        "exam_sections": [
+          "V",
+          "R"
+        ],
+        "usage": "loyal friend/customer"
+      },
+      {
+        "word": "selfish",
+        "meaning_tr": "bencil",
+        "part_of_speech": "adj",
+        "exam_sections": [
+          "V",
+          "R"
+        ],
+        "usage": "selfish behaviour"
+      },
+      {
+        "word": "sensitive",
+        "meaning_tr": "hassas / duyarlı",
+        "part_of_speech": "adj",
+        "exam_sections": [
+          "V",
+          "R"
+        ],
+        "usage": "sensitive to"
+      },
+      {
+        "word": "sociable",
+        "meaning_tr": "sosyal / girişken",
+        "part_of_speech": "adj",
+        "exam_sections": [
+          "V",
+          "R"
+        ],
+        "usage": "sociable person"
+      },
+      {
+        "word": "stubborn",
+        "meaning_tr": "inatçı",
+        "part_of_speech": "adj",
+        "exam_sections": [
+          "V",
+          "R"
+        ],
+        "usage": "stubborn person"
+      },
+      {
+        "word": "thoughtful",
+        "meaning_tr": "düşünceli",
+        "part_of_speech": "adj",
+        "exam_sections": [
+          "V",
+          "R"
+        ],
+        "usage": "thoughtful gesture"
+      },
+      {
+        "word": "moody",
+        "meaning_tr": "huysuz / ruh hali değişken",
+        "part_of_speech": "adj",
+        "exam_sections": [
+          "V",
+          "R"
+        ],
+        "usage": "moody teenager"
+      },
+      {
+        "word": "calm",
+        "meaning_tr": "sakin",
+        "part_of_speech": "adj",
+        "exam_sections": [
+          "V",
+          "R"
+        ],
+        "usage": "stay calm"
+      },
+      {
+        "word": "careful",
+        "meaning_tr": "dikkatli",
+        "part_of_speech": "adj",
+        "exam_sections": [
+          "V",
+          "C",
+          "R"
+        ],
+        "usage": "careful with/about"
+      },
+      {
+        "word": "creative",
+        "meaning_tr": "yaratıcı",
+        "part_of_speech": "adj",
+        "exam_sections": [
+          "V",
+          "C",
+          "R"
+        ],
+        "usage": "creative solution"
+      },
+      {
+        "word": "friendly",
+        "meaning_tr": "arkadaş canlısı",
+        "part_of_speech": "adj",
+        "exam_sections": [
+          "V",
+          "R"
+        ],
+        "usage": "friendly staff"
+      },
+      {
+        "word": "responsible",
+        "meaning_tr": "sorumlu",
+        "part_of_speech": "adj",
+        "exam_sections": [
+          "V",
+          "C",
+          "R"
+        ],
+        "usage": "responsible for"
+      }
+    ]
+  },
+  {
+    "day": 14,
+    "theme": "Duygular ve Davranış",
+    "words": [
+      {
+        "word": "annoy",
+        "meaning_tr": "rahatsız etmek / sinirlendirmek",
+        "part_of_speech": "v",
+        "exam_sections": [
+          "V",
+          "C",
+          "R"
+        ],
+        "usage": "annoy someone"
+      },
+      {
+        "word": "anxious",
+        "meaning_tr": "endişeli",
+        "part_of_speech": "adj",
+        "exam_sections": [
+          "V",
+          "R"
+        ],
+        "usage": "anxious about"
+      },
+      {
+        "word": "ashamed",
+        "meaning_tr": "utanmış",
+        "part_of_speech": "adj",
+        "exam_sections": [
+          "V",
+          "R"
+        ],
+        "usage": "ashamed of"
+      },
+      {
+        "word": "bother",
+        "meaning_tr": "rahatsız etmek",
+        "part_of_speech": "v",
+        "exam_sections": [
+          "V",
+          "C",
+          "R"
+        ],
+        "usage": "bother someone"
+      },
+      {
+        "word": "delighted",
+        "meaning_tr": "çok memnun",
+        "part_of_speech": "adj",
+        "exam_sections": [
+          "V",
+          "R"
+        ],
+        "usage": "delighted with/by"
+      },
+      {
+        "word": "disappointed",
+        "meaning_tr": "hayal kırıklığına uğramış",
+        "part_of_speech": "adj",
+        "exam_sections": [
+          "V",
+          "R"
+        ],
+        "usage": "disappointed with/about"
+      },
+      {
+        "word": "embarrassed",
+        "meaning_tr": "utanmış / mahcup",
+        "part_of_speech": "adj",
+        "exam_sections": [
+          "V",
+          "R"
+        ],
+        "usage": "embarrassed about"
+      },
+      {
+        "word": "excited",
+        "meaning_tr": "heyecanlı",
+        "part_of_speech": "adj",
+        "exam_sections": [
+          "V",
+          "R"
+        ],
+        "usage": "excited about"
+      },
+      {
+        "word": "frightened",
+        "meaning_tr": "korkmuş",
+        "part_of_speech": "adj",
+        "exam_sections": [
+          "V",
+          "R"
+        ],
+        "usage": "frightened of"
+      },
+      {
+        "word": "grateful",
+        "meaning_tr": "minnettar",
+        "part_of_speech": "adj",
+        "exam_sections": [
+          "V",
+          "R"
+        ],
+        "usage": "grateful for/to"
+      },
+      {
+        "word": "guilty",
+        "meaning_tr": "suçlu hisseden",
+        "part_of_speech": "adj",
+        "exam_sections": [
+          "V",
+          "R"
+        ],
+        "usage": "feel guilty about"
+      },
+      {
+        "word": "nervous",
+        "meaning_tr": "gergin",
+        "part_of_speech": "adj",
+        "exam_sections": [
+          "V",
+          "R"
+        ],
+        "usage": "nervous about"
+      },
+      {
+        "word": "proud",
+        "meaning_tr": "gururlu",
+        "part_of_speech": "adj",
+        "exam_sections": [
+          "V",
+          "R"
+        ],
+        "usage": "proud of"
+      },
+      {
+        "word": "relieved",
+        "meaning_tr": "rahatlamış",
+        "part_of_speech": "adj",
+        "exam_sections": [
+          "V",
+          "R"
+        ],
+        "usage": "relieved to hear"
+      },
+      {
+        "word": "satisfied",
+        "meaning_tr": "memnun",
+        "part_of_speech": "adj",
+        "exam_sections": [
+          "V",
+          "C",
+          "R"
+        ],
+        "usage": "satisfied with"
+      },
+      {
+        "word": "surprised",
+        "meaning_tr": "şaşırmış",
+        "part_of_speech": "adj",
+        "exam_sections": [
+          "V",
+          "R"
+        ],
+        "usage": "surprised by/at"
+      },
+      {
+        "word": "upset",
+        "meaning_tr": "üzgün / morali bozuk",
+        "part_of_speech": "adj",
+        "exam_sections": [
+          "V",
+          "R"
+        ],
+        "usage": "upset about"
+      },
+      {
+        "word": "worry",
+        "meaning_tr": "endişelenmek",
+        "part_of_speech": "v",
+        "exam_sections": [
+          "V",
+          "C",
+          "R"
+        ],
+        "usage": "worry about"
+      },
+      {
+        "word": "attitude",
+        "meaning_tr": "tutum",
+        "part_of_speech": "n",
+        "exam_sections": [
+          "V",
+          "C",
+          "R"
+        ],
+        "usage": "attitude towards"
+      },
+      {
+        "word": "behaviour",
+        "meaning_tr": "davranış",
+        "part_of_speech": "n",
+        "exam_sections": [
+          "V",
+          "C",
+          "R"
+        ],
+        "usage": "human behaviour"
+      }
+    ]
+  },
+  {
+    "day": 15,
+    "theme": "İletişim ve Medya",
+    "words": [
+      {
+        "word": "announce",
+        "meaning_tr": "duyurmak",
+        "part_of_speech": "v",
+        "exam_sections": [
+          "V",
+          "C",
+          "R"
+        ],
+        "usage": "announce a decision"
+      },
+      {
+        "word": "article",
+        "meaning_tr": "makale / yazı",
+        "part_of_speech": "n",
+        "exam_sections": [
+          "V",
+          "C",
+          "R"
+        ],
+        "usage": "read an article"
+      },
+      {
+        "word": "audience",
+        "meaning_tr": "izleyici / dinleyici kitlesi",
+        "part_of_speech": "n",
+        "exam_sections": [
+          "V",
+          "C",
+          "R"
+        ],
+        "usage": "target audience"
+      },
+      {
+        "word": "broadcast",
+        "meaning_tr": "yayın / yayınlamak",
+        "part_of_speech": "n/v",
+        "exam_sections": [
+          "V",
+          "R"
+        ],
+        "usage": "live broadcast"
+      },
+      {
+        "word": "comment",
+        "meaning_tr": "yorum / yorum yapmak",
+        "part_of_speech": "n/v",
+        "exam_sections": [
+          "V",
+          "C",
+          "R"
+        ],
+        "usage": "comment on"
+      },
+      {
+        "word": "communicate",
+        "meaning_tr": "iletişim kurmak",
+        "part_of_speech": "v",
+        "exam_sections": [
+          "V",
+          "C",
+          "R"
+        ],
+        "usage": "communicate with"
+      },
+      {
+        "word": "conversation",
+        "meaning_tr": "konuşma",
+        "part_of_speech": "n",
+        "exam_sections": [
+          "V",
+          "R"
+        ],
+        "usage": "have a conversation"
+      },
+      {
+        "word": "debate",
+        "meaning_tr": "tartışma",
+        "part_of_speech": "n/v",
+        "exam_sections": [
+          "V",
+          "C",
+          "R"
+        ],
+        "usage": "debate an issue"
+      },
+      {
+        "word": "discuss",
+        "meaning_tr": "tartışmak / görüşmek",
+        "part_of_speech": "v",
+        "exam_sections": [
+          "V",
+          "C",
+          "R"
+        ],
+        "usage": "discuss a topic"
+      },
+      {
+        "word": "inform",
+        "meaning_tr": "bilgilendirmek",
+        "part_of_speech": "v",
+        "exam_sections": [
+          "V",
+          "C",
+          "R"
+        ],
+        "usage": "inform someone about"
+      },
+      {
+        "word": "message",
+        "meaning_tr": "mesaj",
+        "part_of_speech": "n",
+        "exam_sections": [
+          "V",
+          "R"
+        ],
+        "usage": "send a message"
+      },
+      {
+        "word": "opinion",
+        "meaning_tr": "görüş",
+        "part_of_speech": "n",
+        "exam_sections": [
+          "V",
+          "C",
+          "R"
+        ],
+        "usage": "express an opinion"
+      },
+      {
+        "word": "publish",
+        "meaning_tr": "yayımlamak",
+        "part_of_speech": "v",
+        "exam_sections": [
+          "V",
+          "C",
+          "R"
+        ],
+        "usage": "publish a report"
+      },
+      {
+        "word": "report",
+        "meaning_tr": "rapor / bildirmek",
+        "part_of_speech": "n/v",
+        "exam_sections": [
+          "V",
+          "C",
+          "R"
+        ],
+        "usage": "report findings"
+      },
+      {
+        "word": "response",
+        "meaning_tr": "yanıt / tepki",
+        "part_of_speech": "n",
+        "exam_sections": [
+          "V",
+          "C",
+          "R"
+        ],
+        "usage": "in response to"
+      },
+      {
+        "word": "rumour",
+        "meaning_tr": "söylenti",
+        "part_of_speech": "n",
+        "exam_sections": [
+          "V",
+          "R"
+        ],
+        "usage": "spread a rumour"
+      },
+      {
+        "word": "source",
+        "meaning_tr": "kaynak",
+        "part_of_speech": "n",
+        "exam_sections": [
+          "V",
+          "C",
+          "R"
+        ],
+        "usage": "reliable source"
+      },
+      {
+        "word": "statement",
+        "meaning_tr": "ifade / açıklama",
+        "part_of_speech": "n",
+        "exam_sections": [
+          "V",
+          "C",
+          "R"
+        ],
+        "usage": "official statement"
+      },
+      {
+        "word": "survey",
+        "meaning_tr": "anket / araştırma",
+        "part_of_speech": "n",
+        "exam_sections": [
+          "V",
+          "C",
+          "R"
+        ],
+        "usage": "conduct a survey"
+      },
+      {
+        "word": "headline",
+        "meaning_tr": "haber başlığı",
+        "part_of_speech": "n",
+        "exam_sections": [
+          "V",
+          "R"
+        ],
+        "usage": "news headline"
+      }
+    ]
+  },
+  {
+    "day": 16,
+    "theme": "Teknoloji ve Dijital Yaşam",
+    "words": [
+      {
+        "word": "access",
+        "meaning_tr": "erişim / erişmek",
+        "part_of_speech": "n/v",
+        "exam_sections": [
+          "V",
+          "C",
+          "R"
+        ],
+        "usage": "access information"
+      },
+      {
+        "word": "account",
+        "meaning_tr": "hesap",
+        "part_of_speech": "n",
+        "exam_sections": [
+          "V",
+          "R"
+        ],
+        "usage": "online account"
+      },
+      {
+        "word": "application",
+        "meaning_tr": "uygulama / başvuru",
+        "part_of_speech": "n",
+        "exam_sections": [
+          "V",
+          "C",
+          "R"
+        ],
+        "usage": "mobile application"
+      },
+      {
+        "word": "device",
+        "meaning_tr": "cihaz",
+        "part_of_speech": "n",
+        "exam_sections": [
+          "V",
+          "C",
+          "R"
+        ],
+        "usage": "electronic device"
+      },
+      {
+        "word": "digital",
+        "meaning_tr": "dijital",
+        "part_of_speech": "adj",
+        "exam_sections": [
+          "V",
+          "C",
+          "R"
+        ],
+        "usage": "digital technology"
+      },
+      {
+        "word": "download",
+        "meaning_tr": "indirmek",
+        "part_of_speech": "v",
+        "exam_sections": [
+          "V",
+          "R"
+        ],
+        "usage": "download a file"
+      },
+      {
+        "word": "feature",
+        "meaning_tr": "özellik",
+        "part_of_speech": "n",
+        "exam_sections": [
+          "V",
+          "C",
+          "R"
+        ],
+        "usage": "key feature"
+      },
+      {
+        "word": "install",
+        "meaning_tr": "kurmak / yüklemek",
+        "part_of_speech": "v",
+        "exam_sections": [
+          "V",
+          "R"
+        ],
+        "usage": "install software"
+      },
+      {
+        "word": "network",
+        "meaning_tr": "ağ",
+        "part_of_speech": "n",
+        "exam_sections": [
+          "V",
+          "C",
+          "R"
+        ],
+        "usage": "computer/social network"
+      },
+      {
+        "word": "online",
+        "meaning_tr": "çevrim içi",
+        "part_of_speech": "adj/adv",
+        "exam_sections": [
+          "V",
+          "R"
+        ],
+        "usage": "online course"
+      },
+      {
+        "word": "password",
+        "meaning_tr": "şifre",
+        "part_of_speech": "n",
+        "exam_sections": [
+          "V",
+          "R"
+        ],
+        "usage": "strong password"
+      },
+      {
+        "word": "privacy",
+        "meaning_tr": "gizlilik",
+        "part_of_speech": "n",
+        "exam_sections": [
+          "V",
+          "C",
+          "R"
+        ],
+        "usage": "privacy settings"
+      },
+      {
+        "word": "software",
+        "meaning_tr": "yazılım",
+        "part_of_speech": "n",
+        "exam_sections": [
+          "V",
+          "C",
+          "R"
+        ],
+        "usage": "software development"
+      },
+      {
+        "word": "store",
+        "meaning_tr": "depolamak / mağaza",
+        "part_of_speech": "v/n",
+        "exam_sections": [
+          "V",
+          "C",
+          "R"
+        ],
+        "usage": "store data"
+      },
+      {
+        "word": "update",
+        "meaning_tr": "güncellemek / güncelleme",
+        "part_of_speech": "v/n",
+        "exam_sections": [
+          "V",
+          "R"
+        ],
+        "usage": "update software"
+      },
+      {
+        "word": "upload",
+        "meaning_tr": "yüklemek",
+        "part_of_speech": "v",
+        "exam_sections": [
+          "V",
+          "R"
+        ],
+        "usage": "upload a document"
+      },
+      {
+        "word": "user",
+        "meaning_tr": "kullanıcı",
+        "part_of_speech": "n",
+        "exam_sections": [
+          "V",
+          "C",
+          "R"
+        ],
+        "usage": "user experience"
+      },
+      {
+        "word": "data",
+        "meaning_tr": "veri",
+        "part_of_speech": "n",
+        "exam_sections": [
+          "V",
+          "C",
+          "R"
+        ],
+        "usage": "collect/analyse data"
+      },
+      {
+        "word": "database",
+        "meaning_tr": "veritabanı",
+        "part_of_speech": "n",
+        "exam_sections": [
+          "V",
+          "R"
+        ],
+        "usage": "database system"
+      },
+      {
+        "word": "security",
+        "meaning_tr": "güvenlik",
+        "part_of_speech": "n",
+        "exam_sections": [
+          "V",
+          "C",
+          "R"
+        ],
+        "usage": "cyber security"
+      }
+    ]
+  },
+  {
+    "day": 17,
+    "theme": "Bilim ve Araştırma",
+    "words": [
+      {
+        "word": "analysis",
+        "meaning_tr": "analiz",
+        "part_of_speech": "n",
+        "exam_sections": [
+          "V",
+          "C",
+          "R"
+        ],
+        "usage": "data analysis"
+      },
+      {
+        "word": "approach",
+        "meaning_tr": "yaklaşım",
+        "part_of_speech": "n",
+        "exam_sections": [
+          "V",
+          "C",
+          "R"
+        ],
+        "usage": "new approach to"
+      },
+      {
+        "word": "assume",
+        "meaning_tr": "varsaymak",
+        "part_of_speech": "v",
+        "exam_sections": [
+          "V",
+          "C",
+          "R"
+        ],
+        "usage": "assume that"
+      },
+      {
+        "word": "conclusion",
+        "meaning_tr": "sonuç",
+        "part_of_speech": "n",
+        "exam_sections": [
+          "V",
+          "C",
+          "R"
+        ],
+        "usage": "reach a conclusion"
+      },
+      {
+        "word": "conduct",
+        "meaning_tr": "yürütmek",
+        "part_of_speech": "v",
+        "exam_sections": [
+          "V",
+          "C",
+          "R"
+        ],
+        "usage": "conduct research"
+      },
+      {
+        "word": "evidence",
+        "meaning_tr": "kanıt",
+        "part_of_speech": "n",
+        "exam_sections": [
+          "V",
+          "C",
+          "R"
+        ],
+        "usage": "evidence suggests"
+      },
+      {
+        "word": "experiment",
+        "meaning_tr": "deney",
+        "part_of_speech": "n",
+        "exam_sections": [
+          "V",
+          "C",
+          "R"
+        ],
+        "usage": "carry out an experiment"
+      },
+      {
+        "word": "factor",
+        "meaning_tr": "etken",
+        "part_of_speech": "n",
+        "exam_sections": [
+          "V",
+          "C",
+          "R"
+        ],
+        "usage": "important factor"
+      },
+      {
+        "word": "finding",
+        "meaning_tr": "bulgu",
+        "part_of_speech": "n",
+        "exam_sections": [
+          "V",
+          "C",
+          "R"
+        ],
+        "usage": "research findings"
+      },
+      {
+        "word": "hypothesis",
+        "meaning_tr": "hipotez",
+        "part_of_speech": "n",
+        "exam_sections": [
+          "V",
+          "R"
+        ],
+        "usage": "test a hypothesis"
+      },
+      {
+        "word": "method",
+        "meaning_tr": "yöntem",
+        "part_of_speech": "n",
+        "exam_sections": [
+          "V",
+          "C",
+          "R"
+        ],
+        "usage": "research method"
+      },
+      {
+        "word": "observe",
+        "meaning_tr": "gözlemlemek",
+        "part_of_speech": "v",
+        "exam_sections": [
+          "V",
+          "C",
+          "R"
+        ],
+        "usage": "observe behaviour"
+      },
+      {
+        "word": "process",
+        "meaning_tr": "süreç",
+        "part_of_speech": "n",
+        "exam_sections": [
+          "V",
+          "C",
+          "R"
+        ],
+        "usage": "learning process"
+      },
+      {
+        "word": "research",
+        "meaning_tr": "araştırma / araştırmak",
+        "part_of_speech": "n/v",
+        "exam_sections": [
+          "V",
+          "C",
+          "R"
+        ],
+        "usage": "conduct research"
+      },
+      {
+        "word": "result",
+        "meaning_tr": "sonuç",
+        "part_of_speech": "n",
+        "exam_sections": [
+          "V",
+          "C",
+          "R"
+        ],
+        "usage": "result in / as a result"
+      },
+      {
+        "word": "sample",
+        "meaning_tr": "örneklem / örnek",
+        "part_of_speech": "n",
+        "exam_sections": [
+          "V",
+          "C",
+          "R"
+        ],
+        "usage": "sample size"
+      },
+      {
+        "word": "theory",
+        "meaning_tr": "teori",
+        "part_of_speech": "n",
+        "exam_sections": [
+          "V",
+          "C",
+          "R"
+        ],
+        "usage": "support a theory"
+      },
+      {
+        "word": "variable",
+        "meaning_tr": "değişken",
+        "part_of_speech": "n",
+        "exam_sections": [
+          "V",
+          "R"
+        ],
+        "usage": "control a variable"
+      },
+      {
+        "word": "measure",
+        "meaning_tr": "ölçmek / ölçü",
+        "part_of_speech": "v/n",
+        "exam_sections": [
+          "V",
+          "C",
+          "R"
+        ],
+        "usage": "measure performance"
+      },
+      {
+        "word": "indicate",
+        "meaning_tr": "göstermek / işaret etmek",
+        "part_of_speech": "v",
+        "exam_sections": [
+          "V",
+          "C",
+          "R"
+        ],
+        "usage": "results indicate that"
+      }
+    ]
+  },
+  {
+    "day": 18,
+    "theme": "Çevre ve Doğa",
+    "words": [
+      {
+        "word": "climate",
+        "meaning_tr": "iklim",
+        "part_of_speech": "n",
+        "exam_sections": [
+          "V",
+          "C",
+          "R"
+        ],
+        "usage": "climate change"
+      },
+      {
+        "word": "conserve",
+        "meaning_tr": "korumak / tasarruf etmek",
+        "part_of_speech": "v",
+        "exam_sections": [
+          "V",
+          "C",
+          "R"
+        ],
+        "usage": "conserve energy"
+      },
+      {
+        "word": "energy",
+        "meaning_tr": "enerji",
+        "part_of_speech": "n",
+        "exam_sections": [
+          "V",
+          "C",
+          "R"
+        ],
+        "usage": "renewable energy"
+      },
+      {
+        "word": "environment",
+        "meaning_tr": "çevre",
+        "part_of_speech": "n",
+        "exam_sections": [
+          "V",
+          "C",
+          "R"
+        ],
+        "usage": "protect the environment"
+      },
+      {
+        "word": "extinct",
+        "meaning_tr": "nesli tükenmiş",
+        "part_of_speech": "adj",
+        "exam_sections": [
+          "V",
+          "R"
+        ],
+        "usage": "become extinct"
+      },
+      {
+        "word": "habitat",
+        "meaning_tr": "yaşam alanı",
+        "part_of_speech": "n",
+        "exam_sections": [
+          "V",
+          "R"
+        ],
+        "usage": "natural habitat"
+      },
+      {
+        "word": "natural",
+        "meaning_tr": "doğal",
+        "part_of_speech": "adj",
+        "exam_sections": [
+          "V",
+          "C",
+          "R"
+        ],
+        "usage": "natural resources"
+      },
+      {
+        "word": "pollution",
+        "meaning_tr": "kirlilik",
+        "part_of_speech": "n",
+        "exam_sections": [
+          "V",
+          "C",
+          "R"
+        ],
+        "usage": "air/water pollution"
+      },
+      {
+        "word": "recycle",
+        "meaning_tr": "geri dönüştürmek",
+        "part_of_speech": "v",
+        "exam_sections": [
+          "V",
+          "R"
+        ],
+        "usage": "recycle waste"
+      },
+      {
+        "word": "renewable",
+        "meaning_tr": "yenilenebilir",
+        "part_of_speech": "adj",
+        "exam_sections": [
+          "V",
+          "R"
+        ],
+        "usage": "renewable resources"
+      },
+      {
+        "word": "resource",
+        "meaning_tr": "kaynak",
+        "part_of_speech": "n",
+        "exam_sections": [
+          "V",
+          "C",
+          "R"
+        ],
+        "usage": "natural resources"
+      },
+      {
+        "word": "species",
+        "meaning_tr": "tür",
+        "part_of_speech": "n",
+        "exam_sections": [
+          "V",
+          "R"
+        ],
+        "usage": "animal species"
+      },
+      {
+        "word": "surface",
+        "meaning_tr": "yüzey",
+        "part_of_speech": "n",
+        "exam_sections": [
+          "V",
+          "C",
+          "R"
+        ],
+        "usage": "surface of the earth"
+      },
+      {
+        "word": "temperature",
+        "meaning_tr": "sıcaklık",
+        "part_of_speech": "n",
+        "exam_sections": [
+          "V",
+          "R"
+        ],
+        "usage": "average temperature"
+      },
+      {
+        "word": "wildlife",
+        "meaning_tr": "yaban hayatı",
+        "part_of_speech": "n",
+        "exam_sections": [
+          "V",
+          "R"
+        ],
+        "usage": "protect wildlife"
+      },
+      {
+        "word": "drought",
+        "meaning_tr": "kuraklık",
+        "part_of_speech": "n",
+        "exam_sections": [
+          "V",
+          "R"
+        ],
+        "usage": "severe drought"
+      },
+      {
+        "word": "flood",
+        "meaning_tr": "sel",
+        "part_of_speech": "n",
+        "exam_sections": [
+          "V",
+          "R"
+        ],
+        "usage": "cause a flood"
+      },
+      {
+        "word": "harm",
+        "meaning_tr": "zarar / zarar vermek",
+        "part_of_speech": "n/v",
+        "exam_sections": [
+          "V",
+          "C",
+          "R"
+        ],
+        "usage": "cause harm to"
+      },
+      {
+        "word": "poison",
+        "meaning_tr": "zehir / zehirlemek",
+        "part_of_speech": "n/v",
+        "exam_sections": [
+          "V",
+          "R"
+        ],
+        "usage": "harmful poison"
+      },
+      {
+        "word": "pesticide",
+        "meaning_tr": "tarım ilacı",
+        "part_of_speech": "n",
+        "exam_sections": [
+          "V",
+          "R"
+        ],
+        "usage": "pesticide spray"
+      }
+    ]
+  },
+  {
+    "day": 19,
+    "theme": "Sağlık ve Yaşam Tarzı",
+    "words": [
+      {
+        "word": "disease",
+        "meaning_tr": "hastalık",
+        "part_of_speech": "n",
+        "exam_sections": [
+          "V",
+          "C",
+          "R"
+        ],
+        "usage": "prevent disease"
+      },
+      {
+        "word": "exercise",
+        "meaning_tr": "egzersiz",
+        "part_of_speech": "n/v",
+        "exam_sections": [
+          "V",
+          "R"
+        ],
+        "usage": "regular exercise"
+      },
+      {
+        "word": "habit",
+        "meaning_tr": "alışkanlık",
+        "part_of_speech": "n",
+        "exam_sections": [
+          "V",
+          "C",
+          "R"
+        ],
+        "usage": "healthy habit"
+      },
+      {
+        "word": "health",
+        "meaning_tr": "sağlık",
+        "part_of_speech": "n",
+        "exam_sections": [
+          "V",
+          "C",
+          "R"
+        ],
+        "usage": "public health"
+      },
+      {
+        "word": "healthy",
+        "meaning_tr": "sağlıklı",
+        "part_of_speech": "adj",
+        "exam_sections": [
+          "V",
+          "R"
+        ],
+        "usage": "healthy diet"
+      },
+      {
+        "word": "illness",
+        "meaning_tr": "hastalık",
+        "part_of_speech": "n",
+        "exam_sections": [
+          "V",
+          "C",
+          "R"
+        ],
+        "usage": "serious illness"
+      },
+      {
+        "word": "injury",
+        "meaning_tr": "yaralanma",
+        "part_of_speech": "n",
+        "exam_sections": [
+          "V",
+          "R"
+        ],
+        "usage": "sports injury"
+      },
+      {
+        "word": "mental",
+        "meaning_tr": "zihinsel / ruhsal",
+        "part_of_speech": "adj",
+        "exam_sections": [
+          "V",
+          "C",
+          "R"
+        ],
+        "usage": "mental health"
+      },
+      {
+        "word": "nutrition",
+        "meaning_tr": "beslenme",
+        "part_of_speech": "n",
+        "exam_sections": [
+          "V",
+          "R"
+        ],
+        "usage": "proper nutrition"
+      },
+      {
+        "word": "recover",
+        "meaning_tr": "iyileşmek",
+        "part_of_speech": "v",
+        "exam_sections": [
+          "V",
+          "C",
+          "R"
+        ],
+        "usage": "recover from"
+      },
+      {
+        "word": "risk",
+        "meaning_tr": "risk",
+        "part_of_speech": "n/v",
+        "exam_sections": [
+          "V",
+          "C",
+          "R"
+        ],
+        "usage": "risk of / reduce risk"
+      },
+      {
+        "word": "sleep",
+        "meaning_tr": "uyku / uyumak",
+        "part_of_speech": "n/v",
+        "exam_sections": [
+          "V",
+          "R"
+        ],
+        "usage": "get enough sleep"
+      },
+      {
+        "word": "stress",
+        "meaning_tr": "stres",
+        "part_of_speech": "n",
+        "exam_sections": [
+          "V",
+          "C",
+          "R"
+        ],
+        "usage": "deal with stress"
+      },
+      {
+        "word": "treatment",
+        "meaning_tr": "tedavi",
+        "part_of_speech": "n",
+        "exam_sections": [
+          "V",
+          "C",
+          "R"
+        ],
+        "usage": "medical treatment"
+      },
+      {
+        "word": "symptom",
+        "meaning_tr": "belirti",
+        "part_of_speech": "n",
+        "exam_sections": [
+          "V",
+          "R"
+        ],
+        "usage": "common symptom"
+      },
+      {
+        "word": "diet",
+        "meaning_tr": "beslenme düzeni",
+        "part_of_speech": "n",
+        "exam_sections": [
+          "V",
+          "R"
+        ],
+        "usage": "balanced diet"
+      },
+      {
+        "word": "fit",
+        "meaning_tr": "formda / uygun",
+        "part_of_speech": "adj",
+        "exam_sections": [
+          "V",
+          "R"
+        ],
+        "usage": "keep fit"
+      },
+      {
+        "word": "medicine",
+        "meaning_tr": "ilaç / tıp",
+        "part_of_speech": "n",
+        "exam_sections": [
+          "V",
+          "R"
+        ],
+        "usage": "take medicine"
+      },
+      {
+        "word": "diagnose",
+        "meaning_tr": "teşhis etmek",
+        "part_of_speech": "v",
+        "exam_sections": [
+          "V",
+          "C",
+          "R"
+        ],
+        "usage": "diagnose an illness"
+      },
+      {
+        "word": "addiction",
+        "meaning_tr": "bağımlılık",
+        "part_of_speech": "n",
+        "exam_sections": [
+          "V",
+          "C",
+          "R"
+        ],
+        "usage": "internet addiction"
+      }
+    ]
+  },
+  {
+    "day": 20,
+    "theme": "Toplum ve Kültür",
+    "words": [
+      {
+        "word": "community",
+        "meaning_tr": "topluluk / toplum",
+        "part_of_speech": "n",
+        "exam_sections": [
+          "V",
+          "C",
+          "R"
+        ],
+        "usage": "local community"
+      },
+      {
+        "word": "culture",
+        "meaning_tr": "kültür",
+        "part_of_speech": "n",
+        "exam_sections": [
+          "V",
+          "C",
+          "R"
+        ],
+        "usage": "cultural differences"
+      },
+      {
+        "word": "custom",
+        "meaning_tr": "gelenek / adet",
+        "part_of_speech": "n",
+        "exam_sections": [
+          "V",
+          "R"
+        ],
+        "usage": "local customs"
+      },
+      {
+        "word": "generation",
+        "meaning_tr": "nesil",
+        "part_of_speech": "n",
+        "exam_sections": [
+          "V",
+          "C",
+          "R"
+        ],
+        "usage": "younger generation"
+      },
+      {
+        "word": "identity",
+        "meaning_tr": "kimlik",
+        "part_of_speech": "n",
+        "exam_sections": [
+          "V",
+          "C",
+          "R"
+        ],
+        "usage": "cultural identity"
+      },
+      {
+        "word": "immigrant",
+        "meaning_tr": "göçmen",
+        "part_of_speech": "n",
+        "exam_sections": [
+          "V",
+          "R"
+        ],
+        "usage": "immigrant population"
+      },
+      {
+        "word": "population",
+        "meaning_tr": "nüfus",
+        "part_of_speech": "n",
+        "exam_sections": [
+          "V",
+          "C",
+          "R"
+        ],
+        "usage": "population growth"
+      },
+      {
+        "word": "poverty",
+        "meaning_tr": "yoksulluk",
+        "part_of_speech": "n",
+        "exam_sections": [
+          "V",
+          "C",
+          "R"
+        ],
+        "usage": "reduce poverty"
+      },
+      {
+        "word": "public",
+        "meaning_tr": "kamu / halka açık",
+        "part_of_speech": "adj/n",
+        "exam_sections": [
+          "V",
+          "C",
+          "R"
+        ],
+        "usage": "public transport"
+      },
+      {
+        "word": "relationship",
+        "meaning_tr": "ilişki",
+        "part_of_speech": "n",
+        "exam_sections": [
+          "V",
+          "C",
+          "R"
+        ],
+        "usage": "social relationship"
+      },
+      {
+        "word": "tradition",
+        "meaning_tr": "gelenek",
+        "part_of_speech": "n",
+        "exam_sections": [
+          "V",
+          "R"
+        ],
+        "usage": "traditional customs"
+      },
+      {
+        "word": "volunteer",
+        "meaning_tr": "gönüllü / gönüllü olmak",
+        "part_of_speech": "n/v",
+        "exam_sections": [
+          "V",
+          "R"
+        ],
+        "usage": "volunteer work"
+      },
+      {
+        "word": "citizen",
+        "meaning_tr": "vatandaş",
+        "part_of_speech": "n",
+        "exam_sections": [
+          "V",
+          "R"
+        ],
+        "usage": "local citizen"
+      },
+      {
+        "word": "equality",
+        "meaning_tr": "eşitlik",
+        "part_of_speech": "n",
+        "exam_sections": [
+          "V",
+          "C",
+          "R"
+        ],
+        "usage": "gender equality"
+      },
+      {
+        "word": "opportunity",
+        "meaning_tr": "fırsat",
+        "part_of_speech": "n",
+        "exam_sections": [
+          "V",
+          "C",
+          "R"
+        ],
+        "usage": "equal opportunity"
+      },
+      {
+        "word": "social",
+        "meaning_tr": "sosyal / toplumsal",
+        "part_of_speech": "adj",
+        "exam_sections": [
+          "V",
+          "C",
+          "R"
+        ],
+        "usage": "social issue"
+      },
+      {
+        "word": "urban",
+        "meaning_tr": "kentsel",
+        "part_of_speech": "adj",
+        "exam_sections": [
+          "V",
+          "R"
+        ],
+        "usage": "urban area"
+      },
+      {
+        "word": "rural",
+        "meaning_tr": "kırsal",
+        "part_of_speech": "adj",
+        "exam_sections": [
+          "V",
+          "R"
+        ],
+        "usage": "rural area"
+      },
+      {
+        "word": "diversity",
+        "meaning_tr": "çeşitlilik",
+        "part_of_speech": "n",
+        "exam_sections": [
+          "V",
+          "C",
+          "R"
+        ],
+        "usage": "cultural diversity"
+      },
+      {
+        "word": "welfare",
+        "meaning_tr": "refah",
+        "part_of_speech": "n",
+        "exam_sections": [
+          "V",
+          "R"
+        ],
+        "usage": "social welfare"
+      }
+    ]
+  },
+  {
+    "day": 21,
+    "theme": "Ekonomi ve İş Dünyası",
+    "words": [
+      {
+        "word": "budget",
+        "meaning_tr": "bütçe",
+        "part_of_speech": "n",
+        "exam_sections": [
+          "V",
+          "C",
+          "R"
+        ],
+        "usage": "limited budget"
+      },
+      {
+        "word": "company",
+        "meaning_tr": "şirket",
+        "part_of_speech": "n",
+        "exam_sections": [
+          "V",
+          "C",
+          "R"
+        ],
+        "usage": "private company"
+      },
+      {
+        "word": "consumer",
+        "meaning_tr": "tüketici",
+        "part_of_speech": "n",
+        "exam_sections": [
+          "V",
+          "C",
+          "R"
+        ],
+        "usage": "consumer behaviour"
+      },
+      {
+        "word": "cost",
+        "meaning_tr": "maliyet",
+        "part_of_speech": "n/v",
+        "exam_sections": [
+          "V",
+          "C",
+          "R"
+        ],
+        "usage": "reduce costs"
+      },
+      {
+        "word": "economy",
+        "meaning_tr": "ekonomi",
+        "part_of_speech": "n",
+        "exam_sections": [
+          "V",
+          "C",
+          "R"
+        ],
+        "usage": "national economy"
+      },
+      {
+        "word": "expense",
+        "meaning_tr": "gider / masraf",
+        "part_of_speech": "n",
+        "exam_sections": [
+          "V",
+          "C",
+          "R"
+        ],
+        "usage": "living expenses"
+      },
+      {
+        "word": "export",
+        "meaning_tr": "ihracat / ihraç etmek",
+        "part_of_speech": "n/v",
+        "exam_sections": [
+          "V",
+          "R"
+        ],
+        "usage": "export goods"
+      },
+      {
+        "word": "import",
+        "meaning_tr": "ithalat / ithal etmek",
+        "part_of_speech": "n/v",
+        "exam_sections": [
+          "V",
+          "R"
+        ],
+        "usage": "import products"
+      },
+      {
+        "word": "industry",
+        "meaning_tr": "sektör / sanayi",
+        "part_of_speech": "n",
+        "exam_sections": [
+          "V",
+          "C",
+          "R"
+        ],
+        "usage": "tourism industry"
+      },
+      {
+        "word": "market",
+        "meaning_tr": "pazar",
+        "part_of_speech": "n",
+        "exam_sections": [
+          "V",
+          "C",
+          "R"
+        ],
+        "usage": "global market"
+      },
+      {
+        "word": "price",
+        "meaning_tr": "fiyat",
+        "part_of_speech": "n",
+        "exam_sections": [
+          "V",
+          "R"
+        ],
+        "usage": "increase in prices"
+      },
+      {
+        "word": "product",
+        "meaning_tr": "ürün",
+        "part_of_speech": "n",
+        "exam_sections": [
+          "V",
+          "C",
+          "R"
+        ],
+        "usage": "new product"
+      },
+      {
+        "word": "profit",
+        "meaning_tr": "kâr",
+        "part_of_speech": "n",
+        "exam_sections": [
+          "V",
+          "C",
+          "R"
+        ],
+        "usage": "make a profit"
+      },
+      {
+        "word": "rate",
+        "meaning_tr": "oran",
+        "part_of_speech": "n",
+        "exam_sections": [
+          "V",
+          "C",
+          "R"
+        ],
+        "usage": "unemployment rate"
+      },
+      {
+        "word": "sale",
+        "meaning_tr": "satış",
+        "part_of_speech": "n",
+        "exam_sections": [
+          "V",
+          "R"
+        ],
+        "usage": "on sale"
+      },
+      {
+        "word": "trade",
+        "meaning_tr": "ticaret",
+        "part_of_speech": "n/v",
+        "exam_sections": [
+          "V",
+          "C",
+          "R"
+        ],
+        "usage": "international trade"
+      },
+      {
+        "word": "value",
+        "meaning_tr": "değer",
+        "part_of_speech": "n/v",
+        "exam_sections": [
+          "V",
+          "C",
+          "R"
+        ],
+        "usage": "market value"
+      },
+      {
+        "word": "wealth",
+        "meaning_tr": "servet / zenginlik",
+        "part_of_speech": "n",
+        "exam_sections": [
+          "V",
+          "R"
+        ],
+        "usage": "create wealth"
+      },
+      {
+        "word": "demand",
+        "meaning_tr": "talep",
+        "part_of_speech": "n",
+        "exam_sections": [
+          "V",
+          "C",
+          "R"
+        ],
+        "usage": "supply and demand"
+      },
+      {
+        "word": "financial",
+        "meaning_tr": "finansal",
+        "part_of_speech": "adj",
+        "exam_sections": [
+          "V",
+          "C",
+          "R"
+        ],
+        "usage": "financial support"
+      }
+    ]
+  },
+  {
+    "day": 22,
+    "theme": "Zaman, Değişim ve Eğilimler",
+    "words": [
+      {
+        "word": "annual",
+        "meaning_tr": "yıllık",
+        "part_of_speech": "adj",
+        "exam_sections": [
+          "V",
+          "C",
+          "R"
+        ],
+        "usage": "annual report"
+      },
+      {
+        "word": "decline",
+        "meaning_tr": "azalma / azalmak",
+        "part_of_speech": "n/v",
+        "exam_sections": [
+          "V",
+          "C",
+          "R"
+        ],
+        "usage": "a decline in"
+      },
+      {
+        "word": "decrease",
+        "meaning_tr": "azalma / azalmak",
+        "part_of_speech": "n/v",
+        "exam_sections": [
+          "V",
+          "C",
+          "R"
+        ],
+        "usage": "decrease by/to"
+      },
+      {
+        "word": "duration",
+        "meaning_tr": "süre",
+        "part_of_speech": "n",
+        "exam_sections": [
+          "V",
+          "R"
+        ],
+        "usage": "duration of the course"
+      },
+      {
+        "word": "former",
+        "meaning_tr": "eski / önceki",
+        "part_of_speech": "adj",
+        "exam_sections": [
+          "V",
+          "C",
+          "R"
+        ],
+        "usage": "former student"
+      },
+      {
+        "word": "future",
+        "meaning_tr": "gelecek",
+        "part_of_speech": "n/adj",
+        "exam_sections": [
+          "V",
+          "C",
+          "R"
+        ],
+        "usage": "in the future"
+      },
+      {
+        "word": "growth",
+        "meaning_tr": "büyüme / artış",
+        "part_of_speech": "n",
+        "exam_sections": [
+          "V",
+          "C",
+          "R"
+        ],
+        "usage": "population growth"
+      },
+      {
+        "word": "period",
+        "meaning_tr": "dönem / süre",
+        "part_of_speech": "n",
+        "exam_sections": [
+          "V",
+          "C",
+          "R"
+        ],
+        "usage": "over a period of"
+      },
+      {
+        "word": "rapid",
+        "meaning_tr": "hızlı",
+        "part_of_speech": "adj",
+        "exam_sections": [
+          "V",
+          "C",
+          "R"
+        ],
+        "usage": "rapid growth"
+      },
+      {
+        "word": "rise",
+        "meaning_tr": "artış / yükselmek",
+        "part_of_speech": "n/v",
+        "exam_sections": [
+          "V",
+          "C",
+          "R"
+        ],
+        "usage": "a rise in"
+      },
+      {
+        "word": "stable",
+        "meaning_tr": "istikrarlı / sabit",
+        "part_of_speech": "adj",
+        "exam_sections": [
+          "V",
+          "C",
+          "R"
+        ],
+        "usage": "remain stable"
+      },
+      {
+        "word": "temporary",
+        "meaning_tr": "geçici",
+        "part_of_speech": "adj",
+        "exam_sections": [
+          "V",
+          "C",
+          "R"
+        ],
+        "usage": "temporary job"
+      },
+      {
+        "word": "trend",
+        "meaning_tr": "eğilim",
+        "part_of_speech": "n",
+        "exam_sections": [
+          "V",
+          "C",
+          "R"
+        ],
+        "usage": "a growing trend"
+      },
+      {
+        "word": "change",
+        "meaning_tr": "değişim / değişmek",
+        "part_of_speech": "n/v",
+        "exam_sections": [
+          "V",
+          "C",
+          "R"
+        ],
+        "usage": "change dramatically"
+      },
+      {
+        "word": "dramatically",
+        "meaning_tr": "çarpıcı biçimde",
+        "part_of_speech": "adv",
+        "exam_sections": [
+          "V",
+          "C",
+          "R"
+        ],
+        "usage": "increase dramatically"
+      },
+      {
+        "word": "previously",
+        "meaning_tr": "önceden",
+        "part_of_speech": "adv",
+        "exam_sections": [
+          "V",
+          "C",
+          "R"
+        ],
+        "usage": "previously known as"
+      },
+      {
+        "word": "meanwhile",
+        "meaning_tr": "bu sırada",
+        "part_of_speech": "adv",
+        "exam_sections": [
+          "C",
+          "S",
+          "R"
+        ],
+        "usage": "time connector"
+      },
+      {
+        "word": "event",
+        "meaning_tr": "olay / etkinlik",
+        "part_of_speech": "n",
+        "exam_sections": [
+          "V",
+          "R"
+        ],
+        "usage": "major event"
+      },
+      {
+        "word": "stage",
+        "meaning_tr": "aşama",
+        "part_of_speech": "n",
+        "exam_sections": [
+          "V",
+          "C",
+          "R"
+        ],
+        "usage": "final stage"
+      },
+      {
+        "word": "progress",
+        "meaning_tr": "ilerleme / ilerlemek",
+        "part_of_speech": "n/v",
+        "exam_sections": [
+          "V",
+          "C",
+          "R"
+        ],
+        "usage": "make progress"
+      }
+    ]
+  },
+  {
+    "day": 23,
+    "theme": "Problem, Çözüm ve Karar Verme",
+    "words": [
+      {
+        "word": "advantage",
+        "meaning_tr": "avantaj",
+        "part_of_speech": "n",
+        "exam_sections": [
+          "V",
+          "C",
+          "R"
+        ],
+        "usage": "advantages and disadvantages"
+      },
+      {
+        "word": "challenge",
+        "meaning_tr": "zorluk",
+        "part_of_speech": "n",
+        "exam_sections": [
+          "V",
+          "C",
+          "R"
+        ],
+        "usage": "face a challenge"
+      },
+      {
+        "word": "choice",
+        "meaning_tr": "seçim",
+        "part_of_speech": "n",
+        "exam_sections": [
+          "V",
+          "C",
+          "R"
+        ],
+        "usage": "make a choice"
+      },
+      {
+        "word": "consequence",
+        "meaning_tr": "sonuç / netice",
+        "part_of_speech": "n",
+        "exam_sections": [
+          "V",
+          "C",
+          "R"
+        ],
+        "usage": "consequence of"
+      },
+      {
+        "word": "decision",
+        "meaning_tr": "karar",
+        "part_of_speech": "n",
+        "exam_sections": [
+          "V",
+          "C",
+          "R"
+        ],
+        "usage": "make a decision"
+      },
+      {
+        "word": "disadvantage",
+        "meaning_tr": "dezavantaj",
+        "part_of_speech": "n",
+        "exam_sections": [
+          "V",
+          "C",
+          "R"
+        ],
+        "usage": "main disadvantage"
+      },
+      {
+        "word": "difficulty",
+        "meaning_tr": "zorluk",
+        "part_of_speech": "n",
+        "exam_sections": [
+          "V",
+          "C",
+          "R"
+        ],
+        "usage": "have difficulty doing"
+      },
+      {
+        "word": "issue",
+        "meaning_tr": "mesele / sorun",
+        "part_of_speech": "n",
+        "exam_sections": [
+          "V",
+          "C",
+          "R"
+        ],
+        "usage": "serious issue"
+      },
+      {
+        "word": "option",
+        "meaning_tr": "seçenek",
+        "part_of_speech": "n",
+        "exam_sections": [
+          "V",
+          "C",
+          "R"
+        ],
+        "usage": "available option"
+      },
+      {
+        "word": "problem",
+        "meaning_tr": "sorun",
+        "part_of_speech": "n",
+        "exam_sections": [
+          "V",
+          "C",
+          "R"
+        ],
+        "usage": "solve a problem"
+      },
+      {
+        "word": "reason",
+        "meaning_tr": "neden",
+        "part_of_speech": "n",
+        "exam_sections": [
+          "V",
+          "C",
+          "R"
+        ],
+        "usage": "reason for"
+      },
+      {
+        "word": "solution",
+        "meaning_tr": "çözüm",
+        "part_of_speech": "n",
+        "exam_sections": [
+          "V",
+          "C",
+          "R"
+        ],
+        "usage": "solution to"
+      },
+      {
+        "word": "alternative",
+        "meaning_tr": "alternatif",
+        "part_of_speech": "n/adj",
+        "exam_sections": [
+          "V",
+          "C",
+          "R"
+        ],
+        "usage": "alternative to"
+      },
+      {
+        "word": "attempt",
+        "meaning_tr": "girişim / denemek",
+        "part_of_speech": "n/v",
+        "exam_sections": [
+          "V",
+          "C",
+          "R"
+        ],
+        "usage": "attempt to do"
+      },
+      {
+        "word": "solve",
+        "meaning_tr": "çözmek",
+        "part_of_speech": "v",
+        "exam_sections": [
+          "V",
+          "C",
+          "R"
+        ],
+        "usage": "solve an issue"
+      },
+      {
+        "word": "compromise",
+        "meaning_tr": "uzlaşma / taviz",
+        "part_of_speech": "n",
+        "exam_sections": [
+          "V",
+          "C",
+          "R"
+        ],
+        "usage": "reach a compromise"
+      },
+      {
+        "word": "priority",
+        "meaning_tr": "öncelik",
+        "part_of_speech": "n",
+        "exam_sections": [
+          "V",
+          "C",
+          "R"
+        ],
+        "usage": "top priority"
+      },
+      {
+        "word": "purpose",
+        "meaning_tr": "amaç",
+        "part_of_speech": "n",
+        "exam_sections": [
+          "V",
+          "C",
+          "R"
+        ],
+        "usage": "purpose of"
+      },
+      {
+        "word": "requirement",
+        "meaning_tr": "gereklilik / şart",
+        "part_of_speech": "n",
+        "exam_sections": [
+          "V",
+          "C",
+          "R"
+        ],
+        "usage": "meet a requirement"
+      },
+      {
+        "word": "strategy",
+        "meaning_tr": "strateji",
+        "part_of_speech": "n",
+        "exam_sections": [
+          "V",
+          "C",
+          "R"
+        ],
+        "usage": "develop a strategy"
+      }
+    ]
+  },
+  {
+    "day": 24,
+    "theme": "Okuma Parçası ve Çıkarım Kelimeleri",
+    "words": [
+      {
+        "word": "according to",
+        "meaning_tr": "-e göre",
+        "part_of_speech": "phrase",
+        "exam_sections": [
+          "R",
+          "S"
+        ],
+        "usage": "according to the passage"
+      },
+      {
+        "word": "refer",
+        "meaning_tr": "atıfta bulunmak / işaret etmek",
+        "part_of_speech": "v",
+        "exam_sections": [
+          "R",
+          "C"
+        ],
+        "usage": "refer to"
+      },
+      {
+        "word": "mention",
+        "meaning_tr": "bahsetmek",
+        "part_of_speech": "v",
+        "exam_sections": [
+          "R",
+          "C"
+        ],
+        "usage": "mention a detail"
+      },
+      {
+        "word": "imply",
+        "meaning_tr": "ima etmek",
+        "part_of_speech": "v",
+        "exam_sections": [
+          "R"
+        ],
+        "usage": "the author implies"
+      },
+      {
+        "word": "infer",
+        "meaning_tr": "çıkarım yapmak",
+        "part_of_speech": "v",
+        "exam_sections": [
+          "R"
+        ],
+        "usage": "one can infer that"
+      },
+      {
+        "word": "state",
+        "meaning_tr": "belirtmek",
+        "part_of_speech": "v",
+        "exam_sections": [
+          "R",
+          "C"
+        ],
+        "usage": "the passage states"
+      },
+      {
+        "word": "mean",
+        "meaning_tr": "anlamına gelmek",
+        "part_of_speech": "v",
+        "exam_sections": [
+          "R",
+          "C"
+        ],
+        "usage": "what does X mean?"
+      },
+      {
+        "word": "main",
+        "meaning_tr": "ana / başlıca",
+        "part_of_speech": "adj",
+        "exam_sections": [
+          "R"
+        ],
+        "usage": "main idea/reason"
+      },
+      {
+        "word": "detail",
+        "meaning_tr": "ayrıntı",
+        "part_of_speech": "n",
+        "exam_sections": [
+          "R"
+        ],
+        "usage": "specific detail"
+      },
+      {
+        "word": "context",
+        "meaning_tr": "bağlam",
+        "part_of_speech": "n",
+        "exam_sections": [
+          "R",
+          "C"
+        ],
+        "usage": "meaning in context"
+      },
+      {
+        "word": "author",
+        "meaning_tr": "yazar",
+        "part_of_speech": "n",
+        "exam_sections": [
+          "R"
+        ],
+        "usage": "author’s purpose"
+      },
+      {
+        "word": "passage",
+        "meaning_tr": "okuma parçası",
+        "part_of_speech": "n",
+        "exam_sections": [
+          "R"
+        ],
+        "usage": "according to the passage"
+      },
+      {
+        "word": "paragraph",
+        "meaning_tr": "paragraf",
+        "part_of_speech": "n",
+        "exam_sections": [
+          "R"
+        ],
+        "usage": "first paragraph"
+      },
+      {
+        "word": "presumably",
+        "meaning_tr": "muhtemelen / varsayılan olarak",
+        "part_of_speech": "adv",
+        "exam_sections": [
+          "R",
+          "C"
+        ],
+        "usage": "presumably means"
+      },
+      {
+        "word": "apparently",
+        "meaning_tr": "görünüşe göre",
+        "part_of_speech": "adv",
+        "exam_sections": [
+          "R",
+          "C"
+        ],
+        "usage": "apparently suggests"
+      },
+      {
+        "word": "intention",
+        "meaning_tr": "niyet / amaç",
+        "part_of_speech": "n",
+        "exam_sections": [
+          "R"
+        ],
+        "usage": "author’s intention"
+      },
+      {
+        "word": "clue",
+        "meaning_tr": "ipucu",
+        "part_of_speech": "n",
+        "exam_sections": [
+          "R"
+        ],
+        "usage": "context clue"
+      },
+      {
+        "word": "justify",
+        "meaning_tr": "gerekçelendirmek",
+        "part_of_speech": "v",
+        "exam_sections": [
+          "R"
+        ],
+        "usage": "justify an answer/claim"
+      },
+      {
+        "word": "contrast",
+        "meaning_tr": "karşıtlık / karşılaştırmak",
+        "part_of_speech": "n/v",
+        "exam_sections": [
+          "R"
+        ],
+        "usage": "contrast two ideas"
+      },
+      {
+        "word": "summary",
+        "meaning_tr": "özet",
+        "part_of_speech": "n",
+        "exam_sections": [
+          "R"
+        ],
+        "usage": "best summary"
+      }
+    ]
+  },
+  {
+    "day": 25,
+    "theme": "Akademik İsimler",
+    "words": [
+      {
+        "word": "amount",
+        "meaning_tr": "miktar",
+        "part_of_speech": "n",
+        "exam_sections": [
+          "V",
+          "C",
+          "R"
+        ],
+        "usage": "amount of + uncountable"
+      },
+      {
+        "word": "aspect",
+        "meaning_tr": "yön / boyut",
+        "part_of_speech": "n",
+        "exam_sections": [
+          "V",
+          "C",
+          "R"
+        ],
+        "usage": "an important aspect of"
+      },
+      {
+        "word": "outcome",
+        "meaning_tr": "sonuç / çıktı",
+        "part_of_speech": "n",
+        "exam_sections": [
+          "V",
+          "C",
+          "R"
+        ],
+        "usage": "positive outcome"
+      },
+      {
+        "word": "concept",
+        "meaning_tr": "kavram",
+        "part_of_speech": "n",
+        "exam_sections": [
+          "V",
+          "C",
+          "R"
+        ],
+        "usage": "basic concept"
+      },
+      {
+        "word": "condition",
+        "meaning_tr": "koşul / durum",
+        "part_of_speech": "n",
+        "exam_sections": [
+          "V",
+          "C",
+          "R"
+        ],
+        "usage": "under certain conditions"
+      },
+      {
+        "word": "effect",
+        "meaning_tr": "etki",
+        "part_of_speech": "n",
+        "exam_sections": [
+          "V",
+          "C",
+          "R"
+        ],
+        "usage": "effect on"
+      },
+      {
+        "word": "example",
+        "meaning_tr": "örnek",
+        "part_of_speech": "n",
+        "exam_sections": [
+          "V",
+          "C",
+          "R"
+        ],
+        "usage": "for example"
+      },
+      {
+        "word": "function",
+        "meaning_tr": "işlev",
+        "part_of_speech": "n",
+        "exam_sections": [
+          "V",
+          "C",
+          "R"
+        ],
+        "usage": "main function"
+      },
+      {
+        "word": "impact",
+        "meaning_tr": "etki",
+        "part_of_speech": "n",
+        "exam_sections": [
+          "V",
+          "C",
+          "R"
+        ],
+        "usage": "impact on"
+      },
+      {
+        "word": "influence",
+        "meaning_tr": "etki / nüfuz",
+        "part_of_speech": "n",
+        "exam_sections": [
+          "V",
+          "C",
+          "R"
+        ],
+        "usage": "influence on"
+      },
+      {
+        "word": "knowledge",
+        "meaning_tr": "bilgi",
+        "part_of_speech": "n",
+        "exam_sections": [
+          "V",
+          "C",
+          "R"
+        ],
+        "usage": "knowledge of"
+      },
+      {
+        "word": "level",
+        "meaning_tr": "seviye",
+        "part_of_speech": "n",
+        "exam_sections": [
+          "V",
+          "C",
+          "R"
+        ],
+        "usage": "high level of"
+      },
+      {
+        "word": "framework",
+        "meaning_tr": "çerçeve / yapı",
+        "part_of_speech": "n",
+        "exam_sections": [
+          "V",
+          "C",
+          "R"
+        ],
+        "usage": "conceptual framework"
+      },
+      {
+        "word": "number",
+        "meaning_tr": "sayı",
+        "part_of_speech": "n",
+        "exam_sections": [
+          "V",
+          "C",
+          "R"
+        ],
+        "usage": "number of + countable"
+      },
+      {
+        "word": "pattern",
+        "meaning_tr": "örüntü / kalıp",
+        "part_of_speech": "n",
+        "exam_sections": [
+          "V",
+          "C",
+          "R"
+        ],
+        "usage": "behaviour pattern"
+      },
+      {
+        "word": "principle",
+        "meaning_tr": "ilke",
+        "part_of_speech": "n",
+        "exam_sections": [
+          "V",
+          "C",
+          "R"
+        ],
+        "usage": "basic principle"
+      },
+      {
+        "word": "range",
+        "meaning_tr": "aralık / çeşitlilik",
+        "part_of_speech": "n",
+        "exam_sections": [
+          "V",
+          "C",
+          "R"
+        ],
+        "usage": "a wide range of"
+      },
+      {
+        "word": "role",
+        "meaning_tr": "rol",
+        "part_of_speech": "n",
+        "exam_sections": [
+          "V",
+          "C",
+          "R"
+        ],
+        "usage": "play a role in"
+      },
+      {
+        "word": "type",
+        "meaning_tr": "tür",
+        "part_of_speech": "n",
+        "exam_sections": [
+          "V",
+          "C",
+          "R"
+        ],
+        "usage": "type of"
+      },
+      {
+        "word": "view",
+        "meaning_tr": "görüş / bakış açısı",
+        "part_of_speech": "n",
+        "exam_sections": [
+          "V",
+          "C",
+          "R"
+        ],
+        "usage": "point of view"
+      }
+    ]
+  },
+  {
+    "day": 26,
+    "theme": "Akademik Fiiller",
+    "words": [
+      {
+        "word": "analyse",
+        "meaning_tr": "analiz etmek",
+        "part_of_speech": "v",
+        "exam_sections": [
+          "V",
+          "C",
+          "R"
+        ],
+        "usage": "analyse data"
+      },
+      {
+        "word": "assess",
+        "meaning_tr": "değerlendirmek",
+        "part_of_speech": "v",
+        "exam_sections": [
+          "V",
+          "C",
+          "R"
+        ],
+        "usage": "assess performance"
+      },
+      {
+        "word": "classify",
+        "meaning_tr": "sınıflandırmak",
+        "part_of_speech": "v",
+        "exam_sections": [
+          "V",
+          "C",
+          "R"
+        ],
+        "usage": "classify information"
+      },
+      {
+        "word": "define",
+        "meaning_tr": "tanımlamak",
+        "part_of_speech": "v",
+        "exam_sections": [
+          "V",
+          "C",
+          "R"
+        ],
+        "usage": "define a term"
+      },
+      {
+        "word": "demonstrate",
+        "meaning_tr": "göstermek / kanıtlamak",
+        "part_of_speech": "v",
+        "exam_sections": [
+          "V",
+          "C",
+          "R"
+        ],
+        "usage": "demonstrate that"
+      },
+      {
+        "word": "determine",
+        "meaning_tr": "belirlemek",
+        "part_of_speech": "v",
+        "exam_sections": [
+          "V",
+          "C",
+          "R"
+        ],
+        "usage": "determine the cause"
+      },
+      {
+        "word": "evaluate",
+        "meaning_tr": "değerlendirmek",
+        "part_of_speech": "v",
+        "exam_sections": [
+          "V",
+          "C",
+          "R"
+        ],
+        "usage": "evaluate results"
+      },
+      {
+        "word": "examine",
+        "meaning_tr": "incelemek",
+        "part_of_speech": "v",
+        "exam_sections": [
+          "V",
+          "C",
+          "R"
+        ],
+        "usage": "examine evidence"
+      },
+      {
+        "word": "illustrate",
+        "meaning_tr": "örneklemek / göstermek",
+        "part_of_speech": "v",
+        "exam_sections": [
+          "V",
+          "C",
+          "R"
+        ],
+        "usage": "illustrate a point"
+      },
+      {
+        "word": "interpret",
+        "meaning_tr": "yorumlamak",
+        "part_of_speech": "v",
+        "exam_sections": [
+          "V",
+          "C",
+          "R"
+        ],
+        "usage": "interpret data"
+      },
+      {
+        "word": "investigate",
+        "meaning_tr": "araştırmak",
+        "part_of_speech": "v",
+        "exam_sections": [
+          "V",
+          "C",
+          "R"
+        ],
+        "usage": "investigate a problem"
+      },
+      {
+        "word": "calculate",
+        "meaning_tr": "hesaplamak",
+        "part_of_speech": "v",
+        "exam_sections": [
+          "V",
+          "C",
+          "R"
+        ],
+        "usage": "calculate a rate/cost"
+      },
+      {
+        "word": "predict",
+        "meaning_tr": "tahmin etmek",
+        "part_of_speech": "v",
+        "exam_sections": [
+          "V",
+          "C",
+          "R"
+        ],
+        "usage": "predict future trends"
+      },
+      {
+        "word": "prove",
+        "meaning_tr": "kanıtlamak",
+        "part_of_speech": "v",
+        "exam_sections": [
+          "V",
+          "C",
+          "R"
+        ],
+        "usage": "prove that"
+      },
+      {
+        "word": "recognise",
+        "meaning_tr": "tanımak / fark etmek",
+        "part_of_speech": "v",
+        "exam_sections": [
+          "V",
+          "C",
+          "R"
+        ],
+        "usage": "recognise a pattern"
+      },
+      {
+        "word": "represent",
+        "meaning_tr": "temsil etmek",
+        "part_of_speech": "v",
+        "exam_sections": [
+          "V",
+          "C",
+          "R"
+        ],
+        "usage": "represent a group"
+      },
+      {
+        "word": "reveal",
+        "meaning_tr": "ortaya çıkarmak",
+        "part_of_speech": "v",
+        "exam_sections": [
+          "V",
+          "C",
+          "R"
+        ],
+        "usage": "results reveal"
+      },
+      {
+        "word": "select",
+        "meaning_tr": "seçmek",
+        "part_of_speech": "v",
+        "exam_sections": [
+          "V",
+          "C",
+          "R"
+        ],
+        "usage": "select an option"
+      },
+      {
+        "word": "vary",
+        "meaning_tr": "değişiklik göstermek",
+        "part_of_speech": "v",
+        "exam_sections": [
+          "V",
+          "C",
+          "R"
+        ],
+        "usage": "vary from/to"
+      },
+      {
+        "word": "estimate",
+        "meaning_tr": "tahmin etmek",
+        "part_of_speech": "v",
+        "exam_sections": [
+          "V",
+          "C",
+          "R"
+        ],
+        "usage": "estimate the cost"
+      }
+    ]
+  },
+  {
+    "day": 27,
+    "theme": "Phrasal Verbs I",
+    "words": [
+      {
+        "word": "find out",
+        "meaning_tr": "öğrenmek / ortaya çıkarmak",
+        "part_of_speech": "phr.v",
+        "exam_sections": [
+          "V",
+          "C",
+          "R"
+        ],
+        "usage": "find out why/that"
+      },
+      {
+        "word": "give up",
+        "meaning_tr": "vazgeçmek",
+        "part_of_speech": "phr.v",
+        "exam_sections": [
+          "V",
+          "C",
+          "R"
+        ],
+        "usage": "give up doing"
+      },
+      {
+        "word": "look after",
+        "meaning_tr": "ilgilenmek / bakmak",
+        "part_of_speech": "phr.v",
+        "exam_sections": [
+          "V",
+          "C",
+          "R"
+        ],
+        "usage": "look after a child"
+      },
+      {
+        "word": "look for",
+        "meaning_tr": "aramak",
+        "part_of_speech": "phr.v",
+        "exam_sections": [
+          "V",
+          "C",
+          "R"
+        ],
+        "usage": "look for information"
+      },
+      {
+        "word": "look forward to",
+        "meaning_tr": "dört gözle beklemek",
+        "part_of_speech": "phr.v",
+        "exam_sections": [
+          "V",
+          "C",
+          "R"
+        ],
+        "usage": "look forward to + V-ing"
+      },
+      {
+        "word": "pick up",
+        "meaning_tr": "almak / öğrenmek / gidip almak",
+        "part_of_speech": "phr.v",
+        "exam_sections": [
+          "V",
+          "C",
+          "R"
+        ],
+        "usage": "pick up a language/person"
+      },
+      {
+        "word": "put off",
+        "meaning_tr": "ertelemek",
+        "part_of_speech": "phr.v",
+        "exam_sections": [
+          "V",
+          "C",
+          "R"
+        ],
+        "usage": "put off a meeting"
+      },
+      {
+        "word": "set up",
+        "meaning_tr": "kurmak",
+        "part_of_speech": "phr.v",
+        "exam_sections": [
+          "V",
+          "C",
+          "R"
+        ],
+        "usage": "set up a company/system"
+      },
+      {
+        "word": "take off",
+        "meaning_tr": "çıkarmak / havalanmak",
+        "part_of_speech": "phr.v",
+        "exam_sections": [
+          "V",
+          "R"
+        ],
+        "usage": "plane takes off"
+      },
+      {
+        "word": "turn down",
+        "meaning_tr": "reddetmek / ses kısmak",
+        "part_of_speech": "phr.v",
+        "exam_sections": [
+          "V",
+          "C",
+          "R"
+        ],
+        "usage": "turn down an offer"
+      },
+      {
+        "word": "turn on",
+        "meaning_tr": "açmak",
+        "part_of_speech": "phr.v",
+        "exam_sections": [
+          "V",
+          "R"
+        ],
+        "usage": "turn on a device"
+      },
+      {
+        "word": "turn off",
+        "meaning_tr": "kapatmak",
+        "part_of_speech": "phr.v",
+        "exam_sections": [
+          "V",
+          "R"
+        ],
+        "usage": "turn off a device"
+      },
+      {
+        "word": "work out",
+        "meaning_tr": "çözmek / egzersiz yapmak / sonuçlanmak",
+        "part_of_speech": "phr.v",
+        "exam_sections": [
+          "V",
+          "C",
+          "R"
+        ],
+        "usage": "work out a solution"
+      },
+      {
+        "word": "carry on",
+        "meaning_tr": "devam etmek",
+        "part_of_speech": "phr.v",
+        "exam_sections": [
+          "V",
+          "C",
+          "R"
+        ],
+        "usage": "carry on doing"
+      },
+      {
+        "word": "come across",
+        "meaning_tr": "tesadüfen rastlamak",
+        "part_of_speech": "phr.v",
+        "exam_sections": [
+          "V",
+          "C",
+          "R"
+        ],
+        "usage": "come across an article"
+      },
+      {
+        "word": "deal with",
+        "meaning_tr": "ilgilenmek / başa çıkmak",
+        "part_of_speech": "phr.v",
+        "exam_sections": [
+          "V",
+          "C",
+          "R"
+        ],
+        "usage": "deal with a problem"
+      },
+      {
+        "word": "fill in",
+        "meaning_tr": "form doldurmak",
+        "part_of_speech": "phr.v",
+        "exam_sections": [
+          "V",
+          "R"
+        ],
+        "usage": "fill in a form"
+      },
+      {
+        "word": "get along with",
+        "meaning_tr": "iyi geçinmek",
+        "part_of_speech": "phr.v",
+        "exam_sections": [
+          "V",
+          "R"
+        ],
+        "usage": "get along with people"
+      },
+      {
+        "word": "grow up",
+        "meaning_tr": "büyümek",
+        "part_of_speech": "phr.v",
+        "exam_sections": [
+          "V",
+          "R"
+        ],
+        "usage": "grow up in a city"
+      },
+      {
+        "word": "run out of",
+        "meaning_tr": "tükenmek",
+        "part_of_speech": "phr.v",
+        "exam_sections": [
+          "V",
+          "C",
+          "R"
+        ],
+        "usage": "run out of time/money"
+      }
+    ]
+  },
+  {
+    "day": 28,
+    "theme": "Phrasal Verbs II",
+    "words": [
+      {
+        "word": "bring up",
+        "meaning_tr": "konuyu açmak / yetiştirmek",
+        "part_of_speech": "phr.v",
+        "exam_sections": [
+          "V",
+          "C",
+          "R"
+        ],
+        "usage": "bring up an issue"
+      },
+      {
+        "word": "call off",
+        "meaning_tr": "iptal etmek",
+        "part_of_speech": "phr.v",
+        "exam_sections": [
+          "V",
+          "C",
+          "R"
+        ],
+        "usage": "call off a meeting"
+      },
+      {
+        "word": "check in",
+        "meaning_tr": "giriş işlemi yapmak",
+        "part_of_speech": "phr.v",
+        "exam_sections": [
+          "V",
+          "R"
+        ],
+        "usage": "check in at a hotel/airport"
+      },
+      {
+        "word": "check out",
+        "meaning_tr": "çıkış yapmak / incelemek",
+        "part_of_speech": "phr.v",
+        "exam_sections": [
+          "V",
+          "R"
+        ],
+        "usage": "check out of a hotel"
+      },
+      {
+        "word": "cut down on",
+        "meaning_tr": "azaltmak",
+        "part_of_speech": "phr.v",
+        "exam_sections": [
+          "V",
+          "C",
+          "R"
+        ],
+        "usage": "cut down on sugar/costs"
+      },
+      {
+        "word": "get over",
+        "meaning_tr": "atlatmak",
+        "part_of_speech": "phr.v",
+        "exam_sections": [
+          "V",
+          "C",
+          "R"
+        ],
+        "usage": "get over an illness"
+      },
+      {
+        "word": "go on",
+        "meaning_tr": "devam etmek",
+        "part_of_speech": "phr.v",
+        "exam_sections": [
+          "V",
+          "C",
+          "R"
+        ],
+        "usage": "go on doing"
+      },
+      {
+        "word": "hand in",
+        "meaning_tr": "teslim etmek",
+        "part_of_speech": "phr.v",
+        "exam_sections": [
+          "V",
+          "C",
+          "R"
+        ],
+        "usage": "hand in an assignment"
+      },
+      {
+        "word": "keep up with",
+        "meaning_tr": "ayak uydurmak",
+        "part_of_speech": "phr.v",
+        "exam_sections": [
+          "V",
+          "C",
+          "R"
+        ],
+        "usage": "keep up with technology"
+      },
+      {
+        "word": "look into",
+        "meaning_tr": "araştırmak / incelemek",
+        "part_of_speech": "phr.v",
+        "exam_sections": [
+          "V",
+          "C",
+          "R"
+        ],
+        "usage": "look into a problem"
+      },
+      {
+        "word": "make up",
+        "meaning_tr": "uydurmak / oluşturmak",
+        "part_of_speech": "phr.v",
+        "exam_sections": [
+          "V",
+          "C",
+          "R"
+        ],
+        "usage": "make up a story; make up 30%"
+      },
+      {
+        "word": "point out",
+        "meaning_tr": "belirtmek / dikkat çekmek",
+        "part_of_speech": "phr.v",
+        "exam_sections": [
+          "V",
+          "C",
+          "R"
+        ],
+        "usage": "point out a problem"
+      },
+      {
+        "word": "put up with",
+        "meaning_tr": "katlanmak",
+        "part_of_speech": "phr.v",
+        "exam_sections": [
+          "V",
+          "C",
+          "R"
+        ],
+        "usage": "put up with noise"
+      },
+      {
+        "word": "take part in",
+        "meaning_tr": "katılmak",
+        "part_of_speech": "phr.v",
+        "exam_sections": [
+          "V",
+          "C",
+          "R"
+        ],
+        "usage": "take part in a programme"
+      },
+      {
+        "word": "take up",
+        "meaning_tr": "başlamak / yer kaplamak",
+        "part_of_speech": "phr.v",
+        "exam_sections": [
+          "V",
+          "C",
+          "R"
+        ],
+        "usage": "take up a hobby"
+      },
+      {
+        "word": "throw away",
+        "meaning_tr": "çöpe atmak",
+        "part_of_speech": "phr.v",
+        "exam_sections": [
+          "V",
+          "R"
+        ],
+        "usage": "throw away waste"
+      },
+      {
+        "word": "try out",
+        "meaning_tr": "denemek",
+        "part_of_speech": "phr.v",
+        "exam_sections": [
+          "V",
+          "R"
+        ],
+        "usage": "try out a method"
+      },
+      {
+        "word": "turn up",
+        "meaning_tr": "ortaya çıkmak / sesi açmak",
+        "part_of_speech": "phr.v",
+        "exam_sections": [
+          "V",
+          "C",
+          "R"
+        ],
+        "usage": "turn up late"
+      },
+      {
+        "word": "break down",
+        "meaning_tr": "bozulmak / parçalamak",
+        "part_of_speech": "phr.v",
+        "exam_sections": [
+          "V",
+          "C",
+          "R"
+        ],
+        "usage": "car breaks down"
+      },
+      {
+        "word": "come up with",
+        "meaning_tr": "fikir/çözüm bulmak",
+        "part_of_speech": "phr.v",
+        "exam_sections": [
+          "V",
+          "C",
+          "R"
+        ],
+        "usage": "come up with an idea"
+      }
+    ]
+  },
+  {
+    "day": 29,
+    "theme": "Preposition ve Collocation Tuzakları",
+    "words": [
+      {
+        "word": "apply for",
+        "meaning_tr": "-e başvurmak",
+        "part_of_speech": "coll.",
+        "exam_sections": [
+          "V",
+          "C",
+          "S"
+        ],
+        "usage": "apply for a scholarship/job"
+      },
+      {
+        "word": "arrive at/in",
+        "meaning_tr": "-e varmak",
+        "part_of_speech": "coll.",
+        "exam_sections": [
+          "G",
+          "C",
+          "S"
+        ],
+        "usage": "arrive at station / in city"
+      },
+      {
+        "word": "believe in",
+        "meaning_tr": "-e inanmak",
+        "part_of_speech": "coll.",
+        "exam_sections": [
+          "V",
+          "C",
+          "R"
+        ],
+        "usage": "believe in yourself"
+      },
+      {
+        "word": "belong to",
+        "meaning_tr": "-e ait olmak",
+        "part_of_speech": "coll.",
+        "exam_sections": [
+          "V",
+          "C",
+          "R"
+        ],
+        "usage": "belong to a group"
+      },
+      {
+        "word": "depend on",
+        "meaning_tr": "-e bağlı olmak",
+        "part_of_speech": "coll.",
+        "exam_sections": [
+          "V",
+          "C",
+          "R"
+        ],
+        "usage": "depend on weather"
+      },
+      {
+        "word": "focus on",
+        "meaning_tr": "-e odaklanmak",
+        "part_of_speech": "coll.",
+        "exam_sections": [
+          "V",
+          "C",
+          "R"
+        ],
+        "usage": "focus on a problem"
+      },
+      {
+        "word": "interested in",
+        "meaning_tr": "-le ilgilenmek",
+        "part_of_speech": "coll.",
+        "exam_sections": [
+          "V",
+          "C",
+          "R"
+        ],
+        "usage": "interested in technology"
+      },
+      {
+        "word": "good at",
+        "meaning_tr": "-de iyi olmak",
+        "part_of_speech": "coll.",
+        "exam_sections": [
+          "V",
+          "C",
+          "R"
+        ],
+        "usage": "good at English"
+      },
+      {
+        "word": "afraid of",
+        "meaning_tr": "-den korkmak",
+        "part_of_speech": "coll.",
+        "exam_sections": [
+          "V",
+          "C",
+          "R"
+        ],
+        "usage": "afraid of flying"
+      },
+      {
+        "word": "responsible for",
+        "meaning_tr": "-den sorumlu olmak",
+        "part_of_speech": "coll.",
+        "exam_sections": [
+          "V",
+          "C",
+          "R"
+        ],
+        "usage": "responsible for safety"
+      },
+      {
+        "word": "succeed in",
+        "meaning_tr": "-de başarılı olmak",
+        "part_of_speech": "coll.",
+        "exam_sections": [
+          "V",
+          "C",
+          "R"
+        ],
+        "usage": "succeed in doing"
+      },
+      {
+        "word": "participate in",
+        "meaning_tr": "-e katılmak",
+        "part_of_speech": "coll.",
+        "exam_sections": [
+          "V",
+          "C",
+          "R"
+        ],
+        "usage": "participate in Erasmus"
+      },
+      {
+        "word": "agree with",
+        "meaning_tr": "-e katılmak / aynı fikirde olmak",
+        "part_of_speech": "coll.",
+        "exam_sections": [
+          "V",
+          "C",
+          "R"
+        ],
+        "usage": "agree with someone"
+      },
+      {
+        "word": "agree on",
+        "meaning_tr": "-de anlaşmak",
+        "part_of_speech": "coll.",
+        "exam_sections": [
+          "V",
+          "C",
+          "R"
+        ],
+        "usage": "agree on a date"
+      },
+      {
+        "word": "listen to",
+        "meaning_tr": "-i dinlemek",
+        "part_of_speech": "coll.",
+        "exam_sections": [
+          "G",
+          "C"
+        ],
+        "usage": "listen to music"
+      },
+      {
+        "word": "wait for",
+        "meaning_tr": "-i beklemek",
+        "part_of_speech": "coll.",
+        "exam_sections": [
+          "G",
+          "C"
+        ],
+        "usage": "wait for a bus"
+      },
+      {
+        "word": "pay for",
+        "meaning_tr": "-in ücretini ödemek",
+        "part_of_speech": "coll.",
+        "exam_sections": [
+          "V",
+          "C"
+        ],
+        "usage": "pay for accommodation"
+      },
+      {
+        "word": "spend on",
+        "meaning_tr": "-e harcamak",
+        "part_of_speech": "coll.",
+        "exam_sections": [
+          "V",
+          "C"
+        ],
+        "usage": "spend money on"
+      },
+      {
+        "word": "consist of",
+        "meaning_tr": "-den oluşmak",
+        "part_of_speech": "coll.",
+        "exam_sections": [
+          "V",
+          "C",
+          "R"
+        ],
+        "usage": "consist of three parts"
+      },
+      {
+        "word": "result in",
+        "meaning_tr": "-e yol açmak",
+        "part_of_speech": "coll.",
+        "exam_sections": [
+          "V",
+          "C",
+          "R"
+        ],
+        "usage": "result in a change"
+      }
+    ]
+  },
+  {
+    "day": 30,
+    "theme": "MCBÜ Örnek Sınav Kelimeleri + Sık Tuzaklar",
+    "words": [
+      {
+        "word": "ripe",
+        "meaning_tr": "olgun",
+        "part_of_speech": "adj",
+        "exam_sections": [
+          "V",
+          "R"
+        ],
+        "usage": "ripe fruit"
+      },
+      {
+        "word": "rotten",
+        "meaning_tr": "çürümüş",
+        "part_of_speech": "adj",
+        "exam_sections": [
+          "V",
+          "R"
+        ],
+        "usage": "rotten fruit"
+      },
+      {
+        "word": "swarm",
+        "meaning_tr": "sürü / kalabalık küme",
+        "part_of_speech": "n",
+        "exam_sections": [
+          "V",
+          "R"
+        ],
+        "usage": "a swarm of flies"
+      },
+      {
+        "word": "attract",
+        "meaning_tr": "çekmek / cezbetmek",
+        "part_of_speech": "v",
+        "exam_sections": [
+          "V",
+          "C",
+          "R"
+        ],
+        "usage": "attract attention/insects"
+      },
+      {
+        "word": "lay",
+        "meaning_tr": "bırakmak / yumurtlamak",
+        "part_of_speech": "v",
+        "exam_sections": [
+          "V",
+          "C",
+          "R"
+        ],
+        "usage": "lay eggs"
+      },
+      {
+        "word": "hatch",
+        "meaning_tr": "yumurtadan çıkmak",
+        "part_of_speech": "v",
+        "exam_sections": [
+          "V",
+          "R"
+        ],
+        "usage": "eggs hatch"
+      },
+      {
+        "word": "germ",
+        "meaning_tr": "mikrop",
+        "part_of_speech": "n",
+        "exam_sections": [
+          "V",
+          "R"
+        ],
+        "usage": "carry germs"
+      },
+      {
+        "word": "nuisance",
+        "meaning_tr": "rahatsızlık veren şey",
+        "part_of_speech": "n",
+        "exam_sections": [
+          "V",
+          "R"
+        ],
+        "usage": "be a nuisance"
+      },
+      {
+        "word": "spray",
+        "meaning_tr": "sprey / püskürtmek",
+        "part_of_speech": "n/v",
+        "exam_sections": [
+          "V",
+          "R"
+        ],
+        "usage": "pesticide spray"
+      },
+      {
+        "word": "sealed",
+        "meaning_tr": "mühürlü / sıkıca kapatılmış",
+        "part_of_speech": "adj",
+        "exam_sections": [
+          "V",
+          "R"
+        ],
+        "usage": "sealed container"
+      },
+      {
+        "word": "spill",
+        "meaning_tr": "dökmek / saçmak",
+        "part_of_speech": "v/n",
+        "exam_sections": [
+          "V",
+          "R"
+        ],
+        "usage": "spill juice"
+      },
+      {
+        "word": "remaining",
+        "meaning_tr": "geriye kalan",
+        "part_of_speech": "adj",
+        "exam_sections": [
+          "V",
+          "C",
+          "R"
+        ],
+        "usage": "remaining time/flies"
+      },
+      {
+        "word": "release",
+        "meaning_tr": "serbest bırakmak",
+        "part_of_speech": "v",
+        "exam_sections": [
+          "V",
+          "C",
+          "R"
+        ],
+        "usage": "release outdoors"
+      },
+      {
+        "word": "borrow vs lend",
+        "meaning_tr": "borrow=almak, lend=vermek",
+        "part_of_speech": "pair",
+        "exam_sections": [
+          "V",
+          "C"
+        ],
+        "usage": "borrow from / lend to"
+      },
+      {
+        "word": "say vs tell",
+        "meaning_tr": "say=söylemek, tell=birine söylemek",
+        "part_of_speech": "pair",
+        "exam_sections": [
+          "V",
+          "C"
+        ],
+        "usage": "say something / tell someone"
+      },
+      {
+        "word": "make vs do",
+        "meaning_tr": "make=üretmek/oluşturmak, do=yapmak",
+        "part_of_speech": "pair",
+        "exam_sections": [
+          "V",
+          "C"
+        ],
+        "usage": "make a decision / do homework"
+      },
+      {
+        "word": "bring vs take",
+        "meaning_tr": "bring=getirmek, take=götürmek",
+        "part_of_speech": "pair",
+        "exam_sections": [
+          "V",
+          "C"
+        ],
+        "usage": "bring here / take there"
+      },
+      {
+        "word": "learn vs teach",
+        "meaning_tr": "learn=öğrenmek, teach=öğretmek",
+        "part_of_speech": "pair",
+        "exam_sections": [
+          "V",
+          "C"
+        ],
+        "usage": "learn English / teach English"
+      },
+      {
+        "word": "job vs work",
+        "meaning_tr": "job=sayılabilir iş, work=genel iş",
+        "part_of_speech": "pair",
+        "exam_sections": [
+          "V",
+          "C"
+        ],
+        "usage": "a job / some work"
+      },
+      {
+        "word": "travel vs trip vs journey",
+        "meaning_tr": "travel=seyahat genel, trip=gezi, journey=yolculuk",
+        "part_of_speech": "pair",
+        "exam_sections": [
+          "V",
+          "R"
+        ],
+        "usage": "business trip / long journey"
+      }
+    ]
+  }
+]
