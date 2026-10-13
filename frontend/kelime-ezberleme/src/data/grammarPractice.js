@@ -1,7 +1,10 @@
+import { expandedGrammarBanks } from "./grammarExpansion.js";
+
 // Each row has two distinct contexts for the same grammar point:
 // prompt A, prompt B, correct answer, three distractors, explanation.
 // The two rounds are interleaved, so a learner sees 20 questions per topic.
 const banks = {
+  ...expandedGrammarBanks,
   "present-simple": [
     ["She ___ English every evening.", "My brother ___ before breakfast.", "studies", "study", "is study", "studied", "He/she/it ile olumlu Present Simple fiili -s/-es alır; study → studies."],
     ["They ___ to university by bus.", "We ___ to campus on Mondays.", "go", "goes", "are go", "went", "Çoğul özneyle alışkanlık anlatılırken fiilin yalın hâli kullanılır."],

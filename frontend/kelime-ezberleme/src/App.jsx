@@ -1,3 +1,4 @@
+import { lazy, Suspense } from "react";
 import { BrowserRouter, HashRouter, Navigate, Route, Routes } from "react-router-dom";
 
 import Login from "./pages/Login/Login";
@@ -19,10 +20,11 @@ import Reports from "./pages/Reports/Reports";
 import WordChain from "./pages/WordChain/WordChain";
 import Puzzle from "./pages/Puzzle/Puzzle";
 import StudyChoice from "./pages/StudyChoice/StudyChoice";
-import Erasmus from "./pages/Erasmus/Erasmus";
-import Grammar from "./pages/Grammar/Grammar";
 import More from "./pages/More/More";
 import Games from "./pages/Games/Games";
+
+const Erasmus = lazy(() => import("./pages/Erasmus/Erasmus"));
+const Grammar = lazy(() => import("./pages/Grammar/Grammar"));
 
 function App() {
   const Router = window.Capacitor?.isNativePlatform?.() ? HashRouter : BrowserRouter;
@@ -42,8 +44,8 @@ function App() {
         <Route element={<ProtectedRoute />}>
           <Route element={<AppLayout />}>
             <Route path="/choose" element={<StudyChoice />} />
-            <Route path="/erasmus" element={<Erasmus />} />
-            <Route path="/grammar" element={<Grammar />} />
+            <Route path="/erasmus" element={<Suspense fallback={<div className="study-state">Erasmus dersi yükleniyor…</div>}><Erasmus /></Suspense>} />
+            <Route path="/grammar" element={<Suspense fallback={<div className="study-state">Grammar dersi yükleniyor…</div>}><Grammar /></Suspense>} />
             <Route path="/more" element={<More />} />
             <Route path="/games" element={<Games />} />
             <Route path="/home" element={<Home />} />

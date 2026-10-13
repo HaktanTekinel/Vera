@@ -1,6 +1,9 @@
+import { expandedGrammarLessons } from "./grammarExpansion.js";
+
 // Long-form teaching content for the shared Grammar library. Daily Erasmus notes
 // remain short because they serve as a recap after the video.
 export const grammarLessons = {
+  ...expandedGrammarLessons,
   "present-simple": {
     intro: "Present Simple; düzenli yapılan işleri, kalıcı durumları ve genel doğruları anlatır. Cümlenin zamanı genellikle bir alışkanlık ifadesinden veya bağlamdan anlaşılır.",
     sections: [
