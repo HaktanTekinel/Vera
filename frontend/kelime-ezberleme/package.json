@@ -8,6 +8,7 @@
     "build": "vite build",
     "lint": "eslint .",
     "test:grammar": "node scripts/checkGrammarContent.mjs",
+    "review:grammar": "node scripts/reviewGrammarQuestions.mjs",
     "preview": "vite preview",
     "mobile:sync": "npm run build && cap sync",
     "mobile:android": "npm run mobile:sync && cap open android"

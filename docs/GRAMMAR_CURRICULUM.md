@@ -18,6 +18,11 @@ Bir konunun olumlu, olumsuz ve soru biçimleri aynı dersin içinde. `Have` ve
 örnekler, kısa not ve 20 açıklamalı **grammar** sorusu vardır. Erasmus kelime
 paketleri ayrı veri havuzunda kalır.
 
+Yeni soru yazarken doğru seçeneğin iki örneğe de uyduğunu elle kontrol edin:
+`npm run review:grammar -- A1` veya tek konu için
+`npm run review:grammar -- have-got`. Bu komut soruları doğru cevapla doldurulmuş
+cümleler olarak listeler. Ardından `npm run test:grammar` yapısal kontrolü çalıştırır.
+
 Konu kapsamını karşılaştırırken kullanılan birincil kaynaklar:
 
 - [Cambridge Essential Grammar in Use, 4. baskı içindekiler](https://assets.cambridge.org/97811074/80551/toc/9781107480551_toc.pdf)
