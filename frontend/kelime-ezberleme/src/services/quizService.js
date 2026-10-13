@@ -10,7 +10,6 @@ export const getDailyQuizAPI = async () => {
 
   return handleResponse(response);
 };
-
 export const submitQuizAnswerAPI = async ({
   word_id,
   selected_answer,
@@ -30,17 +29,6 @@ export const submitQuizAnswerAPI = async ({
       quiz_session_id,
       quizSessionId: quiz_session_id,
     }),
-  });
-
-  return handleResponse(response);
-};
-
-export const advanceQuizReviewsDemoAPI = async () => {
-  const response = await fetch(`${API_BASE_URL}/quiz/demo/advance-reviews`, {
-    method: "POST",
-    headers: {
-      ...getAuthHeaders(),
-    },
   });
 
   return handleResponse(response);

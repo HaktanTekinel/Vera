@@ -208,43 +208,6 @@ def main():
         """
     )
 
-    cursor.execute("SELECT id FROM users ORDER BY id LIMIT 1")
-    user_row = cursor.fetchone()
-
-    cursor.execute("SELECT id FROM words ORDER BY id LIMIT 1")
-    word_row = cursor.fetchone()
-
-    if user_row and word_row and table_exists(cursor, "user_word_progress"):
-        user_id = user_row[0]
-        word_id = word_row[0]
-
-        cursor.execute(
-            """
-            INSERT INTO user_word_progress (
-                user_id,
-                word_id,
-                current_stage,
-                next_review_at,
-                is_learned,
-                consecutive_correct,
-                last_answer_correct,
-                reset_count
-            )
-            VALUES (?, ?, 6, NULL, 1, 6, 1, 0)
-            ON CONFLICT(user_id, word_id)
-            DO UPDATE SET
-                current_stage = 6,
-                next_review_at = NULL,
-                is_learned = 1,
-                consecutive_correct = 6,
-                last_answer_correct = 1,
-                reset_count = 0
-            """,
-            (user_id, word_id),
-        )
-
-        print(f"Demo için öğrenilmiş kelime ayarlandı. user_id={user_id}, word_id={word_id}")
-
     cursor.execute("PRAGMA foreign_keys = ON")
 
     connection.commit()

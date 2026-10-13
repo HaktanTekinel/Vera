@@ -1,6 +1,7 @@
 import { useCallback, useEffect, useRef, useState } from "react";
 import { useSearchParams } from "react-router-dom";
 import { topicForLesson } from "../../data/grammar";
+import { grammarQuestionsForLesson } from "../../data/grammarPractice";
 import StudyQuiz from "../../components/StudyQuiz/StudyQuiz";
 import Icon from "../../components/Icon/Icon";
 import { erasmusRequest } from "../../services/erasmusService";
@@ -15,15 +16,15 @@ function GrammarPractice({ lesson, onComplete }) {
   const [results, setResults] = useState(null);
   const [started, setStarted] = useState(false);
   if (!topic) return null;
-  const questions = topic.quiz.map(([prompt, correct, ...rest], index) => ({ id: index + 1, prompt, options: [correct, ...rest.slice(0, -1)] }));
+  const questions = grammarQuestionsForLesson(topic);
   async function submit(answers) {
-    const graded = topic.quiz.map(([prompt, correct, ...rest], index) => ({ id: index + 1, prompt, correct_answer: correct, selected: answers[index + 1], correct: answers[index + 1] === correct, explanation: rest.at(-1) }));
+    const graded = questions.map((question) => ({ id: question.id, prompt: question.prompt, correct_answer: question.correct, selected: answers[question.id], correct: answers[question.id] === question.correct, explanation: question.explanation }));
     setResults(graded);
     await onComplete(graded.filter((item) => item.correct).length);
   }
   if (lesson.video && !lesson.progress.video_watched) return null;
   return <section className="lesson-section"><p className="study-eyebrow">Ders notları</p><h2>{topic.title}</h2><ul className="study-notes">{topic.notes.map((note) => <li key={note}>{note}</li>)}</ul>
-    {!started ? <button type="button" className="study-primary" onClick={() => setStarted(true)}>{lesson.progress.grammar_completed ? "Quizi yeniden çöz" : "Grammar quizine başla"}</button> : <StudyQuiz title="Grammar quizi" questions={questions} onSubmit={submit} results={results}/>}</section>;
+    {!started ? <button type="button" className="study-primary" onClick={() => setStarted(true)}>{lesson.progress.grammar_completed ? `Grammar quizini yeniden çöz · ${questions.length} soru` : `Grammar quizine başla · ${questions.length} soru`}</button> : <StudyQuiz title="Grammar quizi" questions={questions} onSubmit={submit} results={results} instantFeedback/>}</section>;
 }
 
 function VocabularyQuiz({ title, questions, endpoint, onFinished }) {

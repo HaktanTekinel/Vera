@@ -42,7 +42,7 @@ Kayıt / giriş
   içermez.
 - Videolu günlerde uygulama içinde gömülü video vardır. Kaynak sayfasını ayrıca
   açma bağlantısı bulunur. Kullanıcı **“İzledim, notları aç”** dediğinde o günün
-  kısa grammar notları ve quiz görünür.
+  kısa grammar tekrar notları ve 20 soruluk açıklamalı grammar quizi görünür.
 - Grammar soruları cevaplanınca doğru/yanlış ve açıklama gösterilir; tamamlama
   bilgisi kaydedilir. Reading dış kaynağa açılır ve “Okudum” olarak işaretlenir.
 - Tarih seçimi **yalnızca ders içeriğini** değiştirir. Kelime paketi ilerlemesini
@@ -79,7 +79,7 @@ aynı değildir.
 | `/login`, `/register`, `/forgot-password` | Hesap erişimi |
 | `/choose` | Normal/Erasmus çalışma yolu seçimi |
 | `/erasmus` | Günlük ders, kelime paketi ve tekrarlar sekmeleri |
-| `/grammar` | A1–C1 konu seçimi, kısa not ve açıklamalı quiz |
+| `/grammar` | A1–C1 konu seçimi, detaylı ders, kısa özet ve konu başına 20 açıklamalı grammar sorusu |
 | `/home` | Normal mod ana sayfası |
 | `/words`, `/add-word`, `/quiz` | Normal kelime listesi, ekleme ve quiz |
 | `/puzzle`, `/word-chain`, `/reports`, `/settings` | Oyunlar, rapor ve ayarlar |
@@ -128,8 +128,10 @@ backend/data/erasmus_extra_vocabulary.json
 Erasmus API `/erasmus` altında dersleri, tarih bazlı ders detayını ve
 ilerlemesini, sınav tarihini, özet göstergelerini, sıradaki kelime paketini ve
 bekleyen tekrarları sunar. Kelime soruları backend tarafından üretilir;
-frontend cevapları gönderip sonuçları gösterir. Grammar kütüphanesinin
-konu/not/quiz verisi şu an frontend `src/data/grammar.js` içindedir.
+frontend cevapları gönderip sonuçları gösterir. Grammar kütüphanesinin konu
+haritası `src/data/grammar.js`, uzun dersleri `src/data/grammarLessons.js`,
+soru bankası `src/data/grammarPractice.js` içindedir. Vocabulary quizleri bu
+grammar bankasından ayrıdır.
 
 ## 5. İçerik kaynakları ve sınırlar
 
