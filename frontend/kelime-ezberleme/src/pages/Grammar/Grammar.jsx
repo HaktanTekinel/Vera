@@ -7,6 +7,7 @@ import "../Erasmus/Erasmus.css";
 
 const levels = ["A1", "A2", "B1", "B2", "C1"];
 const a1Order = ["be-present", "pronouns-possessives", "articles-nouns", "demonstratives", "there-is-are", "have-got", "present-simple", "present-continuous", "basic-questions", "some-any-count", "can-imperatives", "basic-prepositions", "likes-would-like", "past-simple"];
+const a2Order = ["present-tense-choice", "past-continuous", "past-tense-choice", "future", "present-perfect-intro", "ability-obligation-advice", "verb-ing-preferences", "adjectives-adverbs", "comparison"];
 
 export default function Grammar() {
   const [level, setLevel] = useState("A1");
@@ -51,7 +52,10 @@ export default function Grammar() {
       {levels.map((item) => <button type="button" className={level === item ? "active" : ""} onClick={() => chooseLevel(item)} key={item}>{item}</button>)}
     </div>
     {!topic ? <nav className="study-topic-list" aria-label="Grammar konuları">
-      {grammarTopics.filter((item) => item.level === level).sort((a, b) => level === "A1" ? a1Order.indexOf(a.id) - a1Order.indexOf(b.id) : 0).map((item) => <button type="button" key={item.id} onClick={() => chooseTopic(item.id)}>
+      {grammarTopics.filter((item) => item.level === level).sort((a, b) => {
+        const order = level === "A1" ? a1Order : level === "A2" ? a2Order : null;
+        return order ? order.indexOf(a.id) - order.indexOf(b.id) : 0;
+      }).map((item) => <button type="button" key={item.id} onClick={() => chooseTopic(item.id)}>
         <strong>{item.title}</strong><span>Detaylı ders · {grammarQuestionCounts[item.id] || 0} grammar sorusu</span>
       </button>)}
     </nav> : <article className="lesson-section grammar-lesson">

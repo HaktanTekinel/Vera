@@ -1,5 +1,7 @@
 // Original Turkish lessons and grammar-only practice for the expanded curriculum.
 // Pair format: two cloze contexts, correct option, three distractors, explanation.
+import { a2Units } from "./grammarA2.js";
+
 const units = [
   {
     id: "be-present", level: "A1", title: "Be: am, is, are",
@@ -486,6 +488,8 @@ const units = [
   },
 ];
 
-export const expandedGrammarTopics = units.map(({ id, level, title }) => ({ id, level, title }));
-export const expandedGrammarLessons = Object.fromEntries(units.map(({ id, intro, sections, summary }) => [id, { intro, sections, summary }]));
-export const expandedGrammarBanks = Object.fromEntries(units.map(({ id, bank }) => [id, bank]));
+const allUnits = [...units, ...a2Units];
+
+export const expandedGrammarTopics = allUnits.map(({ id, level, title }) => ({ id, level, title }));
+export const expandedGrammarLessons = Object.fromEntries(allUnits.map(({ id, intro, sections, summary }) => [id, { intro, sections, summary }]));
+export const expandedGrammarBanks = Object.fromEntries(allUnits.map(({ id, bank }) => [id, bank]));
