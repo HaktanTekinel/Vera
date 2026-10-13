@@ -1,5 +1,6 @@
 import { useCallback, useEffect, useMemo, useState } from "react";
 import { Link } from "react-router-dom";
+import Icon from "../../components/Icon/Icon";
 import {
   API_BASE_URL,
   createWordAPI,
@@ -379,7 +380,7 @@ function Words() {
               <h3>Kelime bilgileri</h3>
             </div>
 
-            <div className="word-card-icon">➕</div>
+            <div className="word-card-icon"><Icon name="plus" size={24}/></div>
           </div>
 
           <div className="form-grid">

@@ -1,4 +1,5 @@
 import { useCallback, useEffect, useMemo, useState } from "react";
+import Icon from "../../components/Icon/Icon";
 import {
   getCurrentWordleGameAPI,
   getWordleHistoryAPI,
@@ -549,7 +550,7 @@ function Puzzle() {
 
       {loading && (
         <section className="puzzle-state">
-          <div className="state-icon">🧩</div>
+          <div className="state-icon"><Icon name="grid" size={25}/></div>
           <h3>Bulmaca yükleniyor...</h3>
           <p>Aktif çalışma kontrol ediliyor.</p>
         </section>
@@ -567,7 +568,7 @@ function Puzzle() {
 
           {!game && (
             <section className="puzzle-state empty">
-              <div className="state-icon">🎯</div>
+              <div className="state-icon"><Icon name="check" size={25}/></div>
               <h3>Aktif bulmaca yok</h3>
               <p>
                 Başlamak için yeni bir bulmaca oluştur. Kelime havuzun hazır

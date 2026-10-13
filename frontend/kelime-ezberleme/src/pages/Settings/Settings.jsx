@@ -1,4 +1,5 @@
 import { useCallback, useEffect, useMemo, useState } from "react";
+import Icon from "../../components/Icon/Icon";
 import {
   getUserSettingsAPI,
   updateUserSettingsAPI,
@@ -215,7 +216,7 @@ function Settings() {
               <h3>Günlük yeni kelime sayısı</h3>
             </div>
 
-            <div className="settings-icon">⚙️</div>
+            <div className="settings-icon"><Icon name="settings" size={24}/></div>
           </div>
 
           {loading ? (

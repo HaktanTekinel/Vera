@@ -17,6 +17,8 @@ const paths = {
   chart: <><path d="M4 20V10M10 20V4M16 20v-8M22 20V7"/></>,
   plus: <path d="M12 4v16M4 12h16"/>,
   volume: <><path d="M11 5 6 9H3v6h3l5 4z"/><path d="M15 9a5 5 0 0 1 0 6M18 6a9 9 0 0 1 0 12"/></>,
+  alert: <><path d="m12 3 10 18H2z"/><path d="M12 9v5M12 18h.01"/></>,
+  x: <path d="M5 5l14 14M19 5 5 19"/>,
 };
 
 export default function Icon({ name, size = 20 }) {

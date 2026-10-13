@@ -1,4 +1,5 @@
 import { useCallback, useEffect, useMemo, useState } from "react";
+import Icon from "../../components/Icon/Icon";
 import { API_BASE_URL } from "../../services/apiClient";
 import {
   generateWordChainStoryAPI,
@@ -210,7 +211,7 @@ function WordChain() {
               <h3>Kelimelerini gir</h3>
             </div>
 
-            <div className="word-chain-icon">🔗</div>
+            <div className="word-chain-icon"><Icon name="layers" size={24}/></div>
           </div>
 
           <label className="word-chain-field">

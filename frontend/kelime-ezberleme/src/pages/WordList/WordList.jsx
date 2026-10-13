@@ -1,5 +1,6 @@
 import { useCallback, useEffect, useMemo, useState } from "react";
 import { Link } from "react-router-dom";
+import Icon from "../../components/Icon/Icon";
 import {
   API_BASE_URL,
   deleteWordAPI,
@@ -414,7 +415,7 @@ function renderWordActions({ word, onEdit, onDelete }) {
           className="audio-word-button"
           onClick={() => playAudioUrl(word.audio_url)}
         >
-          🔊 Sesi Dinle
+          <Icon name="volume" size={17}/> Sesi Dinle
         </button>
       )}
 

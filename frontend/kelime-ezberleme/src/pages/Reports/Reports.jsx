@@ -1,5 +1,6 @@
 import PropTypes from "prop-types";
 import { useCallback, useEffect, useMemo, useState } from "react";
+import Icon from "../../components/Icon/Icon";
 import { getUserReportAPI } from "../../services/reportService";
 import { CEFR_LEVELS, getCefrLevelLabel, getCefrLevelOrder, isCefrLevel } from "../../utils/cefrLevels";
 import "./Reports.css";
@@ -197,7 +198,7 @@ function createSummaryCards(summary) {
     cards.push({
       title: "Çözülen Soru",
       value: formatNumber(summary.totalAnswers),
-      icon: "📝",
+      icon: "book",
     });
   }
 
@@ -205,7 +206,7 @@ function createSummaryCards(summary) {
     cards.push({
       title: "Doğru Cevap",
       value: formatNumber(summary.correctAnswers),
-      icon: "✅",
+      icon: "check",
     });
   }
 
@@ -213,7 +214,7 @@ function createSummaryCards(summary) {
     cards.push({
       title: "Yanlış Cevap",
       value: formatNumber(summary.wrongAnswers),
-      icon: "❌",
+      icon: "x",
     });
   }
 
@@ -221,7 +222,7 @@ function createSummaryCards(summary) {
     cards.push({
       title: "Başarı Oranı",
       value: formatPercent(summary.successRate),
-      icon: "📈",
+      icon: "chart",
     });
   }
 
@@ -229,7 +230,7 @@ function createSummaryCards(summary) {
     cards.push({
       title: "Öğrenilen Kelime",
       value: formatNumber(summary.learnedWords),
-      icon: "📚",
+      icon: "book",
     });
   }
 
@@ -237,7 +238,7 @@ function createSummaryCards(summary) {
     cards.push({
       title: "6. Aşamaya Gelen",
       value: formatNumber(summary.masteredWords),
-      icon: "🏆",
+      icon: "check",
     });
   }
 
@@ -245,7 +246,7 @@ function createSummaryCards(summary) {
     cards.push({
       title: "Tekrar Bekleyen",
       value: formatNumber(summary.pendingReviews),
-      icon: "⏰",
+      icon: "repeat",
     });
   }
 
@@ -574,7 +575,7 @@ function Reports() {
 
       {loading && (
         <section className="reports-state">
-          <div className="state-icon">📊</div>
+          <div className="state-icon"><Icon name="chart" size={25}/></div>
           <h3>Rapor yükleniyor...</h3>
           <p>Çalışma verilerin hazırlanıyor.</p>
         </section>
@@ -582,7 +583,7 @@ function Reports() {
 
       {!loading && error && (
         <section className="reports-state error">
-          <div className="state-icon">⚠️</div>
+          <div className="state-icon"><Icon name="alert" size={25}/></div>
           <h3>Rapor yüklenemedi</h3>
           <p>{error}</p>
 
@@ -594,7 +595,7 @@ function Reports() {
 
       {!loading && !error && !hasReportContent && (
         <section className="reports-state empty">
-          <div className="state-icon">📝</div>
+          <div className="state-icon"><Icon name="book" size={25}/></div>
           <h3>Henüz rapor oluşturacak veri yok</h3>
           <p>
             Quiz çözdükçe doğru, yanlış ve başarı oranların burada görünmeye
@@ -609,7 +610,7 @@ function Reports() {
             <section className="report-summary-grid">
               {summaryCards.map((item) => (
                 <article className="report-summary-card" key={item.title}>
-                  <div className="summary-icon">{item.icon}</div>
+                  <div className="summary-icon"><Icon name={item.icon} size={22}/></div>
 
                   <div>
                     <p>{item.title}</p>
