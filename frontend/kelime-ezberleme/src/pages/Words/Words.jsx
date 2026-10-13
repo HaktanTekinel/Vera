@@ -223,7 +223,8 @@ function Words() {
   }, []);
 
   useEffect(() => {
-    loadWords();
+    const timer = globalThis.setTimeout(() => { void loadWords(); }, 0);
+    return () => globalThis.clearTimeout(timer);
   }, [loadWords]);
 
   const getSamples = () => {

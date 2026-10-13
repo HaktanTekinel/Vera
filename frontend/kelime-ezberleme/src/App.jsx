@@ -21,6 +21,8 @@ import Puzzle from "./pages/Puzzle/Puzzle";
 import StudyChoice from "./pages/StudyChoice/StudyChoice";
 import Erasmus from "./pages/Erasmus/Erasmus";
 import Grammar from "./pages/Grammar/Grammar";
+import More from "./pages/More/More";
+import Games from "./pages/Games/Games";
 
 function App() {
   const Router = window.Capacitor?.isNativePlatform?.() ? HashRouter : BrowserRouter;
@@ -42,6 +44,8 @@ function App() {
             <Route path="/choose" element={<StudyChoice />} />
             <Route path="/erasmus" element={<Erasmus />} />
             <Route path="/grammar" element={<Grammar />} />
+            <Route path="/more" element={<More />} />
+            <Route path="/games" element={<Games />} />
             <Route path="/home" element={<Home />} />
 
             <Route path="/words" element={<WordList />} />

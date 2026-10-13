@@ -9,7 +9,7 @@ function ModulePage({ title, description, icon, buttonText, buttonPath }) {
         <div className="module-icon">{icon}</div>
 
         <div>
-          <p>Kelime Hafızam Modülü</p>
+          <p>Vera modülü</p>
           <h2>{title}</h2>
           <span>{description}</span>
 

@@ -120,7 +120,7 @@ function Register() {
   return (
     <AuthLayout
       title="Kayıt Ol"
-      subtitle="Kelime öğrenme sürecini takip etmek için yeni bir hesap oluştur."
+      subtitle="İngilizce çalışmanı takip etmek için yeni bir hesap oluştur."
       footer={
         <>
           <span>Zaten hesabın var mı?</span>

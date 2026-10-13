@@ -1,6 +1,6 @@
-# Kelime Hafızam
+# Vera
 
-Kelime Hafızam, İngilizce kelime öğrenmeyi 6 tekrar prensibiyle destekleyen web tabanlı bir kelime ezberleme uygulamasıdır.
+Vera, İngilizce kelime öğrenmeyi 6 tekrar prensibiyle destekleyen web tabanlı bir çalışma uygulamasıdır. Eski proje adı Kelime Hafızam'dır.
 
 Uygulamada kullanıcı kayıt/giriş işlemleri, kelime ekleme, günlük quiz, analiz raporu, Wordle bulmaca ve LLM destekli Word Chain modülü bulunur.
 
@@ -13,6 +13,7 @@ grammar kütüphanesi iki çalışma yolundan da açılabilir.
 
 İçerik kaynakları için [Erasmus içerik notları](docs/ERASMUS_CONTENT.md), Android
 projesi için [mobil geliştirme notları](docs/MOBILE.md) bölümüne bakın.
+Arayüzü tarayıcıda denemek için [web önizleme adımları](docs/WEB_PREVIEW.md) bölümüne bakın.
 
 ## Kullanılan Teknolojiler
 

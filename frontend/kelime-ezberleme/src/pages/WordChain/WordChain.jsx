@@ -137,7 +137,8 @@ function WordChain() {
   }, []);
 
   useEffect(() => {
-    loadHistory();
+    const timer = globalThis.setTimeout(() => { void loadHistory(); }, 0);
+    return () => globalThis.clearTimeout(timer);
   }, [loadHistory]);
 
   const validateWords = () => {

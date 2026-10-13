@@ -1,4 +1,4 @@
-# Kelime Hafızam / Erasmus: başka bir yapay zekâ için proje bağlamı
+# Vera / Erasmus: başka bir yapay zekâ için proje bağlamı
 
 Bu belge, mevcut uygulamanın ne yaptığını ve sonraki arayüz tasarım çalışmasının
 hangi ürünü ele alacağını anlatır. **Bir tasarım kararı veya yeni özellik talebi
@@ -8,7 +8,7 @@ vereceği tasarım promptu, görsel tercihleri ve ekran görüntüleri bu belgen
 
 ## 1. Ürünün amacı
 
-Kelime Hafızam, İngilizce kelime çalışmak için yapılmış bir ders projesinden
+Vera (eski adı Kelime Hafızam), İngilizce kelime çalışmak için yapılmış bir ders projesinden
 gelişen uygulamadır. Kullanıcı giriş yaptıktan sonra iki çalışma yolu seçer:
 
 1. **Normal uygulama:** Eski kelime havuzu, kullanıcının eklediği kelimeler,

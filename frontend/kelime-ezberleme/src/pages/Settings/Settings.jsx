@@ -79,7 +79,8 @@ function Settings() {
   }, []);
 
   useEffect(() => {
-    loadSettings();
+    const timer = globalThis.setTimeout(() => { void loadSettings(); }, 0);
+    return () => globalThis.clearTimeout(timer);
   }, [loadSettings]);
 
   const isChanged = useMemo(() => {

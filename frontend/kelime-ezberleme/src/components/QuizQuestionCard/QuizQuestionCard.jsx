@@ -1,4 +1,5 @@
 import PropTypes from "prop-types";
+import Icon from "../Icon/Icon";
 import "./QuizQuestionCard.css";
 
 const EMPTY_TEXT = "";
@@ -96,7 +97,7 @@ function QuizQuestionCard({
                 onClick={handlePlayAudio}
                 aria-label={`${word} telaffuzunu dinle`}
               >
-                <span>🔊</span>
+                <Icon name="volume" size={18}/>
                 Telaffuzu Dinle
               </button>
             )}

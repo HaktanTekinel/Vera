@@ -99,7 +99,7 @@ function Login() {
   return (
     <AuthLayout
       title="Giriş Yap"
-      subtitle="Kelime ezberleme sistemine devam etmek için hesabına giriş yap."
+      subtitle="Çalışmana devam etmek için hesabına giriş yap."
       footer={
         <>
           <Link to="/forgot-password">Şifremi Unuttum</Link>

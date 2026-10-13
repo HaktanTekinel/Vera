@@ -535,6 +535,7 @@ function WordList() {
   const [topicFilter, setTopicFilter] = useState(ALL_FILTER_VALUE);
   const [difficultyFilter, setDifficultyFilter] = useState(ALL_FILTER_VALUE);
   const [sortType, setSortType] = useState("newest");
+  const [visibleCount, setVisibleCount] = useState(24);
 
   const [editingWord, setEditingWord] = useState(null);
   const [editFormData, setEditFormData] = useState(EMPTY_EDIT_FORM);
@@ -591,15 +592,6 @@ function WordList() {
 
     return [...new Set(topics)].sort((a, b) => a.localeCompare(b, "tr"));
   }, [words]);
-
-  const stats = useMemo(() => {
-    return {
-      total: words.length,
-      withImage: words.filter((word) => Boolean(word.picture_url)).length,
-      withAudio: words.filter((word) => Boolean(word.audio_url)).length,
-      topicCount: topicOptions.length,
-    };
-  }, [words, topicOptions]);
 
   const filteredWords = useMemo(() => {
     const search = searchTerm.trim().toLowerCase();
@@ -783,7 +775,7 @@ function WordList() {
 
   const wordListContent = renderWordListContent({
     loading,
-    filteredWords,
+    filteredWords: filteredWords.slice(0, visibleCount),
     expandedSampleIds,
     onToggleSamples: toggleSamples,
     onEdit: openEditModal,
@@ -802,38 +794,11 @@ function WordList() {
         </div>
 
         <div className="word-list-hero-actions">
-          <Link to="/home">Ana Sayfa</Link>
           <Link to="/add-word">Yeni Kelime Ekle</Link>
         </div>
       </section>
 
       {renderMessage(message)}
-
-      <section className="word-stats-grid">
-        <article className="word-stat-card">
-          <span>Toplam</span>
-          <strong>{stats.total}</strong>
-          <p>Kayıtlı kelime</p>
-        </article>
-
-        <article className="word-stat-card">
-          <span>Görsel</span>
-          <strong>{stats.withImage}</strong>
-          <p>Resimli kelime</p>
-        </article>
-
-        <article className="word-stat-card">
-          <span>Ses</span>
-          <strong>{stats.withAudio}</strong>
-          <p>Ses bağlantılı kelime</p>
-        </article>
-
-        <article className="word-stat-card">
-          <span>Konu</span>
-          <strong>{stats.topicCount}</strong>
-          <p>Farklı konu</p>
-        </article>
-      </section>
 
       <section className="word-list-panel">
         <div className="word-list-toolbar">
@@ -843,7 +808,7 @@ function WordList() {
               type="text"
               placeholder="İngilizce, Türkçe veya konu ara..."
               value={searchTerm}
-              onChange={(event) => setSearchTerm(event.target.value)}
+              onChange={(event) => { setSearchTerm(event.target.value); setVisibleCount(24); }}
             />
           </label>
 
@@ -851,7 +816,7 @@ function WordList() {
             <span>Konu</span>
             <select
               value={topicFilter}
-              onChange={(event) => setTopicFilter(event.target.value)}
+              onChange={(event) => { setTopicFilter(event.target.value); setVisibleCount(24); }}
             >
               <option value={ALL_FILTER_VALUE}>Tüm konular</option>
               {renderTopicOptions(topicOptions)}
@@ -862,7 +827,7 @@ function WordList() {
             <span>Seviye</span>
             <select
               value={difficultyFilter}
-              onChange={(event) => setDifficultyFilter(event.target.value)}
+              onChange={(event) => { setDifficultyFilter(event.target.value); setVisibleCount(24); }}
             >
               {renderSelectOptions(DIFFICULTY_OPTIONS)}
             </select>
@@ -872,7 +837,7 @@ function WordList() {
             <span>Sıralama</span>
             <select
               value={sortType}
-              onChange={(event) => setSortType(event.target.value)}
+              onChange={(event) => { setSortType(event.target.value); setVisibleCount(24); }}
             >
               {renderSelectOptions(SORT_OPTIONS)}
             </select>
@@ -890,6 +855,7 @@ function WordList() {
         </div>
 
         {wordListContent}
+        {!loading && filteredWords.length > visibleCount && <button className="word-load-more" type="button" onClick={() => setVisibleCount((count) => count + 24)}>Daha fazla kelime göster</button>}
       </section>
 
       {editingWord && (

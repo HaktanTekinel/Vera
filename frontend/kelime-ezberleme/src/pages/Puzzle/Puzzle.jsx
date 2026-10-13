@@ -418,8 +418,8 @@ function Puzzle() {
   }, []);
 
   useEffect(() => {
-    loadCurrentGame();
-    loadHistory();
+    const timer = globalThis.setTimeout(() => { void loadCurrentGame(); void loadHistory(); }, 0);
+    return () => globalThis.clearTimeout(timer);
   }, [loadCurrentGame, loadHistory]);
 
   const handleStartGame = async () => {

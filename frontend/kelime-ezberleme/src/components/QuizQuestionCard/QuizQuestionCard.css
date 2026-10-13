@@ -234,3 +234,7 @@
     justify-content: center;
   }
 }
+
+.quiz-word-placeholder{background:var(--primary-soft);color:var(--primary);border:1px solid var(--line)}
+.quiz-question-area h2{font-size:clamp(26px,5vw,36px);letter-spacing:-.04em;overflow-wrap:anywhere}.quiz-question-label{background:var(--primary-soft);color:var(--primary)}.quiz-audio-button{min-height:44px;background:var(--surface);color:var(--primary);border-color:var(--line);border-radius:12px}.quiz-option{min-height:56px;box-shadow:none!important}.quiz-option.selected{background:var(--primary-soft);border-color:var(--primary);color:var(--primary)}
+@media(max-width:600px){.quiz-word-placeholder,.quiz-word-image{width:82px;height:82px;border-radius:18px;font-size:34px}.quiz-question-area{gap:14px}.quiz-question-area h2{font-size:27px}}

@@ -1,0 +1,13 @@
+/* Bring the retained normal-mode tools into Vera's light visual system. */
+.vera-main :is(.word-list-hero,.words-hero,.reports-hero,.settings-hero,.puzzle-hero,.word-chain-hero){background:transparent;color:var(--ink);box-shadow:none;border:0;padding:0;align-items:flex-start;flex-direction:column;gap:12px}
+.vera-main :is(.word-list-hero,.words-hero,.reports-hero,.settings-hero,.puzzle-hero,.word-chain-hero) h2{color:var(--ink);font-size:clamp(28px,5vw,36px);line-height:1.15;letter-spacing:-.04em}
+.vera-main :is(.word-list-hero,.words-hero,.reports-hero,.settings-hero,.puzzle-hero,.word-chain-hero) p{color:var(--muted);font-size:14px;line-height:1.6;font-weight:400;margin-top:8px}
+.vera-main :is(.word-list-hero-actions,.words-hero-actions,.reports-hero-actions,.puzzle-hero-actions){width:auto;gap:8px}
+.vera-main :is(.word-list-hero-actions,.words-hero-actions) a,.vera-main :is(.reports-hero-actions,.puzzle-hero-actions,.settings-hero) button{min-height:44px;background:var(--primary);color:white;border:0;border-radius:12px;box-shadow:none}
+.vera-main :is(.word-list-panel,.word-list-message,.word-card,.words-card,.reports-card,.settings-card,.puzzle-board-card,.puzzle-info-card,.word-chain-card,.word-chain-info-card,.generated-story-card,.word-chain-history-card){background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);box-shadow:none}
+.vera-main :is(.word-list-panel,.words-page,.reports-page,.settings-page,.puzzle-page,.word-chain-page){min-width:0}
+.vera-main :is(.word-list-panel,.words-page,.reports-page,.settings-page,.puzzle-page,.word-chain-page) input,.vera-main :is(.word-list-panel,.words-page,.reports-page,.settings-page,.puzzle-page,.word-chain-page) select,.vera-main :is(.words-page,.word-list-page,.word-chain-page) textarea{max-width:100%;min-height:44px}
+.word-list-summary{background:var(--bg);border-color:var(--line)}.word-load-more{min-height:48px;width:100%;margin-top:18px;border:1px solid var(--line);border-radius:12px;background:var(--surface);color:var(--primary);font-weight:750}
+.word-list-summary button,.word-card button,.word-edit-modal button{min-height:44px}
+.vera-main :is(.word-card,.word-list-panel,.word-edit-modal){box-shadow:none}.vera-main :is(.word-card-image-placeholder,.word-card-placeholder,.report-chart-icon){background:var(--primary-soft);color:var(--primary)}
+@media(max-width:600px){.vera-main :is(.word-list-hero-actions,.words-hero-actions){width:100%}.vera-main :is(.word-list-hero-actions,.words-hero-actions) a{flex:1}.vera-main .word-list-panel{padding:18px}}

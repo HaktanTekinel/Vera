@@ -1,7 +1,6 @@
 import { useCallback, useEffect, useMemo, useState } from "react";
 import { Link } from "react-router-dom";
 import {
-  advanceQuizReviewsDemoAPI,
   getDailyQuizAPI,
   submitQuizAnswerAPI,
 } from "../../services/quizService";
@@ -302,15 +301,15 @@ function getNextButtonText(currentIndex, totalCount) {
 }
 
 function Quiz() {
-  const [quizData, setQuizData] = useState(createEmptyQuiz);
-  const [currentIndex, setCurrentIndex] = useState(0);
-  const [selectedAnswer, setSelectedAnswer] = useState("");
-  const [answerResult, setAnswerResult] = useState(null);
-  const [answeredQuestions, setAnsweredQuestions] = useState([]);
+  const [initialActiveQuiz] = useState(readActiveQuiz);
+  const [quizData, setQuizData] = useState(() => initialActiveQuiz?.quizData || createEmptyQuiz());
+  const [currentIndex, setCurrentIndex] = useState(() => Number(initialActiveQuiz?.currentIndex || 0));
+  const [selectedAnswer, setSelectedAnswer] = useState(() => initialActiveQuiz?.selectedAnswer || "");
+  const [answerResult, setAnswerResult] = useState(() => initialActiveQuiz?.answerResult || null);
+  const [answeredQuestions, setAnsweredQuestions] = useState(() => Array.isArray(initialActiveQuiz?.answeredQuestions) ? initialActiveQuiz.answeredQuestions : []);
 
-  const [loading, setLoading] = useState(true);
+  const [loading, setLoading] = useState(!initialActiveQuiz);
   const [answerLoading, setAnswerLoading] = useState(false);
-  const [demoLoading, setDemoLoading] = useState(false);
   const [message, setMessage] = useState(createEmptyMessage);
 
   const questions = quizData.questions || [];
@@ -376,24 +375,10 @@ function Quiz() {
   }, []);
 
   useEffect(() => {
-    const activeQuiz = readActiveQuiz();
-
-    if (activeQuiz) {
-      setQuizData(activeQuiz.quizData || createEmptyQuiz());
-      setCurrentIndex(Number(activeQuiz.currentIndex || 0));
-      setSelectedAnswer(activeQuiz.selectedAnswer || "");
-      setAnswerResult(activeQuiz.answerResult || null);
-      setAnsweredQuestions(
-        Array.isArray(activeQuiz.answeredQuestions)
-          ? activeQuiz.answeredQuestions
-          : []
-      );
-      setLoading(false);
-      return;
-    }
-
-    loadDailyQuiz();
-  }, [loadDailyQuiz]);
+    if (initialActiveQuiz) return;
+    const timer = globalThis.setTimeout(() => { void loadDailyQuiz(); }, 0);
+    return () => globalThis.clearTimeout(timer);
+  }, [initialActiveQuiz, loadDailyQuiz]);
 
   useEffect(() => {
     if (questions.length === 0) {
@@ -430,35 +415,6 @@ function Quiz() {
     }
 
     loadDailyQuiz({ forceNew: true });
-  };
-
-  const handleAdvanceDemoReviews = async () => {
-    setDemoLoading(true);
-    setMessage(createEmptyMessage());
-
-    try {
-      const data = await advanceQuizReviewsDemoAPI();
-      const advancedCount = data?.advanced_count ?? data?.advancedCount ?? 0;
-
-      clearActiveQuiz();
-
-      setMessage({
-        type: "success",
-        text:
-          advancedCount > 0
-            ? `${advancedCount} kelimenin tekrar zamanı bugüne çekildi. Şimdi "Yeni Quiz Başlat" ile tekrar sorularını görebilirsin.`
-            : "İleri alınacak bekleyen tekrar bulunamadı. Önce quizde doğru cevap verip bir tekrar oluştur.",
-      });
-
-      await loadDailyQuiz({ forceNew: true });
-    } catch {
-      setMessage({
-        type: "error",
-        text: "Demo zamanı ileri alınamadı. Backend çalışıyor mu kontrol et.",
-      });
-    } finally {
-      setDemoLoading(false);
-    }
   };
 
   const handleSelectAnswer = (option) => {
@@ -546,29 +502,6 @@ function Quiz() {
     );
   };
 
-  const renderDemoPanel = () => (
-    <section className="quiz-demo-panel">
-      <div>
-        <span>Sunum Modu</span>
-        <h3>6 tekrar algoritmasını hızlı göster</h3>
-        <p>
-          Doğru cevaplanan kelimeler normalde 1 gün, 1 hafta, 1 ay, 3 ay, 6 ay
-          ve 1 yıl aralıklarla tekrar gelir. Bu buton bekleyen tekrarları
-          bugüne çeker.
-        </p>
-      </div>
-
-      <button
-        type="button"
-        className="quiz-demo-button"
-        onClick={handleAdvanceDemoReviews}
-        disabled={demoLoading || loading}
-      >
-        {demoLoading ? "İleri alınıyor..." : "Demo: Zamanı İleri Al"}
-      </button>
-    </section>
-  );
-
   const renderAnswerStatus = () => {
     if (!answerResult) {
       return null;
@@ -604,7 +537,6 @@ function Quiz() {
 
   const renderLoadingState = () => (
     <section className="quiz-state">
-      <div className="quiz-state-icon">🧠</div>
       <h3>Quiz hazırlanıyor...</h3>
       <p>Günlük çalışma soruların yükleniyor.</p>
     </section>
@@ -612,7 +544,6 @@ function Quiz() {
 
   const renderEmptyState = () => (
     <section className="quiz-state empty">
-      <div className="quiz-state-icon">📝</div>
       <h3>Bugün için soru bulunamadı</h3>
       <p>
         Kelime havuzunda yeterli soru olmadığında veya bugün çözülmesi gereken
@@ -668,7 +599,6 @@ function Quiz() {
 
   const renderResultCard = () => (
     <section className="quiz-result-card">
-      <div className="result-icon">🏁</div>
 
       <h3>Quiz tamamlandı</h3>
 
@@ -710,46 +640,11 @@ function Quiz() {
           Yeni Quiz Başlat
         </button>
 
-        <button
-          type="button"
-          className="quiz-demo-button"
-          onClick={handleAdvanceDemoReviews}
-          disabled={demoLoading || loading}
-        >
-          {demoLoading ? "İleri alınıyor..." : "Demo: Zamanı İleri Al"}
-        </button>
-
         <Link to="/home" className="quiz-secondary-link">
           Ana Sayfa
         </Link>
       </div>
     </section>
-  );
-
-  const renderSidePanel = () => (
-    <aside className="quiz-side-panel">
-      <div className="quiz-stat-card">
-        <span>Toplam Soru</span>
-        <strong>{formatNumber(questions.length)}</strong>
-      </div>
-
-      <div className="quiz-stat-card">
-        <span>Tekrar Sorusu</span>
-        <strong>{formatNumber(quizData.due_count)}</strong>
-      </div>
-
-      <div className="quiz-stat-card">
-        <span>Yeni Soru</span>
-        <strong>{formatNumber(quizData.new_count)}</strong>
-      </div>
-
-      <div className="quiz-stat-card">
-        <span>Doğru / Yanlış</span>
-        <strong>
-          {formatNumber(correctCount)} / {formatNumber(wrongCount)}
-        </strong>
-      </div>
-    </aside>
   );
 
   const renderQuizAction = () => {
@@ -779,8 +674,6 @@ function Quiz() {
 
   const renderQuizLayout = () => (
     <section className="quiz-layout">
-      {renderSidePanel()}
-
       <section className="quiz-card">
         <div className="quiz-progress-row">
           <span>
@@ -837,26 +730,17 @@ function Quiz() {
         </div>
 
         <div className="quiz-hero-actions">
-          <Link to="/home" className="quiz-secondary-link">
-            Ana Sayfa
-          </Link>
-
-          <Link to="/words" className="quiz-secondary-link">
-            Kelimelerim
-          </Link>
-
           <button
             type="button"
-            className="quiz-primary-button"
+            className="quiz-secondary-link"
             onClick={handleStartNewQuiz}
             disabled={loading}
           >
-            {loading ? "Yükleniyor..." : "Yeni Quiz Başlat"}
+            {loading ? "Yükleniyor..." : "Yeni quiz"}
           </button>
         </div>
       </section>
 
-      {renderDemoPanel()}
       {renderMessage()}
       {renderContent()}
     </div>

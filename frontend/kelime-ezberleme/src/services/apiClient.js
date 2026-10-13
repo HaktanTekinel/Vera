@@ -60,7 +60,7 @@ export const clearAuthData = () => {
 export const handleResponse = async (response) => {
   const contentType = response.headers.get("content-type");
 
-  let data = null;
+  let data;
 
   if (contentType && contentType.includes("application/json")) {
     data = await response.json();
@@ -70,11 +70,10 @@ export const handleResponse = async (response) => {
   }
 
   if (!response.ok) {
-    const errorMessage =
-      data?.detail ||
-      data?.message ||
-      data?.error ||
-      "İşlem sırasında bir hata oluştu.";
+    const detail = data?.detail;
+    const errorMessage = typeof detail === "string" ? detail
+      : Array.isArray(detail) ? detail.map((item) => item.msg || "Geçersiz bilgi").join("; ")
+      : data?.message || data?.error || "İşlem sırasında bir hata oluştu.";
 
     throw new Error(errorMessage);
   }
