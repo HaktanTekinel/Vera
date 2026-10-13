@@ -2,8 +2,18 @@ import assert from "node:assert/strict";
 import { grammarTopics, topicForLesson } from "../src/data/grammar.js";
 import { grammarLessons } from "../src/data/grammarLessons.js";
 import { grammarQuestions, grammarQuestionsForLesson } from "../src/data/grammarPractice.js";
+import { readFileSync } from "node:fs";
+
+const grammarVideos = JSON.parse(readFileSync(new URL("../src/data/grammarVideos.json", import.meta.url), "utf8"));
 
 for (const topic of grammarTopics) {
+  const videos = grammarVideos[topic.id];
+  assert.ok(videos?.length, `Missing engVid lesson: ${topic.id}`);
+  for (const video of videos) {
+    assert.ok(video.title && video.teacher, `Missing video metadata: ${topic.id}`);
+    assert.match(video.url, /^https:\/\/www\.engvid\.com\/[a-z0-9-]+\/$/, `Invalid engVid source: ${topic.id}`);
+    assert.match(video.embed_url, /^https:\/\/www\.youtube\.com\/embed\/[A-Za-z0-9_-]{11}$/, `Invalid video embed: ${topic.id}`);
+  }
   const lesson = grammarLessons[topic.id];
   assert.ok(lesson, `Missing lesson: ${topic.id}`);
   assert.ok(lesson.intro.length > 80, `Intro too short: ${topic.id}`);

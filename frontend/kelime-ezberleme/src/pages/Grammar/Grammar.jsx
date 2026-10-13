@@ -2,7 +2,9 @@ import { useState } from "react";
 import { grammarTopics } from "../../data/grammar";
 import { grammarLessons } from "../../data/grammarLessons";
 import { grammarQuestions, grammarQuestionCounts } from "../../data/grammarPractice";
+import grammarVideos from "../../data/grammarVideos.json";
 import StudyQuiz from "../../components/StudyQuiz/StudyQuiz";
+import Icon from "../../components/Icon/Icon";
 import "../Erasmus/Erasmus.css";
 
 const levels = ["A1", "A2", "B1", "B2", "C1"];
@@ -14,21 +16,26 @@ export default function Grammar() {
   const [topicId, setTopicId] = useState(null);
   const [started, setStarted] = useState(false);
   const [results, setResults] = useState(null);
+  const [videoIndex, setVideoIndex] = useState(0);
   const topic = grammarTopics.find((item) => item.id === topicId);
   const lesson = grammarLessons[topicId];
   const questions = grammarQuestions(topicId);
+  const videos = grammarVideos[topicId] || [];
+  const activeVideo = videos[videoIndex] || videos[0];
 
   function chooseLevel(next) {
     setLevel(next);
     setTopicId(null);
     setStarted(false);
     setResults(null);
+    setVideoIndex(0);
   }
 
   function chooseTopic(next) {
     setTopicId(next);
     setStarted(false);
     setResults(null);
+    setVideoIndex(0);
   }
 
   function submit(answers) {
@@ -65,6 +72,23 @@ export default function Grammar() {
         <h2>{topic.title}</h2>
         <p>{lesson?.intro}</p>
       </header>
+      {activeVideo && <section className="grammar-video" aria-label="Konu videosu">
+        <div className="grammar-video-heading">
+          <p className="study-eyebrow">Video dersi · engVid</p>
+          <h3>{activeVideo.teacher} ile izle</h3>
+          <p>{activeVideo.title}</p>
+        </div>
+        <div className="study-video-frame">
+          <iframe key={activeVideo.embed_url} title={`${activeVideo.teacher}: ${activeVideo.title}`} src={activeVideo.embed_url} loading="lazy" referrerPolicy="strict-origin-when-cross-origin" allow="accelerometer; autoplay; encrypted-media; picture-in-picture" allowFullScreen />
+        </div>
+        <a className="study-inline-link" href={activeVideo.url} target="_blank" rel="noopener noreferrer">engVid kaynak sayfasını aç <Icon name="external" size={16}/></a>
+        <p className="grammar-video-help">Oynatıcı açılmazsa dersi engVid kaynak sayfasından izleyebilirsin.</p>
+        {videos.length > 1 && <div className="grammar-video-list" aria-label="İlgili video dersleri">
+          {videos.map((video, index) => <button key={video.url} type="button" className={index === videoIndex ? "active" : ""} aria-pressed={index === videoIndex} onClick={() => setVideoIndex(index)}>
+            <span>{video.teacher}</span><strong>{video.title}</strong>
+          </button>)}
+        </div>}
+      </section>}
       <div className="grammar-sections">
         {lesson?.sections.map(([heading, body, example], index) => <section className="grammar-section" key={heading}>
           <span className="grammar-section-number">{String(index + 1).padStart(2, "0")}</span>

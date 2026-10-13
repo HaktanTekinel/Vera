@@ -18,6 +18,13 @@ Bir konunun olumlu, olumsuz ve soru biçimleri aynı dersin içinde. `Have` ve
 örnekler, kısa not ve 20 açıklamalı **grammar** sorusu vardır. Erasmus kelime
 paketleri ayrı veri havuzunda kalır.
 
+Her konu dersinin notlarından önce doğrulanmış bir engVid video dersi bulunur.
+Birleştirilmiş konularda ilgili alt başlıklar için ek videolar seçilebilir.
+Öğretmen adı, ders başlığı ve gömülü oynatıcı kimliği engVid kaynak sayfasından
+alınır; oynatıcı erişilemezse kaynak sayfası bağlantısı kullanılabilir.
+Video eşleştirmeleri `tools/grammar_video_candidates.json` dosyasında tutulur;
+`python tools/build_grammar_videos.py` komutu veriyi yeniden doğrular.
+
 Yeni soru yazarken doğru seçeneğin iki örneğe de uyduğunu elle kontrol edin:
 `npm run review:grammar -- A1` veya tek konu için
 `npm run review:grammar -- have-got`. Bu komut soruları doğru cevapla doldurulmuş
