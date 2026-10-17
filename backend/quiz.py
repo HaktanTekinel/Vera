@@ -1,6 +1,5 @@
 from __future__ import annotations
 
-import calendar
 import random
 from datetime import datetime, timedelta, timezone
 
@@ -29,37 +28,15 @@ def get_utc_now() -> datetime:
     return datetime.now(timezone.utc).replace(tzinfo=None)
 
 
-def add_months(source_date: datetime, months: int) -> datetime:
-    month_index = source_date.month - 1 + months
-    year = source_date.year + month_index // 12
-    month = month_index % 12 + 1
-    day = min(source_date.day, calendar.monthrange(year, month)[1])
-
-    return source_date.replace(year=year, month=month, day=day)
-
-
 def get_next_review_at(
     current_stage: int,
     base_time: datetime | None = None,
 ) -> datetime:
     review_time = base_time or get_utc_now()
 
-    schedule = {
-        0: timedelta(days=1),
-        1: timedelta(days=1),
-        2: timedelta(days=7),
-        3: "1m",
-        4: "3m",
-        5: "6m",
-        6: "12m",
-    }
-
-    step = schedule.get(current_stage, timedelta(days=1))
-
-    if isinstance(step, timedelta):
-        return review_time + step
-
-    return add_months(review_time, int(step[:-1]))
+    # Six correct answers complete the cycle; waits before stages 2–6 total 55 days.
+    days_by_stage = {0: 1, 1: 1, 2: 3, 3: 7, 4: 14, 5: 30}
+    return review_time + timedelta(days=days_by_stage.get(current_stage, 1))
 
 
 def get_daily_question_count(db: DbSession, user: models.User) -> int:
@@ -75,39 +52,41 @@ def get_daily_question_count(db: DbSession, user: models.User) -> int:
     return user.daily_quiz_limit or DEFAULT_DAILY_QUESTION_COUNT
 
 
-def build_quiz_options(db: DbSession, current_word: models.Word) -> list[str]:
-    wrong_answers = (
-        db.query(models.Word.tur_word)
-        .filter(models.Word.id != current_word.id)
-        .filter(models.Word.is_active.is_(True))
-        .all()
-    )
-
-    unique_wrong_answers = []
-    seen = set()
-    correct_answer = current_word.tur_word.strip().lower()
-
-    for row in wrong_answers:
-        answer = (row[0] or "").strip()
-
-        if not answer:
+def build_quiz_options(
+    db: DbSession, current_word: models.Word, active_words: list[models.Word] | None = None,
+) -> list[str]:
+    pool = active_words if active_words is not None else db.query(models.Word).filter(models.Word.is_active.is_(True)).all()
+    groups: list[list[str]] = [[], [], []]
+    correct_answer = current_word.tur_word.strip().casefold()
+    for word in pool:
+        answer = (word.tur_word or "").strip()
+        if word.id == current_word.id or not answer or answer.casefold() == correct_answer:
             continue
+        priority = 0 if current_word.topic and word.topic == current_word.topic else 1 if word.difficulty_level == current_word.difficulty_level else 2
+        groups[priority].append(answer)
 
-        key = answer.lower()
+    for group in groups:
+        random.shuffle(group)
+    wrong_answers = []
+    seen = {correct_answer}
+    for group in groups:
+        for answer in group:
+            key = answer.casefold()
+            if key not in seen:
+                seen.add(key)
+                wrong_answers.append(answer)
+            if len(wrong_answers) == 3:
+                break
+        if len(wrong_answers) == 3:
+            break
 
-        if key == correct_answer or key in seen:
-            continue
-
-        seen.add(key)
-        unique_wrong_answers.append(answer)
-
-    if len(unique_wrong_answers) < 3:
+    if len(wrong_answers) < 3:
         raise HTTPException(
             status_code=status.HTTP_400_BAD_REQUEST,
             detail="Sınav için yeterli kelime yok. En az 4 aktif kelime ekleyin.",
         )
 
-    options = random.sample(unique_wrong_answers, 3) + [current_word.tur_word]
+    options = wrong_answers + [current_word.tur_word]
     random.shuffle(options)
 
     return options
@@ -117,6 +96,7 @@ def build_question(
     db: DbSession,
     word: models.Word,
     current_stage: int = 0,
+    active_words: list[models.Word] | None = None,
 ) -> schemas.QuizQuestionRead:
     return schemas.QuizQuestionRead(
         word_id=word.id,
@@ -124,7 +104,7 @@ def build_question(
         tur_word=word.tur_word,
         picture_url=word.picture_url,
         audio_url=word.audio_url,
-        options=build_quiz_options(db, word),
+        options=build_quiz_options(db, word, active_words),
         current_stage=current_stage,
     )
 
@@ -216,9 +196,10 @@ def add_due_questions(
     due_items,
     questions: list[schemas.QuizQuestionRead],
     selected_word_ids: set[int],
+    active_words: list[models.Word] | None = None,
 ) -> None:
     for progress, word in due_items:
-        questions.append(build_question(db, word, progress.current_stage))
+        questions.append(build_question(db, word, progress.current_stage, active_words))
         selected_word_ids.add(word.id)
 
 
@@ -228,6 +209,7 @@ def add_new_questions(
     questions: list[schemas.QuizQuestionRead],
     selected_word_ids: set[int],
     remaining_slots: int,
+    active_words: list[models.Word] | None = None,
 ) -> None:
     if remaining_slots <= 0:
         return
@@ -237,7 +219,7 @@ def add_new_questions(
     new_words = get_new_words(db, excluded_ids, remaining_slots)
 
     for word in new_words:
-        questions.append(build_question(db, word, 0))
+        questions.append(build_question(db, word, 0, active_words))
         selected_word_ids.add(word.id)
 
 
@@ -256,14 +238,16 @@ def get_daily_quiz(
 
     questions: list[schemas.QuizQuestionRead] = []
     selected_word_ids: set[int] = set()
+    active_words = db.query(models.Word).filter(models.Word.is_active.is_(True)).all()
 
-    add_due_questions(db, due_items, questions, selected_word_ids)
+    add_due_questions(db, due_items, questions, selected_word_ids, active_words)
     add_new_questions(
         db=db,
         user_id=current_user.id,
         questions=questions,
         selected_word_ids=selected_word_ids,
         remaining_slots=question_limit - len(questions),
+        active_words=active_words,
     )
 
     quiz_session = None

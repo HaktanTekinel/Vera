@@ -14,7 +14,7 @@ REQUEST_TIMEOUT = 10
 UPDATE_EXISTING_IMAGES = True
 
 HEADERS = {
-    "User-Agent": "KelimeHafizam/1.0 (student project; contact: local@example.com)"
+    "User-Agent": "Vera/1.0 (student project; contact: local@example.com)"
 }
 
 TOPIC_HINTS = {
@@ -78,7 +78,7 @@ def slugify(value: str) -> str:
 def build_svg(word: Word) -> str:
     english_word = escape(word.eng_word or "Word")
     turkish_word = escape(word.tur_word or "Türkçe karşılık")
-    topic = escape(word.topic or "Kelime Hafızam")
+    topic = escape(word.topic or "Vera")
 
     return f"""<svg xmlns="http://www.w3.org/2000/svg" width="900" height="600" viewBox="0 0 900 600">
   <defs>

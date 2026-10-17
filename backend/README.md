@@ -1,6 +1,6 @@
 # Backend
 
-Bu klasör, Kelime Hafızam projesinin FastAPI tabanlı backend bölümünü içerir.
+Bu klasör, Vera projesinin FastAPI tabanlı backend bölümünü içerir.
 
 Backend tarafında kullanıcı işlemleri, kelime yönetimi, quiz algoritması, analiz raporu, Wordle bulmaca ve Word Chain modülleri bulunmaktadır.
 

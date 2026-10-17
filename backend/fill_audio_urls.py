@@ -14,7 +14,7 @@ BACKEND_DIR = Path(__file__).resolve().parent
 
 CSV_PATH = PROJECT_ROOT / "database" / "word_seed_final_samples.csv"
 SQL_OUTPUT_PATH = PROJECT_ROOT / "database" / "update_audio_urls.sql"
-SQLITE_DB_PATH = BACKEND_DIR / "kelime_ezberleme.db"
+SQLITE_DB_PATH = BACKEND_DIR / "vera.db"
 
 API_URL_TEMPLATE = "https://api.dictionaryapi.dev/api/v2/entries/en/{word}"
 
@@ -41,7 +41,7 @@ def fetch_audio_url(word: str) -> str:
     request = Request(
         api_url,
         headers={
-            "User-Agent": "kelime-ezberleme-sistemi/1.0",
+            "User-Agent": "vera/1.0",
             "Accept": "application/json",
         },
     )

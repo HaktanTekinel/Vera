@@ -22,6 +22,8 @@ load_dotenv()
 router = APIRouter()
 
 SECRET_KEY = os.getenv("SECRET_KEY", "kelime-ezberleme-super-gizli-anahtar-123")
+if os.getenv("RENDER") and SECRET_KEY == "kelime-ezberleme-super-gizli-anahtar-123":
+    raise RuntimeError("SECRET_KEY must be configured for a public deployment")
 ALGORITHM = os.getenv("ALGORITHM", "HS256")
 ACCESS_TOKEN_EXPIRE_MINUTES = int(os.getenv("ACCESS_TOKEN_EXPIRE_MINUTES", "60"))
 
@@ -269,6 +271,11 @@ def forgot_password(
     payload: schemas.ForgotPasswordRequest,
     db: DbSession,
 ):
+    if os.getenv("EXPOSE_RESET_TOKEN_IN_RESPONSE", "true").lower() != "true":
+        raise HTTPException(
+            status_code=status.HTTP_503_SERVICE_UNAVAILABLE,
+            detail="Şifre sıfırlama e-postası henüz yapılandırılmadı",
+        )
     email = payload.email.strip().lower()
     user = db.query(models.User).filter(models.User.email.ilike(email)).first()
 

@@ -1,5 +1,5 @@
 from datetime import datetime
-from typing import Any, List, Optional
+from typing import Any, List, Literal, Optional
 
 from pydantic import AliasChoices, BaseModel, ConfigDict, EmailStr, Field
 
@@ -111,6 +111,23 @@ class ReportResponse(BaseModel):
     mastered_words: int
     pending_reviews: int
     category_reports: List[CategoryReport]
+
+
+class StudyAnswerCreate(BaseModel):
+    question_id: str = Field(min_length=1, max_length=100)
+    prompt: str = Field(min_length=1, max_length=500)
+    selected: str = Field(min_length=1, max_length=200)
+    correct_answer: str = Field(min_length=1, max_length=200)
+    explanation: str = Field(default="", max_length=1000)
+
+
+class StudyAttemptCreate(BaseModel):
+    mode: Literal["normal", "erasmus"]
+    kind: Literal["grammar", "exam_grammar", "reading", "mini_exam"]
+    topic_id: str = Field(min_length=1, max_length=100)
+    topic_title: str = Field(min_length=1, max_length=150)
+    lesson_day: Optional[int] = Field(default=None, ge=1, le=42)
+    answers: List[StudyAnswerCreate] = Field(min_length=1, max_length=40)
 
 
 class UserStatsResponse(BaseModel):

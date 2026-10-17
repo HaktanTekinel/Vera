@@ -1,7 +1,6 @@
 import base64
 import json
 import os
-from pathlib import Path
 
 from fastapi import APIRouter, HTTPException, status
 from openai import OpenAI
@@ -9,12 +8,9 @@ from openai import OpenAI
 import models
 import schemas
 from auth import CurrentUser, DbSession
+from storage import save_upload
 
 router = APIRouter()
-
-UPLOAD_DIR = Path(os.getenv("UPLOAD_DIR", "uploads")).resolve()
-STORY_IMAGE_DIR = UPLOAD_DIR / "stories"
-STORY_IMAGE_DIR.mkdir(parents=True, exist_ok=True)
 
 TEXT_MODEL = os.getenv("OPENAI_TEXT_MODEL", "gpt-4.1-mini")
 IMAGE_MODEL = os.getenv("OPENAI_IMAGE_MODEL", "gpt-image-1")
@@ -150,13 +146,11 @@ def generate_story_image(
         tools=[{"type": "image_generation"}],
     )
 
-    file_name = f"story_{story_id}.png"
-    file_path = STORY_IMAGE_DIR / file_name
     image_bytes = base64.b64decode(get_image_base64(response))
-
-    file_path.write_bytes(image_bytes)
-
-    return f"/uploads/stories/{file_name}"
+    try:
+        return save_upload(f"stories/story_{story_id}.png", image_bytes, "image/png")
+    except RuntimeError as error:
+        raise HTTPException(status_code=503, detail="Görsel depolama hazır değil") from error
 
 
 def build_history_item(story: models.WordChainStory) -> schemas.WordChainHistoryItem:

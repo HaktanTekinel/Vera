@@ -1,0 +1,32 @@
+services:
+  - type: web
+    name: vera-api
+    runtime: python
+    plan: free
+    region: frankfurt
+    buildCommand: pip install -r backend/requirements.txt
+    startCommand: uvicorn main:app --app-dir backend --host 0.0.0.0 --port $PORT
+    healthCheckPath: /
+    envVars:
+      - key: PYTHON_VERSION
+        value: 3.13.14
+      - key: DATABASE_URL
+        sync: false
+      - key: SECRET_KEY
+        generateValue: true
+      - key: EXPOSE_RESET_TOKEN_IN_RESPONSE
+        value: "false"
+      - key: CORS_ORIGINS
+        value: http://localhost,capacitor://localhost
+      - key: REQUIRE_PERSISTENT_UPLOADS
+        value: "true"
+      - key: AWS_ENDPOINT_URL_S3
+        sync: false
+      - key: AWS_REGION
+        sync: false
+      - key: AWS_ACCESS_KEY_ID
+        sync: false
+      - key: AWS_SECRET_ACCESS_KEY
+        sync: false
+      - key: UPLOAD_BUCKET
+        sync: false

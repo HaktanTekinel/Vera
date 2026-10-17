@@ -329,6 +329,23 @@ class ReportSnapshot(Base):
     created_at = Column(TIMESTAMP, server_default=func.now(), nullable=False)
 
 
+class StudyAttempt(Base):
+    __tablename__ = "study_attempts"
+
+    id = Column(Integer, primary_key=True)
+    user_id = Column(Integer, ForeignKey(USER_ID_FK, ondelete="CASCADE"), nullable=False, index=True)
+    mode = Column(String(16), nullable=False)
+    kind = Column(String(24), nullable=False)
+    topic_id = Column(String(100), nullable=False)
+    topic_title = Column(String(150), nullable=False)
+    lesson_day = Column(Integer, nullable=True)
+    correct_count = Column(Integer, nullable=False)
+    total_questions = Column(Integer, nullable=False)
+    wrong_items_json = Column(JSON, nullable=False)
+    answers_json = Column(JSON, nullable=True)
+    created_at = Column(TIMESTAMP, server_default=func.now(), nullable=False)
+
+
 class WordleGame(Base):
     __tablename__ = "wordle_games"
 
@@ -382,4 +399,15 @@ class WordChainStory(Base):
     summary_text = Column(Text, nullable=True)
     image_url = Column(Text, nullable=True)
     llm_model_name = Column(String(100), nullable=True)
+    created_at = Column(TIMESTAMP, server_default=func.now(), nullable=False)
+
+
+class GrammarNote(Base):
+    __tablename__ = "grammar_notes"
+
+    id = Column(Integer, primary_key=True, index=True)
+    user_id = Column(Integer, ForeignKey(USER_ID_FK, ondelete="CASCADE"), nullable=False, index=True)
+    topic_id = Column(String(100), nullable=False, index=True)
+    question = Column(Text, nullable=False)
+    answer = Column(Text, nullable=False)
     created_at = Column(TIMESTAMP, server_default=func.now(), nullable=False)

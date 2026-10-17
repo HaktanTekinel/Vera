@@ -13,7 +13,7 @@ ROOT_DIR = BASE_DIR.parent
 load_dotenv(ROOT_DIR / ".env")
 load_dotenv(BASE_DIR / ".env", override=True)
 
-DEFAULT_SQLITE_PATH = BASE_DIR / "kelime_ezberleme.db"
+DEFAULT_SQLITE_PATH = BASE_DIR / "vera.db"
 
 
 def normalize_database_url(database_url: str) -> str:
@@ -22,7 +22,7 @@ def normalize_database_url(database_url: str) -> str:
 
     sqlite_path = database_url.replace("sqlite:///", "", 1)
 
-    # sqlite:///./kelime_ezberleme.db gibi relative pathler her çalıştırma
+    # sqlite:///./vera.db gibi relative pathler her çalıştırma
     # klasöründe farklı yere gitmesin; backend klasörüne sabitlenir.
     if sqlite_path.startswith("/") or Path(sqlite_path).is_absolute():
         return database_url

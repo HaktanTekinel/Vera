@@ -1,6 +1,6 @@
 # Database
 
-Bu klasör kelime ezberleme sisteminin veritabanı şemasını ve seed dosyalarını içerir.
+Bu klasör Veranin veritabanı şemasını ve seed dosyalarını içerir.
 
 ## Güncel tablo kaynağı
 
@@ -21,14 +21,14 @@ python -m uvicorn main:app --reload
 
 `word_seed_final_samples.csv` dosyası güncellendi:
 
-- 1440 kelime var.
+- 1540 kelime var: önceki 1440 kelime ve Oxford A1 listesinden seçilen 100 kelimelik deneme grubu.
 - Her kelimenin Türkçe karşılığı var.
 - Her kelimede 2 örnek cümle var.
-- `difficulty_level` kolonu 1 ile 10 arasında dağıtıldı.
-- Her seviyede 144 kelime olacak şekilde dengelendi.
-- Eski CEFR bilgisi `level` kolonunda korunur.
+- Eski 1440 kaydın CSV içindeki `difficulty_level` değerleri 1–10 aralığındadır; yeni A1 kelimeleri 1 değerindedir.
+- İlk 1440 kelimenin CEFR bilgisi `level` kolonundadır; Oxford ile açık eşleşen 293 seviye etiketi düzeltildi.
+- Yeni A1 grubunun kaynak verisi `database/oxford_a1_pilot_001.tsv` içindedir. Bu grubun ses dosyası araştırması sonraya bırakıldı; web arayüzünde cihazın İngilizce seslendirmesi kullanılabilir.
 
-Frontend 1-10 seviye filtrelediği için backend artık doğrudan `difficulty_level` alanını kullanır.
+Backend içe aktarırken geçerli `level` etiketini A1–C2 için 1–6 düzeyine dönüştürür; arayüz CEFR etiketini bu düzeyden gösterir.
 
 ## PostgreSQL kullanımı
 
@@ -37,15 +37,15 @@ PostgreSQL için `init.sql` dosyası çalıştırılabilir. Ancak seed verileri 
 Örnek `.env`:
 
 ```env
-DATABASE_URL=postgresql://postgres:SIFRE@localhost:5432/kelime_ezberleme
+DATABASE_URL=postgresql://postgres:SIFRE@localhost:5432/vera
 ```
 
 ## SQLite kullanımı
 
-`.env` içinde `DATABASE_URL` boşsa veya SQLite verilirse backend otomatik `backend/kelime_ezberleme.db` kullanır.
+`.env` içinde `DATABASE_URL` boşsa veya SQLite verilirse backend otomatik `backend/vera.db` kullanır.
 
 ```env
-DATABASE_URL=sqlite:///./kelime_ezberleme.db
+DATABASE_URL=sqlite:///./vera.db
 ```
 
 Önceki hatanın sebebi SQLite'ta `BIGINT PRIMARY KEY` kullanılmasıydı. Güncel modelde ID alanları SQLite ile uyumlu `INTEGER PRIMARY KEY` olarak oluşturulur.

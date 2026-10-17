@@ -13,11 +13,11 @@ DEFAULT_DAILY_GOAL = 10
 
 REVIEW_STAGE_LABELS = {
     1: "1 gün sonra",
-    2: "1 hafta sonra",
-    3: "1 ay sonra",
-    4: "3 ay sonra",
-    5: "6 ay sonra",
-    6: "1 yıl sonra",
+    2: "3 gün sonra",
+    3: "1 hafta sonra",
+    4: "2 hafta sonra",
+    5: "1 ay sonra",
+    6: "Öğrenildi",
 }
 
 REVIEW_PLAN_ITEMS = [
@@ -28,12 +28,12 @@ REVIEW_PLAN_ITEMS = [
     },
     {
         "stage": 2,
-        "title": "1 hafta sonra tekrar",
+        "title": "3 gün sonra tekrar",
         "description": "Geçen haftadan gelen kelimeler",
     },
     {
         "stage": 3,
-        "title": "1 ay sonra tekrar",
+        "title": "1 hafta sonra tekrar",
         "description": "Uzun dönem hafıza kontrolü",
     },
 ]

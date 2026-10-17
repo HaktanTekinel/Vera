@@ -1,13 +1,14 @@
 from __future__ import annotations
 
 import csv
+import hashlib
 import json
 import shutil
 import sqlite3
 from datetime import datetime
 from pathlib import Path
 
-from sqlalchemy import inspect
+from sqlalchemy import inspect, text
 from sqlalchemy.engine import Engine
 from sqlalchemy.orm import Session
 
@@ -30,9 +31,11 @@ ID_TABLES = [
     "quiz_answers",
     "password_reset_tokens",
     "report_snapshots",
+    "study_attempts",
     "wordle_games",
     "wordle_guesses",
     "word_chain_stories",
+    "grammar_notes",
     "erasmus_words",
     "erasmus_word_progress",
     "erasmus_package_progress",
@@ -233,6 +236,7 @@ def upsert_word_from_row(db: Session, row: dict, row_index: int) -> bool:
     word = (
         db.query(models.Word)
         .filter(models.Word.eng_word.ilike(eng_word))
+        .filter(models.Word.created_by_user_id.is_(None))
         .first()
     )
 
@@ -350,11 +354,48 @@ def seed_erasmus_words_from_json() -> None:
         db.close()
 
 
+def seed_when_changed(engine: Engine, name: str, paths: list[Path], seed) -> None:
+    checksum = hashlib.sha256()
+    for path in paths:
+        checksum.update(path.read_bytes())
+    digest = checksum.hexdigest()
+    with engine.begin() as connection:
+        connection.execute(text(
+            "CREATE TABLE IF NOT EXISTS seed_state "
+            "(name VARCHAR(64) PRIMARY KEY, checksum VARCHAR(64) NOT NULL)"
+        ))
+        current = connection.execute(
+            text("SELECT checksum FROM seed_state WHERE name = :name"), {"name": name}
+        ).scalar_one_or_none()
+    if current == digest:
+        return
+
+    seed()
+    with engine.begin() as connection:
+        connection.execute(text("DELETE FROM seed_state WHERE name = :name"), {"name": name})
+        connection.execute(
+            text("INSERT INTO seed_state (name, checksum) VALUES (:name, :checksum)"),
+            {"name": name, "checksum": digest},
+        )
+
+
 def initialize_database(engine: Engine) -> None:
     reset_broken_sqlite_database_if_needed(engine)
     models.Base.metadata.create_all(bind=engine)
-    seed_words_from_csv()
-    seed_erasmus_words_from_json()
+    columns = {column["name"] for column in inspect(engine).get_columns("study_attempts")}
+    with engine.begin() as connection:
+        if "lesson_day" not in columns:
+            connection.execute(text("ALTER TABLE study_attempts ADD COLUMN lesson_day INTEGER"))
+        if "answers_json" not in columns:
+            connection.execute(text("ALTER TABLE study_attempts ADD COLUMN answers_json JSON"))
+    if WORD_SEED_CSV.exists():
+        seed_when_changed(engine, "normal_words", [WORD_SEED_CSV], seed_words_from_csv)
+    seed_when_changed(
+        engine,
+        "erasmus_words",
+        [ERASMUS_VOCABULARY_JSON, ERASMUS_EXTRA_VOCABULARY_JSON],
+        seed_erasmus_words_from_json,
+    )
 
     inspector = inspect(engine)
     table_names = set(inspector.get_table_names())

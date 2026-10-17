@@ -4,7 +4,7 @@ import sqlite3
 
 
 BASE_DIR = Path(__file__).resolve().parent
-DB_PATH = BASE_DIR / "kelime_ezberleme.db"
+DB_PATH = BASE_DIR / "vera.db"
 
 
 def table_exists(cursor, table_name):

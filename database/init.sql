@@ -1,4 +1,4 @@
--- Kelime Ezberleme Sistemi - PostgreSQL başlangıç şeması
+-- Vera - PostgreSQL başlangıç şeması
 -- Not: Backend ilk açılışta database/word_seed_final_samples.csv dosyasındaki
 -- 1440 kelimeyi 1-10 seviye dağılımıyla otomatik içeri aktarır.
 

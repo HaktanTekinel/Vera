@@ -1,7 +1,5 @@
 import os
-import shutil
 import sys
-from pathlib import Path
 from typing import Annotated
 
 sys.path.append(os.path.dirname(__file__))
@@ -9,7 +7,7 @@ sys.path.append(os.path.dirname(__file__))
 from dotenv import load_dotenv
 from fastapi import Depends, FastAPI, File, HTTPException, UploadFile, status
 from fastapi.middleware.cors import CORSMiddleware
-from fastapi.staticfiles import StaticFiles
+from fastapi.responses import Response
 from sqlalchemy.orm import selectinload
 
 import models
@@ -21,23 +19,15 @@ from db_setup import initialize_database
 from erasmus import router as erasmus_router
 from quiz import router as quiz_router
 from reports import router as reports_router
+from study_notes import router as study_notes_router
 from users import router as users_router
 from word_chain import router as word_chain_router
 from wordle import router as wordle_router
+from storage import load_upload, save_upload
 
 load_dotenv()
 
 initialize_database(engine)
-
-BACKEND_DIR = Path(__file__).resolve().parent
-UPLOAD_DIR = Path(os.getenv("UPLOAD_DIR", "uploads"))
-
-if not UPLOAD_DIR.is_absolute():
-    UPLOAD_DIR = BACKEND_DIR / UPLOAD_DIR
-
-UPLOAD_DIR = UPLOAD_DIR.resolve()
-WORD_IMAGE_DIR = UPLOAD_DIR / "words"
-WORD_IMAGE_DIR.mkdir(parents=True, exist_ok=True)
 
 UserId = Annotated[int, Depends(get_current_user_id)]
 ImageFile = Annotated[UploadFile, File(...)]
@@ -52,12 +42,21 @@ WORD_RESPONSES = {
 }
 
 app = FastAPI(
-    title="Kelime Ezberleme Sistemi API",
-    description="6 tekrar prensibi içeren kelime ezberleme sistemi backend API",
+    title="Vera API",
+    description="6 tekrar prensibi içeren Vera backend API",
     version="1.0.0",
 )
 
-app.mount("/uploads", StaticFiles(directory=str(UPLOAD_DIR)), name="uploads")
+@app.get("/uploads/{key:path}", include_in_schema=False)
+def uploaded_media(key: str):
+    try:
+        result = load_upload(key)
+    except ValueError as error:
+        raise HTTPException(status_code=400, detail="Geçersiz dosya yolu") from error
+    if result is None:
+        raise HTTPException(status_code=404, detail="Dosya bulunamadı")
+    content, media_type = result
+    return Response(content=content, media_type=media_type)
 
 cors_origins_str = os.getenv(
     "CORS_ORIGINS",
@@ -81,6 +80,7 @@ app.include_router(dashboard_router, prefix="/dashboard", tags=["Dashboard"])
 app.include_router(wordle_router, prefix="/wordle", tags=["Wordle"])
 app.include_router(word_chain_router, prefix="/word-chain", tags=["Word Chain"])
 app.include_router(erasmus_router, prefix="/erasmus", tags=["Erasmus"])
+app.include_router(study_notes_router, prefix="/study-notes", tags=["Study Notes"])
 
 
 @app.get("/")
@@ -331,12 +331,17 @@ def upload_word_image(
 ):
     word = get_active_word(db, word_id)
     file_extension = get_allowed_image_extension(file.filename)
-    file_location = WORD_IMAGE_DIR / f"word_{word_id}.{file_extension}"
-
-    with file_location.open("wb") as file_object:
-        shutil.copyfileobj(file.file, file_object)
-
-    word.picture_url = f"/uploads/words/{file_location.name}"
+    image = file.file.read(5 * 1024 * 1024 + 1)
+    if len(image) > 5 * 1024 * 1024:
+        raise HTTPException(status_code=413, detail="Görsel en fazla 5 MB olabilir")
+    try:
+        word.picture_url = save_upload(
+            f"words/word_{word_id}.{file_extension}",
+            image,
+            f"image/{'jpeg' if file_extension == 'jpg' else file_extension}",
+        )
+    except RuntimeError as error:
+        raise HTTPException(status_code=503, detail="Görsel depolama hazır değil") from error
     word.created_by_user_id = word.created_by_user_id or user_id
 
     db.commit()
